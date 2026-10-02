@@ -21,12 +21,14 @@
     "data": "npm run data:build && npm run data:validate",
     "icons": "tsx scripts/icons.ts",
     "electron:dev": "npm run build && electron .",
-    "dist:win": "npm run build && electron-builder --win"
+    "dist:win": "npm run build && electron-builder --win --x64 --publish never",
+    "dist:linux": "npm run build && electron-builder --linux AppImage --x64 --publish never"
   },
   "devDependencies": {
     "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
     "@lucide/svelte": "^1.49.0",
     "@playwright/test": "^1.63.0",
+    "@resvg/resvg-js": "^2.6.2",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "@types/d3-ease": "^3.0.2",
     "@types/d3-geo": "^3.1.1",
@@ -44,8 +46,11 @@
     "d3-selection": "^3.0.0",
     "d3-transition": "^3.0.1",
     "d3-zoom": "^3.0.0",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
     "flag-icons": "^7.5.0",
     "mapshaper": "^0.7.72",
+    "png-to-ico": "^3.0.2",
     "svelte": "^5.57.1",
     "svelte-check": "^4.7.6",
     "topojson-client": "^3.1.0",
@@ -54,5 +59,62 @@
     "typescript": "^6.0.3",
     "vite": "^8.3.2",
     "vitest": "^5.0.3"
+  },
+  "build": {
+    "appId": "app.orbo.desktop",
+    "productName": "Orbo",
+    "copyright": "Orbo",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "build/icon.png",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "artifactName": "${productName}-${version}-${arch}-${target}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Orbo",
+      "artifactName": "${productName}-Setup-${version}.${ext}",
+      "installerLanguages": [
+        "fr_FR"
+      ],
+      "language": "1036"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-portable.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png"
+    }
   }
 }

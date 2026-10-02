@@ -1,0 +1,60 @@
+name: Tests et build Windows (.exe)
+
+on:
+  push:
+    branches: ['**']
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    name: Tests (données, types, unitaires, bout en bout)
+    runs-on: ubuntu-latest
+    env:
+      ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validation des données
+        run: npm run data:validate
+      - name: Vérification des types
+        run: npm run check
+      - name: Tests unitaires
+        run: npm test
+      - name: Navigateur pour les tests de bout en bout
+        run: npx playwright install --with-deps chromium
+      - name: Tests de bout en bout
+        run: npm run test:e2e
+
+  windows:
+    name: Appli Windows (.exe)
+    needs: test
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Construction de l'installateur et de la version portable
+        run: npm run dist:win
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Orbo-Windows
+          path: |
+            release/*.exe
+          if-no-files-found: error
+      - name: Publication (tags v*)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release/*.exe

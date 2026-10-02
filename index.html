@@ -8,15 +8,9 @@
     <meta name="theme-color" content="#15131a" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
     <title>Orbo</title>
-    <script>
-      // Applique le thème choisi avant le premier affichage (évite un flash clair/sombre).
-      try {
-        const t = JSON.parse(localStorage.getItem('orbo:settings') || '{}').theme;
-        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
-      } catch {}
-    </script>
+    <script src="./theme-init.js"></script>
   </head>
   <body>
     <div id="app"></div>
