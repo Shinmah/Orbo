@@ -7,16 +7,19 @@
     size?: 'sm' | 'md' | 'lg';
     block?: boolean;
     icon?: Snippet;
+    /** Icône placée après le texte (flèche « Continuer »…). */
+    trailing?: Snippet;
     children: Snippet;
   }
 
-  let { variant = 'primary', size = 'md', block = false, icon, children, class: cls = '', type = 'button', ...rest }: Props =
+  let { variant = 'primary', size = 'md', block = false, icon, trailing, children, class: cls = '', type = 'button', ...rest }: Props =
     $props();
 </script>
 
 <button {type} class="btn {variant} {size} {cls}" class:block {...rest}>
   {#if icon}<span class="icon" aria-hidden="true">{@render icon()}</span>{/if}
   <span>{@render children()}</span>
+  {#if trailing}<span class="icon" aria-hidden="true">{@render trailing()}</span>{/if}
 </button>
 
 <style>

@@ -89,9 +89,9 @@
   }
   .label {
     max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    line-height: 1.25;
+    text-align: center;
+    text-wrap: balance;
   }
   .hint {
     font-size: var(--fs-xs);
