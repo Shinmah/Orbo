@@ -35,7 +35,7 @@
   const goal = $derived(settings.value.dailyGoal);
   const goalDone = $derived(today.answered >= goal);
   const streak = $derived(progress.dayStreak);
-  const due = $derived(progress.dueCount());
+  const review = $derived(progress.reviewSummary());
   const firstVisit = $derived(progress.data.totals.answered === 0);
   const paths = $derived(progress.data.paths);
 
@@ -126,12 +126,18 @@
 
   <Card onclick={() => router.go('/revision')} label="Révision">
     <div class="mode">
-      <span class="icon plain" class:due={due > 0}><RotateCcw /></span>
+      <span class="icon plain" class:due={review.failed + review.due > 0}><RotateCcw /></span>
       <span class="text">
         <span class="title">Révision</span>
         <span class="tagline">
-          {#if due > 0}
-            <strong class="num">{due}</strong> pays à revoir, les erreurs d'abord
+          {#if review.failed > 0}
+            <strong class="num">{review.failed}</strong> pays raté{review.failed > 1 ? 's' : ''} à revoir{review.due
+              ? `, ${review.due} à réviser`
+              : ''}
+          {:else if review.due > 0}
+            <strong class="num">{review.due}</strong> pays à réviser aujourd'hui
+          {:else if review.consolidate > 0}
+            <strong class="num">{review.consolidate}</strong> pays à consolider
           {:else}
             Les pays que tu rates reviendront ici en priorité
           {/if}

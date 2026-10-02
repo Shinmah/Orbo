@@ -197,3 +197,34 @@ test('mise à jour : le bouton de l’accueil télécharge la dernière version 
   await button.click();
   expect(await page.evaluate(() => (window as any).__opened)).toBe(1);
 });
+
+test('chemin : le premier indice donne la première lettre, le second la moitié du nom', async ({ page }) => {
+  await page.goto('./#/jouer/chemin');
+  await page.locator('select').nth(0).selectOption('FRA');
+  await page.locator('select').nth(1).selectOption('POL');
+  await page.getByRole('radio', { name: 'Jamais' }).click();
+  await page.getByRole('button', { name: /Commencer/ }).click();
+  await page.getByRole('button', { name: 'Indice' }).click();
+  await expect(page.locator('.msg')).toContainText('commence par « A… »');
+  await page.getByRole('button', { name: 'Encore un indice' }).click();
+  await expect(page.locator('.msg')).toContainText('« Allem… »');
+  await expect(page.getByRole('button', { name: 'Indice' })).toBeDisabled();
+});
+
+test('révision : jamais vide après une partie, même sans erreur', async ({ page }) => {
+  await configure(page, 'capital', { direction: 'country-to-capital', continents: ['europe'], maxTier: 1, format: 'choice', length: 10 });
+  await startSession(page, 'capitales');
+  // Répond juste à tout : on lit la bonne réponse dans les données.
+  for (let i = 0; i < 10; i++) {
+    const phrase = await emphasis(page);
+    const c = countries.find((x) => capitalOfPhrase(x) === phrase)!;
+    await page.locator('.choices button', { hasText: new RegExp(`^\\s*\\d?\\s*${c.capital}\\s*$`) }).first().click();
+    await expect(page.getByRole('status')).toContainText('Bravo');
+    await page.keyboard.press('Enter');
+  }
+  await page.goto('./');
+  await expect(page.getByText(/10\s*pays à consolider/)).toBeVisible();
+  await expect(page.getByText('10/195').first()).toBeVisible();
+  await page.goto('./#/revision');
+  await expect(page.getByRole('button', { name: /Réviser · 10 questions/ })).toBeEnabled();
+});

@@ -3,7 +3,7 @@ import type { Country } from '../data/types';
 import type { SessionConfig } from './config';
 import { MODES } from './modes';
 import { shuffle, weightedSample, type Rng } from './random';
-import { autoFormat, isDue, reviewRank, weight, type Card } from './srs';
+import { autoFormat, reviewBucket, reviewRank, weight, type Card, type ReviewBucket } from './srs';
 import type { BuildContext, Format, GameMode, Question } from './types';
 
 export interface PlannedQuestion {
@@ -25,20 +25,28 @@ function formatFor(config: SessionConfig, mode: GameMode, card: Card | undefined
   return mode.formats.includes(config.format) ? config.format : mode.formats[0];
 }
 
-/** Cartes à revoir : déjà vues, échues ou ratées, les plus urgentes d'abord. */
-export function dueCards(
-  pool: Country[],
-  modes: GameMode[],
-  cards: Record<string, Card>,
-  now: number,
-): { mode: GameMode; country: Country; card: Card }[] {
-  const out: { mode: GameMode; country: Country; card: Card }[] = [];
+export interface ReviewItem {
+  mode: GameMode;
+  country: Country;
+  card: Card;
+  bucket: ReviewBucket;
+}
+
+/**
+ * Cartes à réviser, les plus urgentes d'abord : ratées, puis échues, puis à consolider.
+ * Un pays n'apparaît qu'une fois (sa carte la plus urgente).
+ */
+export function reviewCards(pool: Country[], modes: GameMode[], cards: Record<string, Card>, now: number): ReviewItem[] {
+  const items: ReviewItem[] = [];
   for (const country of pool) for (const mode of modes) {
     if (!mode.eligible(country)) continue;
     const card = cards[cardKey(mode.id, country.id)];
-    if (card && card.seen > 0 && (isDue(card, now) || card.box === 0)) out.push({ mode, country, card });
+    const bucket = reviewBucket(card, now);
+    if (card && bucket) items.push({ mode, country, card, bucket });
   }
-  return out.sort((a, b) => reviewRank(a.card, now) - reviewRank(b.card, now));
+  items.sort((a, b) => reviewRank(a.card, now) - reviewRank(b.card, now));
+  const seen = new Set<string>();
+  return items.filter((i) => !seen.has(i.country.id) && (seen.add(i.country.id), true));
 }
 
 /**
@@ -63,11 +71,9 @@ export function planSession(
   };
 
   if (config.review) {
-    const due = dueCards(pool, modes, cards, now);
-    const seen = new Set<string>();
-    const picked = due.filter((d) => !seen.has(d.country.id) && seen.add(d.country.id));
-    const n = config.length > 0 ? config.length : picked.length;
-    return shuffle(picked.slice(0, n), rng).map((d) => plan(d.mode, d.country));
+    const items = reviewCards(pool, modes, cards, now);
+    const n = config.length > 0 ? config.length : items.length;
+    return shuffle(items.slice(0, n), rng).map((d) => plan(d.mode, d.country));
   }
 
   const options = pool

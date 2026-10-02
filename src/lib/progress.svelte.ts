@@ -5,8 +5,8 @@
 import { COUNTRIES } from './data';
 import type { Country } from './data/types';
 import { MODE_LIST, modesForSkill } from './game/modes';
-import { cardKey } from './game/selection';
-import { mastery, review, type Card, type Mastery } from './game/srs';
+import { cardKey, reviewCards } from './game/selection';
+import { mastery, review, type Card, type Mastery, type ReviewBucket } from './game/srs';
 import type { Outcome, Question, Skill } from './game/types';
 import { settings } from './settings.svelte';
 import { loadJson, removeKey, saveJson } from './storage';
@@ -137,25 +137,33 @@ class ProgressStore {
     return Object.values(this.data.days).filter((d) => d.answered > 0).length;
   }
 
-  /** Maîtrise d'un pays pour une compétence = la meilleure des cartes de ses modes. */
+  /**
+   * Maîtrise d'un pays pour une compétence : « à revoir » si l'un de ses modes a été raté
+   * la dernière fois, sinon le meilleur niveau atteint.
+   */
   masteryOf(countryId: string, skill: Skill): Mastery {
-    return Math.max(0, ...modesForSkill(skill).map((m) => mastery(this.card(m.id, countryId)))) as Mastery;
+    const levels = modesForSkill(skill).map((m) => mastery(this.card(m.id, countryId)));
+    if (levels.includes(1)) return 1;
+    return Math.max(0, ...levels) as Mastery;
   }
 
-  /** Nombre de pays connus (≥ 2) ou maîtrisés pour une compétence. */
+  /** Nombre de pays connus ou maîtrisés pour une compétence. */
   learnedCount(skill: Skill, countries: Country[] = COUNTRIES): number {
     return countries.filter((c) => this.masteryOf(c.id, skill) >= 2).length;
   }
 
-  /** Nombre de pays à réviser maintenant (cartes déjà vues, ratées ou échues). */
-  dueCount(skills: Skill[] = ['capital', 'flag', 'map'], now = Date.now()): number {
-    const modes = new Set(MODE_LIST.filter((m) => skills.includes(m.skill)).map((m) => m.id));
-    const countries = new Set<string>();
-    for (const [key, c] of Object.entries(this.data.cards)) {
-      const [mode, id] = key.split(':');
-      if (modes.has(mode as never) && c.seen > 0 && (c.box === 0 || c.due <= now)) countries.add(id);
-    }
-    return countries.size;
+  /** Pays à réviser, par catégorie (chaque pays compte dans sa catégorie la plus urgente). */
+  reviewSummary(skills: Skill[] = ['capital', 'flag', 'map'], now = Date.now()): Record<ReviewBucket, number> & { total: number } {
+    const modes = MODE_LIST.filter((m) => skills.includes(m.skill));
+    const items = reviewCards(COUNTRIES, modes, this.data.cards, now);
+    const count = (b: ReviewBucket) => items.filter((i) => i.bucket === b).length;
+    return { failed: count('failed'), due: count('due'), consolidate: count('consolidate'), total: items.length };
+  }
+
+  /** Vrai si au moins une question a été jouée dans ces compétences. */
+  hasPlayed(skills: Skill[] = ['capital', 'flag', 'map']): boolean {
+    const modes = new Set(MODE_LIST.filter((m) => skills.includes(m.skill)).map((m) => m.id as string));
+    return Object.keys(this.data.cards).some((k) => modes.has(k.split(':')[0]));
   }
 
   /** Statistiques par pays, toutes compétences (ou une seule) confondues. */

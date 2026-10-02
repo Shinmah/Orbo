@@ -4,8 +4,8 @@ import type { SessionConfig } from './config';
 import { evaluate, pointsFor } from './evaluate';
 import { MODES } from './modes';
 import { createRng } from './random';
-import { buildQuestions, cardKey, planSession } from './selection';
-import { autoFormat, INPUT_FROM_BOX, review, type Card } from './srs';
+import { buildQuestions, cardKey, planSession, reviewCards } from './selection';
+import { autoFormat, INPUT_FROM_BOX, mastery, review, type Card } from './srs';
 
 const base: SessionConfig = {
   skill: 'capital',
@@ -38,14 +38,25 @@ describe('planSession', () => {
     expect(a).toEqual(b);
   });
 
-  it('en révision, ne propose que les cartes ratées ou échues, les plus urgentes d’abord', () => {
+  it('en révision : ratés, puis échus, puis à consolider ; jamais les pays maîtrisés', () => {
     const now = Date.now();
+    const DAY = 86_400_000;
+    let mastered: Card | undefined;
+    for (let i = 0; i < 3; i++) mastered = review(mastered, true, now);
     const cards: Record<string, Card> = {
-      [cardKey('country-to-capital', 'AUS')]: review(undefined, false, now - 1000),
-      [cardKey('country-to-capital', 'FRA')]: review(review(undefined, true, now), true, now),
+      [cardKey('country-to-capital', 'AUS')]: review(undefined, false, now - 1000), // raté
+      [cardKey('country-to-capital', 'FRA')]: review(undefined, true, now - 2 * DAY), // échu (révision à J+1)
+      [cardKey('country-to-capital', 'ITA')]: review(undefined, true, now), // connu, à consolider
+      [cardKey('country-to-capital', 'ESP')]: mastered!, // maîtrisé
     };
-    const plan = planSession({ ...base, review: true, length: 0 }, COUNTRIES, cards, now, createRng(3));
-    expect(plan.map((p) => p.country.id)).toEqual(['AUS']);
+    const items = reviewCards(COUNTRIES, [MODES['country-to-capital']], cards, now);
+    expect(items.map((i) => [i.country.id, i.bucket])).toEqual([
+      ['AUS', 'failed'],
+      ['FRA', 'due'],
+      ['ITA', 'consolidate'],
+    ]);
+    const plan = planSession({ ...base, review: true, length: 2 }, COUNTRIES, cards, now, createRng(3));
+    expect(plan.map((p) => p.country.id).sort()).toEqual(['AUS', 'FRA']);
   });
 
   it('passe en saisie libre quand le pays est maîtrisé', () => {
@@ -94,6 +105,15 @@ describe('evaluate', () => {
 });
 
 describe('srs', () => {
+  it('connu dès la première bonne réponse, maîtrisé après 3 d’affilée, à revoir après une erreur', () => {
+    const now = Date.now();
+    expect(mastery(undefined)).toBe(0);
+    const once = review(undefined, true, now);
+    expect(mastery(once)).toBe(2);
+    expect(mastery(review(review(once, true, now), true, now))).toBe(3);
+    expect(mastery(review(once, false, now))).toBe(1);
+  });
+
   it('renvoie en boîte 0 après une erreur', () => {
     const now = Date.now();
     const c = review(review(review(undefined, true, now), true, now), false, now);

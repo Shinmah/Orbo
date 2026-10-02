@@ -4,8 +4,8 @@
   export interface MapLabel {
     id: string;
     text: string;
-    /** strong et warn sont toujours affichées ; soft seulement s'il reste de la place. */
-    tone?: 'strong' | 'warn' | 'soft';
+    /** strong, warn et hint sont toujours affichées ; soft seulement s'il reste de la place. */
+    tone?: 'strong' | 'warn' | 'hint' | 'soft';
   }
 </script>
 
@@ -90,7 +90,7 @@
   const placedLabels = $derived.by(() => {
     if (!cw) return [];
     const placed: (MapLabel & { x: number; y: number; box: [number, number, number, number] })[] = [];
-    const rank = (l: MapLabel) => (l.tone === 'strong' ? 0 : l.tone === 'warn' ? 1 : 2);
+    const rank = (l: MapLabel) => (l.tone === 'strong' ? 0 : l.tone === 'warn' || l.tone === 'hint' ? 1 : 2);
     const ordered = [...labels].filter((l) => BY_ID.has(l.id)).sort((a, b) => rank(a) - rank(b));
     for (const l of ordered) {
       const [x, y] = transform.apply(project(BY_ID.get(l.id)!.map.point));
@@ -369,6 +369,10 @@
   }
   .map-label.strong {
     background: var(--text);
+    color: var(--bg);
+  }
+  .map-label.hint {
+    background: var(--violet-strong);
     color: var(--bg);
   }
   .map-label.warn {

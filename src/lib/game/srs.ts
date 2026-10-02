@@ -5,6 +5,11 @@
  * - bonne réponse : la carte monte d'une boîte et revient plus tard ;
  * - mauvaise réponse : retour à la boîte 0, elle redevient prioritaire.
  *
+ * Niveaux affichés au joueur :
+ * - « à revoir » : la dernière réponse était fausse ;
+ * - « connu » : dès la première bonne réponse ;
+ * - « maîtrisé » : 3 bonnes réponses d'affilée (espacées dans le temps).
+ *
  * Passage automatique QCM → saisie : à partir de la boîte 2, c'est-à-dire après
  * deux bonnes réponses d'affilée, le pays est demandé en saisie libre.
  */
@@ -25,6 +30,7 @@ const DAY = 24 * 60 * 60 * 1000;
 export const INTERVAL_DAYS = [0, 1, 2, 4, 9, 21];
 export const MAX_BOX = INTERVAL_DAYS.length - 1;
 export const INPUT_FROM_BOX = 2;
+export const MASTERED_FROM_BOX = 3;
 
 export function review(card: Card | undefined, correct: boolean, now: number): Card {
   const c: Card = card ? { ...card } : { box: 0, due: now, seen: 0, correct: 0, wrong: 0, last: now };
@@ -43,14 +49,31 @@ export function review(card: Card | undefined, correct: boolean, now: number): C
 
 export const isDue = (c: Card, now: number) => c.due <= now;
 
-/** 0 = jamais vu, 1 = en apprentissage, 2 = connu, 3 = maîtrisé. */
+/** 0 = jamais vu, 1 = à revoir (dernière réponse fausse), 2 = connu, 3 = maîtrisé. */
 export type Mastery = 0 | 1 | 2 | 3;
 export function mastery(c: Card | undefined): Mastery {
   if (!c || c.seen === 0) return 0;
-  if (c.box >= 4) return 3;
-  if (c.box >= INPUT_FROM_BOX) return 2;
-  return 1;
+  if (c.box === 0) return 1;
+  if (c.box >= MASTERED_FROM_BOX) return 3;
+  return 2;
 }
+
+/**
+ * Pourquoi réviser cette carte :
+ * - failed : ratée la dernière fois (la plus urgente) ;
+ * - due : sa date de révision est arrivée ;
+ * - consolidate : connue mais pas encore maîtrisée, on peut la renforcer ;
+ * - null : maîtrisée et pas encore à revoir.
+ */
+export type ReviewBucket = 'failed' | 'due' | 'consolidate';
+export function reviewBucket(c: Card | undefined, now: number): ReviewBucket | null {
+  if (!c || c.seen === 0) return null;
+  if (c.box === 0) return 'failed';
+  if (isDue(c, now)) return 'due';
+  if (c.box < MASTERED_FROM_BOX) return 'consolidate';
+  return null;
+}
+export const BUCKET_ORDER: Record<ReviewBucket, number> = { failed: 0, due: 1, consolidate: 2 };
 
 /** Format choisi automatiquement pour ce pays dans ce mode. */
 export function autoFormat(mode: GameMode, card: Card | undefined): Format {
@@ -66,8 +89,11 @@ export function weight(c: Card | undefined, now: number): number {
   return 1 / (1 + c.box);
 }
 
-/** Priorité en mode révision (plus petit = plus urgent). */
+/** Priorité en mode révision (plus petit = plus urgent) : catégorie, puis boîte, erreurs, ancienneté. */
 export function reviewRank(c: Card, now: number): number {
-  const overdueDays = (now - c.due) / DAY;
-  return c.box * 10 - Math.min(c.wrong, 5) * 2 - Math.min(overdueDays, 10) * 0.5;
+  const bucket = reviewBucket(c, now);
+  const base = bucket === null ? 3000 : BUCKET_ORDER[bucket] * 1000;
+  const overdueDays = Math.max(0, (now - c.due) / DAY);
+  const ageDays = (now - c.last) / DAY;
+  return base + c.box * 10 - Math.min(c.wrong, 5) * 2 - Math.min(overdueDays + ageDays, 30) * 0.2;
 }

@@ -28,16 +28,16 @@
   );
 
   function skillRow(skill: Skill) {
-    let learning = 0;
+    let toReview = 0;
     let known = 0;
     let mastered = 0;
     for (const c of COUNTRIES) {
       const m = progress.masteryOf(c.id, skill);
-      if (m === 1) learning++;
+      if (m === 1) toReview++;
       else if (m === 2) known++;
       else if (m === 3) mastered++;
     }
-    return { learning, known, mastered };
+    return { toReview, known, mastered };
   }
 
   function continentShare(id: string): number {
@@ -105,7 +105,7 @@
             </div>
             <ProgressBar value={(r.known + r.mastered) / COUNTRIES.length} tone={s.tone} />
             <span class="muted small num">
-              {r.mastered} maîtrisés · {r.known} connus · {r.learning} en apprentissage
+              {r.mastered} maîtrisé{r.mastered > 1 ? 's' : ''} · {r.known} connu{r.known > 1 ? 's' : ''} · {r.toReview} à revoir
             </span>
           </div>
         {/each}
@@ -131,9 +131,9 @@
     </div>
     <div class="legend narrow">
       <span><i style:background="var(--map-land)"></i>Jamais vu</span>
-      <span><i style:background="var(--pink)"></i>En apprentissage</span>
+      <span><i style:background="var(--pink)"></i>À revoir (raté)</span>
       <span><i style:background="var(--violet)"></i>Connu</span>
-      <span><i style:background="var(--green)"></i>Maîtrisé</span>
+      <span><i style:background="var(--green)"></i>Maîtrisé (3 bonnes réponses d'affilée)</span>
     </div>
   </section>
 

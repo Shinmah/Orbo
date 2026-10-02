@@ -81,6 +81,7 @@
     { id: start.id, text: start.name, tone: 'strong' },
     { id: end.id, text: end.name, tone: 'strong' },
     ...(forbidden ? [{ id: forbidden.id, text: `${forbidden.name} · interdit`, tone: 'warn' as const }] : []),
+    ...(hintId && outcome === 'playing' ? [{ id: hintId, text: `${hintText(hintId, hintLevel)}…`, tone: 'hint' as const }] : []),
     ...guesses.map((g) => ({ id: g.id, text: country(g.id).name, tone: 'soft' as const })),
   ]);
 
@@ -138,21 +139,33 @@
     if (guesses.length >= puzzle.maxGuesses) finish(false);
   }
 
+  /** Début du nom révélé par l'indice : 1re lettre, puis la première moitié du nom. */
+  function hintText(id: string, level: number): string {
+    const name = country(id).name;
+    return level <= 1 ? name[0] : name.slice(0, Math.max(2, Math.ceil(name.length / 2)));
+  }
+
+  /** 1er clic : première lettre d'un pays utile (entouré sur la carte) ; 2e clic : la moitié du nom. */
   function hint() {
     if (outcome !== 'playing') return;
     const next = nextHint(puzzle, guessedIds);
     if (!next) return;
-    if (hintId === next && hintLevel === 1) {
-      hintLevel = 2;
-      hints++;
-      message = { text: `Le pays entouré commence par « ${country(next).name[0]} ».`, tone: 'info' };
-    } else if (hintId !== next) {
+    if (hintId !== next) {
       hintId = next;
       hintLevel = 1;
-      hints++;
-      message = { text: 'Le pays entouré en pointillés te rapproche de l’arrivée.', tone: 'info' };
+    } else if (hintLevel === 1) {
+      hintLevel = 2;
+    } else {
+      return;
     }
+    hints++;
+    message = {
+      text: `Indice : un pays à traverser commence par « ${hintText(next, hintLevel)}… » (entouré sur la carte).`,
+      tone: 'info',
+    };
   }
+
+  const hintMaxed = $derived(hintId !== null && hintLevel >= 2 && nextHint(puzzle, guessedIds) === hintId);
 
   function finish(won: boolean, path?: string[]) {
     outcome = won ? 'won' : 'lost';
@@ -265,9 +278,9 @@
           <span><i class="far"></i>Hors route</span>
         </div>
         <div class="buttons">
-          <Button variant="ghost" size="sm" onclick={hint}>
+          <Button variant="ghost" size="sm" onclick={hint} disabled={hintMaxed}>
             {#snippet icon()}<Lightbulb />{/snippet}
-            Indice
+            {hintId && hintLevel === 1 ? 'Encore un indice' : 'Indice'}
           </Button>
           <Button variant="ghost" size="sm" onclick={giveUp}>
             {#snippet icon()}<FlagIcon />{/snippet}

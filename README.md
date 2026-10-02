@@ -20,7 +20,9 @@ Des sessions courtes, une progression visible, et les pays que tu rates qui revi
 - **Chemin** : relie deux pays (par exemple la France et la Turquie) en tapant le nom des pays à traverser, de frontière en frontière. Variante : un pays interdit à contourner.
 - **QCM puis saisie libre**, automatiquement pays par pays : après 2 bonnes réponses d'affilée, on te demande de taper la réponse.
 - **Saisie tolérante** : accents, majuscules, tirets et petites fautes acceptés ; noms alternatifs reconnus (Birmanie / Myanmar, RDC, Kyiv…) ; mais « Niger » n'est pas accepté pour « Nigeria ».
-- **Révision** : répétition espacée (1, 2, 4, 9, 21 jours), les erreurs d'abord.
+- **Progression claire** : un pays est **connu** dès la première bonne réponse, **maîtrisé** après 3 bonnes réponses d'affilée, **à revoir** si la dernière réponse était fausse.
+- **Révision** : répétition espacée (1, 2, 4, 9, 21 jours) ; d'abord les pays ratés, puis ceux à réviser aujourd'hui, puis ceux à consolider.
+- **QCM plausibles** : les mauvaises réponses sont toujours des pays voisins, de la même région ou aux drapeaux proches.
 - **Statistiques** : réussite, séries, carte de maîtrise, pays les plus ratés.
 - **Sons discrets** (désactivables) : synthétisés à la volée, très courts et doux.
 - **Hors ligne**, sans compte, sans serveur : tout est enregistré sur l'appareil. Mode clair / sombre, mobile et bureau.
@@ -113,9 +115,9 @@ Dans **Réglages** (roue dentée), le thème et la réduction des animations son
 
 1. Joue une partie et rate quelques pays exprès.
 2. Recharge la page (ou ferme et rouvre l'appli) : l'accueil affiche l'objectif du jour, la série de jours et le nombre de pays à revoir.
-3. Ouvre **Révision** : les pays ratés sortent en premier.
+3. Ouvre **Révision** : trois compteurs (ratés, à réviser aujourd'hui, à consolider) ; les pays ratés sortent en premier. Même sans erreur, les pays connus mais pas encore maîtrisés peuvent être consolidés.
 4. Ouvre **Statistiques** (icône graphique) : carte de maîtrise, pays les plus ratés, bouton « S'entraîner sur ces pays ».
-5. Réponds juste deux fois de suite au même pays en mode Auto : la fois suivante, il est demandé en saisie libre.
+5. Une bonne réponse suffit pour qu'un pays compte comme « connu » sur l'accueil ; deux d'affilée en mode Auto, et il est ensuite demandé en saisie libre ; trois d'affilée, il est « maîtrisé ».
 
 ### Jeu « Chemin »
 
@@ -123,7 +125,7 @@ Dans **Réglages** (roue dentée), le thème et la réduction des animations son
 2. Tape les pays à traverser : `allemagne`, `autriche`… Chaque pays se colore sur la carte :
    vert = sur un chemin le plus court, violet = petit détour, rose = hors route.
 3. La partie est gagnée dès que tes pays relient le départ à l'arrivée par la terre. Le bilan montre ton chemin, et le plus court si tu as fait un détour.
-4. **Indice** entoure en pointillés un pays utile (un second clic donne sa première lettre). **Pays interdit : Toujours** ajoute un pays hachuré à contourner.
+4. **Indice** : donne la première lettre d'un pays utile, entouré en pointillés sur la carte ; **Encore un indice** révèle la moitié de son nom. **Pays interdit : Toujours** ajoute un pays hachuré à contourner.
 
 Les frontières utilisées (312) sont listées et contrôlées dans `data/REPORT.md`.
 

@@ -49,7 +49,7 @@
   }
 
   const formatHelp = {
-    auto: 'QCM pour découvrir, puis saisie libre pour chaque pays que tu maîtrises.',
+    auto: 'QCM pour découvrir, puis saisie libre pour un pays dès que tu l’as trouvé deux fois de suite.',
     choice: 'Toujours 4 propositions.',
     input: 'Tape la réponse. Accents, majuscules et petites fautes sont tolérés.',
   };
