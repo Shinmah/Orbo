@@ -1,0 +1,274 @@
+/*
+ * Orbo — design system
+ * Palette pastel : violet (marque), vert (bonne réponse), rose (erreur / accent) + neutres.
+ * Une seule famille typographique : Plus Jakarta Sans.
+ */
+@import '@fontsource-variable/plus-jakarta-sans';
+
+:root {
+  color-scheme: light;
+
+  /* Neutres */
+  --bg: #fbf9fd;
+  --surface: #ffffff;
+  --surface-2: #f4f1f8;
+  --surface-3: #ebe6f2;
+  --border: #e8e3ef;
+  --text: #221d2b;
+  --text-muted: #6c6579;
+  --text-faint: #a49db2;
+
+  /* Violet — couleur de la marque */
+  --violet: #b9a5f5;
+  --violet-soft: #efeafd;
+  --violet-strong: #6a50d4;
+  --violet-ink: #33256f;
+
+  /* Vert — bonne réponse */
+  --green: #9fdfb8;
+  --green-soft: #e3f6ea;
+  --green-strong: #23854d;
+  --green-ink: #174d2e;
+
+  /* Rose — mauvaise réponse, accent */
+  --pink: #f7a8c4;
+  --pink-soft: #fde8f0;
+  --pink-strong: #c43a6d;
+  --pink-ink: #6f1a3b;
+
+  /* Carte */
+  --map-ocean: #f3f0f8;
+  --map-land: #ddd6e8;
+  --map-land-hover: #c9bcf2;
+  --map-other: #ebe7f0;
+  --map-border: var(--bg);
+  --map-target: var(--violet-strong);
+  --map-marker: #8b78d8;
+
+  /* Formes */
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow-1: 0 1px 2px rgb(34 29 43 / 4%), 0 4px 14px rgb(34 29 43 / 5%);
+  --shadow-2: 0 2px 4px rgb(34 29 43 / 5%), 0 12px 32px rgb(34 29 43 / 9%);
+  --ring: 0 0 0 3px color-mix(in srgb, var(--violet) 55%, transparent);
+
+  /* Mouvement */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 420ms;
+
+  /* Typo */
+  --font: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+
+  --gutter: 16px;
+  --content: 680px;
+}
+
+/* Mode sombre : forcé par le réglage, ou automatique selon le système (bloc suivant). */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #15131a;
+  --surface: #1e1b25;
+  --surface-2: #26222f;
+  --surface-3: #312c3c;
+  --border: #322d3c;
+  --text: #f2eff7;
+  --text-muted: #aaa3b8;
+  --text-faint: #6f6880;
+
+  --violet: #b9a5f5;
+  --violet-soft: #2b2446;
+  --violet-strong: #c7b8ff;
+  --violet-ink: #1d1638;
+
+  --green: #93d9ae;
+  --green-soft: #1b3326;
+  --green-strong: #8fe0b0;
+  --green-ink: #0f2a1b;
+
+  --pink: #f4a3c0;
+  --pink-soft: #3a2130;
+  --pink-strong: #ff9fc2;
+  --pink-ink: #3b0f22;
+
+  --map-ocean: #1b1822;
+  --map-land: #3a3446;
+  --map-land-hover: #574a85;
+  --map-other: #2a2632;
+  --map-marker: #a896f0;
+
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 30%), 0 4px 14px rgb(0 0 0 / 22%);
+  --shadow-2: 0 2px 4px rgb(0 0 0 / 30%), 0 12px 32px rgb(0 0 0 / 35%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #15131a;
+    --surface: #1e1b25;
+    --surface-2: #26222f;
+    --surface-3: #312c3c;
+    --border: #322d3c;
+    --text: #f2eff7;
+    --text-muted: #aaa3b8;
+    --text-faint: #6f6880;
+
+    --violet: #b9a5f5;
+    --violet-soft: #2b2446;
+    --violet-strong: #c7b8ff;
+    --violet-ink: #1d1638;
+
+    --green: #93d9ae;
+    --green-soft: #1b3326;
+    --green-strong: #8fe0b0;
+    --green-ink: #0f2a1b;
+
+    --pink: #f4a3c0;
+    --pink-soft: #3a2130;
+    --pink-strong: #ff9fc2;
+    --pink-ink: #3b0f22;
+
+    --map-ocean: #1b1822;
+    --map-land: #3a3446;
+    --map-land-hover: #574a85;
+    --map-other: #2a2632;
+    --map-marker: #a896f0;
+
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 30%), 0 4px 14px rgb(0 0 0 / 22%);
+    --shadow-2: 0 2px 4px rgb(0 0 0 / 30%), 0 12px 32px rgb(0 0 0 / 35%);
+  }
+}
+
+/* ---------------------------------------------------------------- base */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--dur) ease, color var(--dur) ease;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Animations de feedback partagées */
+@keyframes pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.045); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-7px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(2px); }
+}
+
+@keyframes rise {
+  0% { opacity: 0; transform: translateY(4px) scale(0.9); }
+  20% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-18px) scale(1); }
+}
+
+@keyframes pulse-ring {
+  0% { stroke-opacity: 0.9; r: 4; }
+  100% { stroke-opacity: 0; r: 16; }
+}
+
+/* Réduction des animations : système ou réglage de l'appli */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:root[data-motion='reduce'] *,
+:root[data-motion='reduce'] *::before,
+:root[data-motion='reduce'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}

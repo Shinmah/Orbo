@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Orbo — apprends les capitales, les drapeaux et la carte du monde en jouant." />
+    <meta name="theme-color" content="#fbf9fd" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#15131a" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <title>Orbo</title>
+    <script>
+      // Applique le thème choisi avant le premier affichage (évite un flash clair/sombre).
+      try {
+        const t = JSON.parse(localStorage.getItem('orbo:settings') || '{}').theme;
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
