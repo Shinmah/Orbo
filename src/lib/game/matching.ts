@@ -53,9 +53,7 @@ export function allowedTypos(key: string): number {
   return 2;
 }
 
-export type MatchResult =
-  | { correct: true; exact: boolean; matched: string }
-  | { correct: false; closest?: string };
+export type MatchResult = { correct: true; exact: boolean; matched: string } | { correct: false };
 
 /**
  * @param input       texte tapé
@@ -73,15 +71,11 @@ export function matchAnswer(input: string, accepted: string[], confusables: stri
     if (d < best.d) best = { d, label: a, allowed: allowedTypos(k) };
   }
   if (best.d === 0) return { correct: true, exact: true, matched: best.label };
+  if (best.d > best.allowed) return { correct: false };
 
-  let closestOther = { d: Infinity, label: '' };
+  // Faute de frappe tolérée… sauf si la saisie est au moins aussi proche d'une autre réponse.
   for (const c of confusables) {
-    const d = editDistance(key, matchKey(c));
-    if (d < closestOther.d) closestOther = { d, label: c };
+    if (editDistance(key, matchKey(c)) <= best.d) return { correct: false };
   }
-
-  if (best.d <= best.allowed && best.d < closestOther.d) {
-    return { correct: true, exact: false, matched: best.label };
-  }
-  return { correct: false, closest: closestOther.d <= 2 ? closestOther.label : undefined };
+  return { correct: true, exact: false, matched: best.label };
 }
