@@ -87,3 +87,59 @@ test('réglages : le mode sombre s’applique et persiste', async ({ page }) => 
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
 });
+
+/** Plus court chemin terrestre, calculé directement sur les données (comme dans l'appli). */
+function shortest(from: string, to: string): string[] {
+  const prev = new Map<string, string>();
+  const queue = [from];
+  const seen = new Set([from]);
+  for (let i = 0; i < queue.length; i++) {
+    for (const n of countries.find((c) => c.id === queue[i])!.neighbors) {
+      if (seen.has(n)) continue;
+      seen.add(n);
+      prev.set(n, queue[i]);
+      queue.push(n);
+    }
+  }
+  const path = [to];
+  while (path[0] !== from) path.unshift(prev.get(path[0])!);
+  return path;
+}
+
+test('chemin : relier la France à la Turquie en tapant les pays', async ({ page }) => {
+  await page.goto('./#/jouer/chemin');
+  await page.locator('select').nth(0).selectOption('FRA');
+  await page.locator('select').nth(1).selectOption('TUR');
+  await page.getByRole('radio', { name: 'Jamais' }).click();
+  await page.getByRole('button', { name: /Commencer/ }).click();
+  await expect(page.getByText('France', { exact: true }).first()).toBeVisible();
+
+  const input = page.getByRole('textbox', { name: 'Ta réponse' });
+  await input.fill('Atlantide');
+  await input.press('Enter');
+  await expect(page.locator('.msg')).toContainText('pays inconnu');
+
+  for (const id of shortest('FRA', 'TUR').slice(1, -1)) {
+    const name = countries.find((c) => c.id === id)!.name;
+    await input.fill(name.toLowerCase());
+    await input.press('Enter');
+  }
+  await expect(page.getByText('Chemin parfait !')).toBeVisible();
+  const paths = await page.evaluate(() => JSON.parse(localStorage.getItem('orbo:progress')!).paths);
+  expect(paths).toMatchObject({ played: 1, won: 1, perfect: 1, bestScore: 100 });
+});
+
+test('chemin : le pays interdit est refusé', async ({ page }) => {
+  await page.goto('./#/jouer/chemin');
+  await page.locator('select').nth(0).selectOption('ESP');
+  await page.locator('select').nth(1).selectOption('POL');
+  await page.getByRole('radio', { name: 'Toujours' }).click();
+  await page.getByRole('button', { name: /Commencer/ }).click();
+  const meta = await page.locator('.meta').textContent();
+  const forbidden = countries.find((c) => meta!.includes(`passer par ${c.article === "l'" ? "l'" : c.article ? c.article + ' ' : ''}${c.name}`))!;
+  expect(forbidden).toBeTruthy();
+  const input = page.getByRole('textbox', { name: 'Ta réponse' });
+  await input.fill(forbidden.name);
+  await input.press('Enter');
+  await expect(page.locator('.msg')).toContainText('Interdit');
+});

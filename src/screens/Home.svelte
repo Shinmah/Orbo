@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BarChart3, Flag, Flame, Landmark, MapPinned, RotateCcw, Settings as SettingsIcon } from '@lucide/svelte';
+  import { BarChart3, Flag, Flame, Landmark, MapPinned, RotateCcw, Route, Settings as SettingsIcon } from '@lucide/svelte';
   import Logo from '../lib/ui/Logo.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
   import Card from '../lib/ui/Card.svelte';
@@ -19,6 +19,7 @@
   const streak = $derived(progress.dayStreak);
   const due = $derived(progress.dueCount());
   const firstVisit = $derived(progress.data.totals.answered === 0);
+  const paths = $derived(progress.data.paths);
 
   const greeting = $derived.by(() => {
     if (firstVisit) return 'Bienvenue sur Orbo';
@@ -79,21 +80,41 @@
   {/each}
 </section>
 
-<Card onclick={() => router.go('/revision')} label="Révision">
-  <div class="mode">
-    <span class="icon plain" class:due={due > 0}><RotateCcw /></span>
-    <span class="text">
-      <span class="title">Révision</span>
-      <span class="tagline">
-        {#if due > 0}
-          <strong class="num">{due}</strong> pays à revoir, les erreurs d'abord
-        {:else}
-          Les pays que tu rates reviendront ici en priorité
-        {/if}
+<div class="extra">
+  <Card onclick={() => router.go('/jouer/chemin')} label="Chemin">
+    <div class="mode">
+      <span class="icon route"><Route /></span>
+      <span class="text">
+        <span class="title">Chemin</span>
+        <span class="tagline">
+          {#if paths.won > 0}
+            <strong class="num">{paths.won}</strong> chemin{paths.won > 1 ? 's' : ''} trouvé{paths.won > 1 ? 's' : ''}{paths.perfect
+              ? `, dont ${paths.perfect} parfait${paths.perfect > 1 ? 's' : ''}`
+              : ''}
+          {:else}
+            Relie deux pays en nommant ceux qu'il faut traverser
+          {/if}
+        </span>
       </span>
-    </span>
-  </div>
-</Card>
+    </div>
+  </Card>
+
+  <Card onclick={() => router.go('/revision')} label="Révision">
+    <div class="mode">
+      <span class="icon plain" class:due={due > 0}><RotateCcw /></span>
+      <span class="text">
+        <span class="title">Révision</span>
+        <span class="tagline">
+          {#if due > 0}
+            <strong class="num">{due}</strong> pays à revoir, les erreurs d'abord
+          {:else}
+            Les pays que tu rates reviendront ici en priorité
+          {/if}
+        </span>
+      </span>
+    </div>
+  </Card>
+</div>
 
 <style>
   .head {
@@ -186,6 +207,14 @@
   .plain {
     background: var(--surface-2);
     color: var(--text-muted);
+  }
+  .route {
+    background: linear-gradient(135deg, var(--green), var(--violet));
+    color: var(--violet-ink);
+  }
+  .extra {
+    display: grid;
+    gap: 12px;
   }
   .plain.due {
     background: var(--pink-soft);

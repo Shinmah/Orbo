@@ -9,8 +9,10 @@
 import { copyFile, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { geoArea, geoCentroid, geoContains, geoDistance, geoEqualEarth, geoPath } from 'd3-geo';
+import { geoArea, geoCentroid, geoContains, geoDistance, geoPath } from 'd3-geo';
 import { topology } from 'topojson-server';
+import { neighbors as topoNeighbors } from 'topojson-client';
+import { createProjection } from '../../src/lib/map/projection';
 import type { Feature, FeatureCollection, MultiPolygon, Polygon, Position } from 'geojson';
 import type { Article, ContinentId, Country, CountryData, LonLat, Tier } from '../../src/lib/data/types';
 
@@ -82,6 +84,7 @@ function rankPercentiles(values: Map<string, number>): Map<string, number> {
 interface BuildLog {
   sourceDisagreements: string[];
   droppedAliases: string[];
+  borders: string[];
 }
 
 async function buildCountries(log: BuildLog) {
@@ -108,7 +111,7 @@ async function buildCountries(log: BuildLog) {
   const dn = new Intl.DisplayNames('fr', { type: 'region' });
   const sitelinks = new Map<string, number>();
   const population = new Map<string, number>();
-  const draft: Omit<Country, 'map' | 'tier'>[] = [];
+  const draft: Omit<Country, 'map' | 'tier' | 'neighbors'>[] = [];
 
   for (const id of ids) {
     const ml = mledoze.find((c) => c.cca3 === id);
@@ -288,7 +291,7 @@ async function buildMap(playable: Set<string>) {
   }
 
   // Métadonnées par pays : point d'ancrage, emprise principale, petit pays ?
-  const projection = geoEqualEarth().fitWidth(1000, { type: 'Sphere' });
+  const projection = createProjection();
   const path = geoPath(projection);
   const meta = new Map<string, Country['map']>();
   for (const f of fc.features) {
@@ -325,24 +328,68 @@ async function buildMap(playable: Set<string>) {
   }
 
   const topo = topology({ countries: fc }, 1e6);
-  return { topo, meta, featureIds: fc.features.map((f) => f.id as string), droppedIslets: dropped };
+  // Pays qui partagent une frontière sur la carte.
+  const geoms = (topo.objects.countries as any).geometries as { id: string }[];
+  const nb = topoNeighbors(geoms as any);
+  const mapNeighbors = new Map<string, string[]>();
+  geoms.forEach((g, i) => mapNeighbors.set(g.id, nb[i].map((j) => geoms[j].id)));
+  return { topo, meta, mapNeighbors, featureIds: fc.features.map((f) => f.id as string), droppedIslets: dropped };
+}
+
+// ---------------------------------------------------------------------------
+// Frontières terrestres (jeu « Chemin »)
+// ---------------------------------------------------------------------------
+
+async function buildNeighbors(playable: Set<string>, mapNeighbors: Map<string, string[]>, log: BuildLog) {
+  const mledoze: any[] = await readJson(join(RAW, 'mledoze-countries.json'));
+  const cur = await readJson(join(CUR, 'borders.json'));
+  const pairs = new Map<string, Set<string>>([...playable].map((id) => [id, new Set<string>()]));
+  const link = (a: string, b: string) => {
+    if (!playable.has(a) || !playable.has(b) || a === b) return;
+    pairs.get(a)!.add(b);
+    pairs.get(b)!.add(a);
+  };
+  const key = (a: string, b: string) => [a, b].sort().join('–');
+  const fromMledoze = new Set<string>();
+  const fromMap = new Set<string>();
+  for (const c of mledoze) for (const b of c.borders ?? []) if (playable.has(c.cca3) && playable.has(b)) fromMledoze.add(key(c.cca3, b));
+  for (const [a, list] of mapNeighbors) for (const b of list) if (playable.has(a) && playable.has(b)) fromMap.add(key(a, b));
+  for (const k of new Set([...fromMledoze, ...fromMap])) {
+    const [a, b] = k.split('–');
+    link(a, b);
+    if (!fromMledoze.has(k)) log.borders.push(`${k} : présente sur la carte seulement`);
+    else if (!fromMap.has(k)) log.borders.push(`${k} : selon mledoze seulement (trop petite pour la carte simplifiée)`);
+  }
+  for (const [a, b, why] of cur.remove as [string, string, string][]) {
+    pairs.get(a)?.delete(b);
+    pairs.get(b)?.delete(a);
+    log.borders.push(`${key(a, b)} : retirée (${why})`);
+  }
+  for (const [a, b, why] of cur.add as [string, string, string][]) {
+    link(a, b);
+    log.borders.push(`${key(a, b)} : ajoutée (${why})`);
+  }
+  return new Map([...pairs].map(([id, set]) => [id, [...set].sort()]));
 }
 
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const log: BuildLog = { sourceDisagreements: [], droppedAliases: [] };
+  const log: BuildLog = { sourceDisagreements: [], droppedAliases: [], borders: [] };
   console.log('Pays…');
   const countries = await buildCountries(log);
   const playable = new Set(countries.map((c) => c.id));
 
   console.log('Carte…');
-  const { topo, meta, featureIds, droppedIslets } = await buildMap(playable);
+  const { topo, meta, mapNeighbors, featureIds, droppedIslets } = await buildMap(playable);
+
+  console.log('Frontières…');
+  const neighbors = await buildNeighbors(playable, mapNeighbors, log);
 
   const full: Country[] = countries.map((c) => {
     const m = meta.get(c.id);
     if (!m) throw new Error(`${c.id} (${c.name}) n'a pas de forme sur la carte`);
-    return { ...c, map: m };
+    return { ...c, neighbors: neighbors.get(c.id) ?? [], map: m };
   });
 
   console.log('Drapeaux…');

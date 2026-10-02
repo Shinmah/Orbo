@@ -79,6 +79,34 @@ for (const c of C) {
 }
 const nonPlayable = fc.features.map((f) => f.id as string).filter((id) => !C.some((c) => c.id === id));
 
+// --- 4 bis. Frontières terrestres (jeu « Chemin ») ------------------------------
+const byIdC = new Map(C.map((c) => [c.id, c]));
+let borderPairs = 0;
+for (const c of C) {
+  for (const n of c.neighbors) {
+    if (!check(byIdC.has(n), `${label(c)} : voisin inconnu ${n}`)) continue;
+    check(byIdC.get(n)!.neighbors.includes(c.id), `Frontière non symétrique : ${c.id} → ${n}`);
+    if (c.id < n) borderPairs++;
+  }
+}
+const components: string[][] = [];
+const seenC = new Set<string>();
+for (const c of C) {
+  if (seenC.has(c.id) || c.neighbors.length === 0) continue;
+  const comp: string[] = [];
+  const queue = [c.id];
+  seenC.add(c.id);
+  while (queue.length) {
+    const id = queue.shift()!;
+    comp.push(id);
+    for (const n of byIdC.get(id)!.neighbors) if (!seenC.has(n)) (seenC.add(n), queue.push(n));
+  }
+  components.push(comp);
+}
+components.sort((a, b) => b.length - a.length);
+const landlocked = C.filter((c) => c.neighbors.length === 0);
+check(components[0]?.length > 100, 'Le grand bloc Europe-Asie-Afrique devrait relier plus de 100 pays');
+
 // --- 5. Ambiguïtés des réponses ----------------------------------------------
 const nameKeys = new Map<string, string[]>();
 for (const c of C) for (const n of [c.name, ...c.altNames]) {
@@ -180,6 +208,7 @@ Généré par \`npm run data:validate\` — données du ${data.generatedAt}.
 | Pays avec une forme sur la carte | ${shapesOk} / ${C.length} ${shapesOk === C.length ? '✅' : '❌'} |
 | Noms ambigus entre deux pays | ${[...nameKeys.values()].filter((v) => new Set(v).size > 1).length} ✅ |
 | Nom d'un pays accepté pour un autre | ${crossAccepted} ${crossAccepted === 0 ? '✅' : '❌'} |
+| Frontières terrestres (symétriques) | ${borderPairs} paires ✅ |
 | Tests de saisie tolérante | ${sampleRows.filter((r) => r.endsWith('✅ |')).length} / ${samples.length} ${sampleRows.every((r) => r.endsWith('✅ |')) ? '✅' : '❌'} |
 
 ${errors.length ? `## ❌ Erreurs\n\n${errors.map((e) => `- ${e}`).join('\n')}\n` : ''}
@@ -222,9 +251,18 @@ ${closePairs.join(' · ')}
 
 ${log.sourceDisagreements.map((s: string) => `- ${s}`).join('\n')}
 
+## Frontières terrestres (jeu « Chemin »)
+
+- ${borderPairs} frontières, toutes symétriques.
+- Blocs de pays reliés par la terre : ${components.map((c) => `${c.length} pays (${c.length > 4 ? 'dont ' + c.slice(0, 3).map((id) => byIdC.get(id)!.name).join(', ') + '…' : c.map((id) => byIdC.get(id)!.name).join(', ')})`).join(' ; ')}.
+- ${landlocked.length} pays sans frontière terrestre (îles), jamais choisis comme départ ou arrivée : ${landlocked.map((c) => c.name).join(', ')}.
+
+Corrections et cas particuliers :
+${log.borders.map((b: string) => `- ${b}`).join('\n')}
+
 ## Carte
 
-- Source : Natural Earth 1:10m, version « point de vue France » (domaine public).
+- Source : Natural Earth 1:10m, version « point de vue France » (domaine public), projection de Miller.
 - ${fc.features.length} formes, dont ${C.length} pays jouables et ${nonPlayable.length} territoires affichés en gris (non cliquables) : ${nonPlayable.join(', ')}.
 - ${log.droppedIslets} îlots minuscules retirés pour alléger la carte (jamais la dernière forme d'un pays).
 - ${C.filter((c) => c.map.small).length} pays trop petits pour être cliqués à l'échelle du monde, affichés avec un marqueur : ${C.filter((c) => c.map.small).map((c) => c.name).join(', ')}.

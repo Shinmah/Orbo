@@ -2,16 +2,18 @@ import { loadJson, saveJson } from './storage';
 
 export type Theme = 'auto' | 'light' | 'dark';
 export type Motion = 'auto' | 'reduce';
+export type SoundLevel = 'off' | 'soft' | 'normal';
 
 export interface Settings {
   theme: Theme;
   motion: Motion;
   /** Objectif quotidien, en nombre de questions. */
   dailyGoal: number;
+  sound: SoundLevel;
 }
 
 const KEY = 'orbo:settings';
-const DEFAULTS: Settings = { theme: 'auto', motion: 'auto', dailyGoal: 20 };
+const DEFAULTS: Settings = { theme: 'auto', motion: 'auto', dailyGoal: 20, sound: 'soft' };
 
 class SettingsStore {
   value = $state<Settings>({ ...DEFAULTS, ...loadJson<Partial<Settings>>(KEY, {}) });

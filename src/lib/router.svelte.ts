@@ -2,7 +2,7 @@
  * Routeur minimal basé sur le hash (#/stats) : fonctionne à l'identique dans le
  * navigateur et dans l'appli de bureau, sans configuration serveur.
  */
-export type RouteName = 'home' | 'setup' | 'play' | 'review' | 'stats' | 'settings' | 'design';
+export type RouteName = 'home' | 'setup' | 'play' | 'path' | 'review' | 'stats' | 'settings' | 'design';
 
 export interface Route {
   name: RouteName;
@@ -14,6 +14,7 @@ const TABLE: [RegExp, RouteName, string[]][] = [
   [/^\/$/, 'home', []],
   [/^\/jouer\/([a-z]+)$/, 'setup', ['skill']],
   [/^\/partie$/, 'play', []],
+  [/^\/chemin$/, 'path', []],
   [/^\/revision$/, 'review', []],
   [/^\/stats$/, 'stats', []],
   [/^\/reglages$/, 'settings', []],

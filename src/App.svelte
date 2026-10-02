@@ -10,18 +10,33 @@
   import Play from './screens/Play.svelte';
   import Review from './screens/Review.svelte';
   import Stats from './screens/Stats.svelte';
+  import PathSetup from './screens/path/PathSetup.svelte';
+  import Path from './screens/Path.svelte';
+  import { sound } from './lib/sound';
   import { skillFromSlug } from './lib/game/skills';
 
   const route = $derived(router.current);
   const duration = $derived(settings.reducedMotion ? 0 : 260);
   const setupSkill = $derived(route.name === 'setup' ? skillFromSlug(route.params.skill) : undefined);
-  const wide = $derived(route.name === 'play' || route.name === 'stats');
+  const wide = $derived(route.name === 'play' || route.name === 'path' || route.name === 'stats');
+
+  /** Petit « tic » sur chaque bouton (sauf zones qui jouent leurs propres sons : réponses, carte…). */
+  function onclick(e: MouseEvent) {
+    const el = (e.target as Element | null)?.closest?.('button, [role="radio"]');
+    if (el && !(el as HTMLButtonElement).disabled && !el.closest('[data-sound="off"]')) sound.tap();
+  }
 </script>
+
+<svelte:window {onclick} />
 
 <div class="stage">
   {#key route.path}
     <main class="screen" class:wide in:fly={{ y: 10, duration, easing: cubicOut, delay: duration * 0.35 }} out:fly={{ y: -6, duration: duration * 0.5 }}>
-      {#if route.name === 'setup' && setupSkill}
+      {#if route.name === 'setup' && route.params.skill === 'chemin'}
+        <PathSetup />
+      {:else if route.name === 'path'}
+        <Path />
+      {:else if route.name === 'setup' && setupSkill}
         <Setup skill={setupSkill} />
       {:else if route.name === 'play'}
         <Play />
@@ -54,6 +69,6 @@
     padding: max(8px, env(safe-area-inset-top)) var(--gutter) calc(32px + env(safe-area-inset-bottom));
   }
   .wide {
-    max-width: 1080px;
+    max-width: 1440px;
   }
 </style>

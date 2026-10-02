@@ -81,6 +81,18 @@
       </StatTile>
     </div>
 
+    {#if progress.data.paths.played > 0}
+      {@const p = progress.data.paths}
+      <section>
+        <h2>Chemin</h2>
+        <div class="tiles three">
+          <StatTile label="Chemins trouvés" tone="green" sub="sur {p.played} joués">{p.won}</StatTile>
+          <StatTile label="Chemins parfaits" tone="violet">{p.perfect}</StatTile>
+          <StatTile label="Meilleur score">{p.bestScore}</StatTile>
+        </div>
+      </section>
+    {/if}
+
     <section>
       <h2>Maîtrise</h2>
       <div class="skills">
@@ -187,6 +199,9 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
+  .tiles.three {
+    grid-template-columns: repeat(3, 1fr);
+  }
   section {
     display: grid;
     gap: 0.75rem;
@@ -228,8 +243,7 @@
     width: 100%;
   }
   .map-box {
-    aspect-ratio: 2.05;
-    max-height: 560px;
+    height: min(68vh, 680px);
   }
   .map-box :global(.map) {
     height: 100%;

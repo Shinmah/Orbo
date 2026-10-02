@@ -22,6 +22,14 @@
    "population": 41454761,
    "areaKm2": 652230,
    "tier": 2,
+   "neighbors": [
+    "CHN",
+    "IRN",
+    "PAK",
+    "TJK",
+    "TKM",
+    "UZB"
+   ],
    "map": {
     "point": [
      66.497,
@@ -59,6 +67,12 @@
    "population": 36749906,
    "areaKm2": 1246700,
    "tier": 2,
+   "neighbors": [
+    "COD",
+    "COG",
+    "NAM",
+    "ZMB"
+   ],
    "map": {
     "point": [
      17.984,
@@ -96,6 +110,11 @@
    "population": 2811655,
    "areaKm2": 28748,
    "tier": 2,
+   "neighbors": [
+    "GRC",
+    "MKD",
+    "MNE"
+   ],
    "map": {
     "point": [
      20.114,
@@ -136,6 +155,10 @@
    "population": 89752,
    "areaKm2": 468,
    "tier": 3,
+   "neighbors": [
+    "ESP",
+    "FRA"
+   ],
    "map": {
     "point": [
      1.539,
@@ -178,6 +201,10 @@
    "population": 9890400,
    "areaKm2": 83600,
    "tier": 2,
+   "neighbors": [
+    "OMN",
+    "SAU"
+   ],
    "map": {
     "point": [
      54.547,
@@ -216,6 +243,13 @@
    "population": 47327407,
    "areaKm2": 2780400,
    "tier": 1,
+   "neighbors": [
+    "BOL",
+    "BRA",
+    "CHL",
+    "PRY",
+    "URY"
+   ],
    "map": {
     "point": [
      -64.173,
@@ -255,6 +289,12 @@
    "population": 2930450,
    "areaKm2": 29743,
    "tier": 2,
+   "neighbors": [
+    "AZE",
+    "GEO",
+    "IRN",
+    "TUR"
+   ],
    "map": {
     "point": [
      44.801,
@@ -292,6 +332,7 @@
    "population": 101489,
    "areaKm2": 442,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -61.8,
@@ -328,6 +369,7 @@
    "population": 27614411,
    "areaKm2": 7692024,
    "tier": 1,
+   "neighbors": [],
    "map": {
     "point": [
      134.05,
@@ -368,6 +410,16 @@
    "population": 8979894,
    "areaKm2": 83871,
    "tier": 1,
+   "neighbors": [
+    "CHE",
+    "CZE",
+    "DEU",
+    "HUN",
+    "ITA",
+    "LIE",
+    "SVK",
+    "SVN"
+   ],
    "map": {
     "point": [
      14.131,
@@ -408,6 +460,13 @@
    "population": 10180770,
    "areaKm2": 86600,
    "tier": 2,
+   "neighbors": [
+    "ARM",
+    "GEO",
+    "IRN",
+    "RUS",
+    "TUR"
+   ],
    "map": {
     "point": [
      47.211,
@@ -446,6 +505,11 @@
    "population": 13689450,
    "areaKm2": 27834,
    "tier": 3,
+   "neighbors": [
+    "COD",
+    "RWA",
+    "TZA"
+   ],
    "map": {
     "point": [
      29.917,
@@ -486,6 +550,12 @@
    "population": 11825551,
    "areaKm2": 30528,
    "tier": 1,
+   "neighbors": [
+    "DEU",
+    "FRA",
+    "LUX",
+    "NLD"
+   ],
    "map": {
     "point": [
      4.8,
@@ -527,6 +597,12 @@
    "population": 14111034,
    "areaKm2": 112622,
    "tier": 3,
+   "neighbors": [
+    "BFA",
+    "NER",
+    "NGA",
+    "TGO"
+   ],
    "map": {
     "point": [
      2.352,
@@ -566,6 +642,14 @@
    "population": 23025776,
    "areaKm2": 272967,
    "tier": 2,
+   "neighbors": [
+    "BEN",
+    "CIV",
+    "GHA",
+    "MLI",
+    "NER",
+    "TGO"
+   ],
    "map": {
     "point": [
      -1.364,
@@ -606,6 +690,10 @@
    "population": 171466990,
    "areaKm2": 147570,
    "tier": 2,
+   "neighbors": [
+    "IND",
+    "MMR"
+   ],
    "map": {
     "point": [
      89.685,
@@ -644,6 +732,13 @@
    "population": 6423207,
    "areaKm2": 110879,
    "tier": 2,
+   "neighbors": [
+    "GRC",
+    "MKD",
+    "ROU",
+    "SRB",
+    "TUR"
+   ],
    "map": {
     "point": [
      25.157,
@@ -682,6 +777,7 @@
    "population": 1569666,
    "areaKm2": 765,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      50.555,
@@ -719,6 +815,7 @@
    "population": 399440,
    "areaKm2": 13943,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      -77.147,
@@ -757,6 +854,11 @@
    "population": 3816459,
    "areaKm2": 51209,
    "tier": 2,
+   "neighbors": [
+    "HRV",
+    "MNE",
+    "SRB"
+   ],
    "map": {
     "point": [
      18.068,
@@ -795,6 +897,13 @@
    "population": 9056080,
    "areaKm2": 207600,
    "tier": 2,
+   "neighbors": [
+    "LTU",
+    "LVA",
+    "POL",
+    "RUS",
+    "UKR"
+   ],
    "map": {
     "point": [
      28.418,
@@ -830,6 +939,10 @@
    "population": 411106,
    "areaKm2": 22966,
    "tier": 4,
+   "neighbors": [
+    "GTM",
+    "MEX"
+   ],
    "map": {
     "point": [
      -88.713,
@@ -871,6 +984,13 @@
    "population": 12244159,
    "areaKm2": 1098581,
    "tier": 3,
+   "neighbors": [
+    "ARG",
+    "BRA",
+    "CHL",
+    "PER",
+    "PRY"
+   ],
    "map": {
     "point": [
      -64.593,
@@ -908,6 +1028,17 @@
    "population": 214211951,
    "areaKm2": 8515767,
    "tier": 1,
+   "neighbors": [
+    "ARG",
+    "BOL",
+    "COL",
+    "GUY",
+    "PER",
+    "PRY",
+    "SUR",
+    "URY",
+    "VEN"
+   ],
    "map": {
     "point": [
      -49.559,
@@ -943,6 +1074,7 @@
    "population": 303431,
    "areaKm2": 430,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -59.569,
@@ -981,6 +1113,9 @@
    "population": 458949,
    "areaKm2": 5765,
    "tier": 3,
+   "neighbors": [
+    "MYS"
+   ],
    "map": {
     "point": [
      114.552,
@@ -1020,6 +1155,10 @@
    "population": 787424,
    "areaKm2": 38394,
    "tier": 3,
+   "neighbors": [
+    "CHN",
+    "IND"
+   ],
    "map": {
     "point": [
      90.04,
@@ -1057,6 +1196,12 @@
    "population": 2480244,
    "areaKm2": 582000,
    "tier": 3,
+   "neighbors": [
+    "NAM",
+    "ZAF",
+    "ZMB",
+    "ZWE"
+   ],
    "map": {
     "point": [
      24.179,
@@ -1094,6 +1239,14 @@
    "population": 5152421,
    "areaKm2": 622984,
    "tier": 3,
+   "neighbors": [
+    "CMR",
+    "COD",
+    "COG",
+    "SDN",
+    "SSD",
+    "TCD"
+   ],
    "map": {
     "point": [
      20.907,
@@ -1129,6 +1282,9 @@
    "population": 36991981,
    "areaKm2": 9984670,
    "tier": 1,
+   "neighbors": [
+    "USA"
+   ],
    "map": {
     "point": [
      -101.911,
@@ -1170,6 +1326,13 @@
    "population": 9104063,
    "areaKm2": 41284,
    "tier": 1,
+   "neighbors": [
+    "AUT",
+    "DEU",
+    "FRA",
+    "ITA",
+    "LIE"
+   ],
    "map": {
     "point": [
      7.464,
@@ -1207,6 +1370,11 @@
    "population": 19458000,
    "areaKm2": 756102,
    "tier": 1,
+   "neighbors": [
+    "ARG",
+    "BOL",
+    "PER"
+   ],
    "map": {
     "point": [
      -72.319,
@@ -1248,6 +1416,22 @@
    "population": 1404890000,
    "areaKm2": 9706961,
    "tier": 1,
+   "neighbors": [
+    "AFG",
+    "BTN",
+    "IND",
+    "KAZ",
+    "KGZ",
+    "LAO",
+    "MMR",
+    "MNG",
+    "NPL",
+    "PAK",
+    "PRK",
+    "RUS",
+    "TJK",
+    "VNM"
+   ],
    "map": {
     "point": [
      106.337,
@@ -1287,6 +1471,13 @@
    "population": 31165654,
    "areaKm2": 322463,
    "tier": 1,
+   "neighbors": [
+    "BFA",
+    "GHA",
+    "GIN",
+    "LBR",
+    "MLI"
+   ],
    "map": {
     "point": [
      -5.569,
@@ -1325,6 +1516,14 @@
    "population": 28372687,
    "areaKm2": 475442,
    "tier": 2,
+   "neighbors": [
+    "CAF",
+    "COG",
+    "GAB",
+    "GNQ",
+    "NGA",
+    "TCD"
+   ],
    "map": {
     "point": [
      12.473,
@@ -1366,6 +1565,17 @@
    "population": 105789731,
    "areaKm2": 2344858,
    "tier": 2,
+   "neighbors": [
+    "AGO",
+    "BDI",
+    "CAF",
+    "COG",
+    "RWA",
+    "SSD",
+    "TZA",
+    "UGA",
+    "ZMB"
+   ],
    "map": {
     "point": [
      23.459,
@@ -1406,6 +1616,13 @@
    "population": 6142180,
    "areaKm2": 342000,
    "tier": 3,
+   "neighbors": [
+    "AGO",
+    "CAF",
+    "CMR",
+    "COD",
+    "GAB"
+   ],
    "map": {
     "point": [
      15.901,
@@ -1444,6 +1661,13 @@
    "population": 52321152,
    "areaKm2": 1141748,
    "tier": 1,
+   "neighbors": [
+    "BRA",
+    "ECU",
+    "PAN",
+    "PER",
+    "VEN"
+   ],
    "map": {
     "point": [
      -73.174,
@@ -1481,6 +1705,7 @@
    "population": 902348,
    "areaKm2": 1862,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      43.318,
@@ -1520,6 +1745,7 @@
    "population": 555988,
    "areaKm2": 4033,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      -23.639,
@@ -1557,6 +1783,10 @@
    "population": 5265575,
    "areaKm2": 51100,
    "tier": 3,
+   "neighbors": [
+    "NIC",
+    "PAN"
+   ],
    "map": {
     "point": [
      -84.078,
@@ -1597,6 +1827,7 @@
    "population": 10985974,
    "areaKm2": 109884,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      -77.976,
@@ -1636,6 +1867,7 @@
    "population": 1344976,
    "areaKm2": 9251,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      33.084,
@@ -1674,6 +1906,12 @@
    "population": 10909500,
    "areaKm2": 78865,
    "tier": 2,
+   "neighbors": [
+    "AUT",
+    "DEU",
+    "POL",
+    "SVK"
+   ],
    "map": {
     "point": [
      15.378,
@@ -1712,6 +1950,17 @@
    "population": 83467117,
    "areaKm2": 357114,
    "tier": 1,
+   "neighbors": [
+    "AUT",
+    "BEL",
+    "CHE",
+    "CZE",
+    "DNK",
+    "FRA",
+    "LUX",
+    "NLD",
+    "POL"
+   ],
    "map": {
     "point": [
      9.678,
@@ -1749,6 +1998,11 @@
    "population": 1152944,
    "areaKm2": 23200,
    "tier": 3,
+   "neighbors": [
+    "ERI",
+    "ETH",
+    "SOM"
+   ],
    "map": {
     "point": [
      42.499,
@@ -1786,6 +2040,7 @@
    "population": 74656,
    "areaKm2": 751,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -61.345,
@@ -1826,6 +2081,9 @@
    "population": 5822863,
    "areaKm2": 43094,
    "tier": 1,
+   "neighbors": [
+    "DEU"
+   ],
    "map": {
     "point": [
      9.018,
@@ -1865,6 +2123,9 @@
    "population": 10760028,
    "areaKm2": 48671,
    "tier": 3,
+   "neighbors": [
+    "HTI"
+   ],
    "map": {
     "point": [
      -70.654,
@@ -1904,6 +2165,14 @@
    "population": 46164219,
    "areaKm2": 2381741,
    "tier": 1,
+   "neighbors": [
+    "LBY",
+    "MAR",
+    "MLI",
+    "MRT",
+    "NER",
+    "TUN"
+   ],
    "map": {
     "point": [
      2.808,
@@ -1942,6 +2211,10 @@
    "population": 16938986,
    "areaKm2": 276841,
    "tier": 2,
+   "neighbors": [
+    "COL",
+    "PER"
+   ],
    "map": {
     "point": [
      -78.188,
@@ -1982,6 +2255,12 @@
    "population": 114535772,
    "areaKm2": 1002450,
    "tier": 1,
+   "neighbors": [
+    "ISR",
+    "LBY",
+    "PSE",
+    "SDN"
+   ],
    "map": {
     "point": [
      29.446,
@@ -2019,6 +2298,11 @@
    "population": 3497000,
    "areaKm2": 117600,
    "tier": 3,
+   "neighbors": [
+    "DJI",
+    "ETH",
+    "SDN"
+   ],
    "map": {
     "point": [
      38.286,
@@ -2056,6 +2340,12 @@
    "population": 48592909,
    "areaKm2": 505992,
    "tier": 1,
+   "neighbors": [
+    "AND",
+    "FRA",
+    "MAR",
+    "PRT"
+   ],
    "map": {
     "point": [
      -3.465,
@@ -2093,6 +2383,10 @@
    "population": 1369995,
    "areaKm2": 45227,
    "tier": 3,
+   "neighbors": [
+    "LVA",
+    "RUS"
+   ],
    "map": {
     "point": [
      25.867,
@@ -2133,6 +2427,14 @@
    "population": 128691692,
    "areaKm2": 1104300,
    "tier": 2,
+   "neighbors": [
+    "DJI",
+    "ERI",
+    "KEN",
+    "SDN",
+    "SOM",
+    "SSD"
+   ],
    "map": {
     "point": [
      39.089,
@@ -2171,6 +2473,11 @@
    "population": 5652881,
    "areaKm2": 338424,
    "tier": 2,
+   "neighbors": [
+    "NOR",
+    "RUS",
+    "SWE"
+   ],
    "map": {
     "point": [
      27.276,
@@ -2210,6 +2517,7 @@
    "population": 926276,
    "areaKm2": 18272,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      177.975,
@@ -2225,7 +2533,7 @@
       -16.149
      ]
     ],
-    "small": false
+    "small": true
    }
   },
   {
@@ -2249,6 +2557,16 @@
    "population": 68605616,
    "areaKm2": 551695,
    "tier": 1,
+   "neighbors": [
+    "AND",
+    "BEL",
+    "CHE",
+    "DEU",
+    "ESP",
+    "ITA",
+    "LUX",
+    "MCO"
+   ],
    "map": {
     "point": [
      2.552,
@@ -2286,6 +2604,7 @@
    "population": 75817,
    "areaKm2": 702,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      158.234,
@@ -2324,6 +2643,11 @@
    "population": 2025137,
    "areaKm2": 267668,
    "tier": 3,
+   "neighbors": [
+    "CMR",
+    "COG",
+    "GNQ"
+   ],
    "map": {
     "point": [
      11.836,
@@ -2366,6 +2690,9 @@
    "population": 67326569,
    "areaKm2": 242900,
    "tier": 1,
+   "neighbors": [
+    "IRL"
+   ],
    "map": {
     "point": [
      -2.116,
@@ -2405,6 +2732,12 @@
    "population": 3929581,
    "areaKm2": 69700,
    "tier": 2,
+   "neighbors": [
+    "ARM",
+    "AZE",
+    "RUS",
+    "TUR"
+   ],
    "map": {
     "point": [
      43.736,
@@ -2443,6 +2776,11 @@
    "population": 32833031,
    "areaKm2": 238533,
    "tier": 2,
+   "neighbors": [
+    "BFA",
+    "CIV",
+    "TGO"
+   ],
    "map": {
     "point": [
      -1.037,
@@ -2482,6 +2820,14 @@
    "population": 17521167,
    "areaKm2": 245857,
    "tier": 3,
+   "neighbors": [
+    "CIV",
+    "GNB",
+    "LBR",
+    "MLI",
+    "SEN",
+    "SLE"
+   ],
    "map": {
     "point": [
      -10.016,
@@ -2519,6 +2865,9 @@
    "population": 2639916,
    "areaKm2": 10689,
    "tier": 3,
+   "neighbors": [
+    "SEN"
+   ],
    "map": {
     "point": [
      -14.998,
@@ -2556,6 +2905,10 @@
    "population": 1861283,
    "areaKm2": 36125,
    "tier": 4,
+   "neighbors": [
+    "GIN",
+    "SEN"
+   ],
    "map": {
     "point": [
      -14.524,
@@ -2597,6 +2950,10 @@
    "population": 1847549,
    "areaKm2": 28051,
    "tier": 4,
+   "neighbors": [
+    "CMR",
+    "GAB"
+   ],
    "map": {
     "point": [
      10.464,
@@ -2638,6 +2995,12 @@
    "population": 10482487,
    "areaKm2": 131990,
    "tier": 1,
+   "neighbors": [
+    "ALB",
+    "BGR",
+    "MKD",
+    "TUR"
+   ],
    "map": {
     "point": [
      21.726,
@@ -2675,6 +3038,7 @@
    "population": 114299,
    "areaKm2": 344,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -61.68,
@@ -2716,6 +3080,12 @@
    "population": 17263239,
    "areaKm2": 108889,
    "tier": 3,
+   "neighbors": [
+    "BLZ",
+    "HND",
+    "MEX",
+    "SLV"
+   ],
    "map": {
     "point": [
      -90.497,
@@ -2753,6 +3123,11 @@
    "population": 878674,
    "areaKm2": 214969,
    "tier": 3,
+   "neighbors": [
+    "BRA",
+    "SUR",
+    "VEN"
+   ],
    "map": {
     "point": [
      -58.943,
@@ -2791,6 +3166,11 @@
    "population": 8303771,
    "areaKm2": 112492,
    "tier": 3,
+   "neighbors": [
+    "GTM",
+    "NIC",
+    "SLV"
+   ],
    "map": {
     "point": [
      -86.888,
@@ -2829,6 +3209,13 @@
    "population": 3871833,
    "areaKm2": 56594,
    "tier": 2,
+   "neighbors": [
+    "BIH",
+    "HUN",
+    "MNE",
+    "SRB",
+    "SVN"
+   ],
    "map": {
     "point": [
      16.372,
@@ -2866,6 +3253,9 @@
    "population": 10981229,
    "areaKm2": 27750,
    "tier": 2,
+   "neighbors": [
+    "DOM"
+   ],
    "map": {
     "point": [
      -72.224,
@@ -2902,6 +3292,15 @@
    "population": 9603634,
    "areaKm2": 93028,
    "tier": 2,
+   "neighbors": [
+    "AUT",
+    "HRV",
+    "ROU",
+    "SRB",
+    "SVK",
+    "SVN",
+    "UKR"
+   ],
    "map": {
     "point": [
      19.448,
@@ -2942,6 +3341,11 @@
    "population": 275439000,
    "areaKm2": 1904569,
    "tier": 1,
+   "neighbors": [
+    "MYS",
+    "PNG",
+    "TLS"
+   ],
    "map": {
     "point": [
      101.893,
@@ -2980,6 +3384,14 @@
    "population": 1326093247,
    "areaKm2": 3287590,
    "tier": 1,
+   "neighbors": [
+    "BGD",
+    "BTN",
+    "CHN",
+    "MMR",
+    "NPL",
+    "PAK"
+   ],
    "map": {
     "point": [
      79.358,
@@ -3018,6 +3430,9 @@
    "population": 5149139,
    "areaKm2": 70273,
    "tier": 1,
+   "neighbors": [
+    "GBR"
+   ],
    "map": {
     "point": [
      -7.799,
@@ -3058,6 +3473,15 @@
    "population": 92417700,
    "areaKm2": 1648195,
    "tier": 1,
+   "neighbors": [
+    "AFG",
+    "ARM",
+    "AZE",
+    "IRQ",
+    "PAK",
+    "TKM",
+    "TUR"
+   ],
    "map": {
     "point": [
      54.931,
@@ -3098,6 +3522,14 @@
    "population": 38274618,
    "areaKm2": 438317,
    "tier": 2,
+   "neighbors": [
+    "IRN",
+    "JOR",
+    "KWT",
+    "SAU",
+    "SYR",
+    "TUR"
+   ],
    "map": {
     "point": [
      43.262,
@@ -3136,6 +3568,7 @@
    "population": 364260,
    "areaKm2": 103000,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      -18.674,
@@ -3173,6 +3606,13 @@
    "population": 9840000,
    "areaKm2": 20770,
    "tier": 1,
+   "neighbors": [
+    "EGY",
+    "JOR",
+    "LBN",
+    "PSE",
+    "SYR"
+   ],
    "map": {
     "point": [
      34.848,
@@ -3211,6 +3651,14 @@
    "population": 58850717,
    "areaKm2": 301336,
    "tier": 1,
+   "neighbors": [
+    "AUT",
+    "CHE",
+    "FRA",
+    "SMR",
+    "SVN",
+    "VAT"
+   ],
    "map": {
     "point": [
      11.077,
@@ -3246,6 +3694,7 @@
    "population": 2697983,
    "areaKm2": 10991,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      -77.319,
@@ -3284,6 +3733,13 @@
    "population": 10428241,
    "areaKm2": 89342,
    "tier": 3,
+   "neighbors": [
+    "IRQ",
+    "ISR",
+    "PSE",
+    "SAU",
+    "SYR"
+   ],
    "map": {
     "point": [
      36.376,
@@ -3320,6 +3776,7 @@
    "population": 123802000,
    "areaKm2": 377930,
    "tier": 1,
+   "neighbors": [],
    "map": {
     "point": [
      138.442,
@@ -3360,6 +3817,13 @@
    "population": 20139914,
    "areaKm2": 2724900,
    "tier": 2,
+   "neighbors": [
+    "CHN",
+    "KGZ",
+    "RUS",
+    "TKM",
+    "UZB"
+   ],
    "map": {
     "point": [
      68.686,
@@ -3397,6 +3861,13 @@
    "population": 48468138,
    "areaKm2": 580367,
    "tier": 2,
+   "neighbors": [
+    "ETH",
+    "SOM",
+    "SSD",
+    "TZA",
+    "UGA"
+   ],
    "map": {
     "point": [
      37.908,
@@ -3438,6 +3909,12 @@
    "population": 7281800,
    "areaKm2": 199951,
    "tier": 3,
+   "neighbors": [
+    "CHN",
+    "KAZ",
+    "TJK",
+    "UZB"
+   ],
    "map": {
     "point": [
      74.533,
@@ -3475,6 +3952,11 @@
    "population": 17423880,
    "areaKm2": 181035,
    "tier": 2,
+   "neighbors": [
+    "LAO",
+    "THA",
+    "VNM"
+   ],
    "map": {
     "point": [
      104.505,
@@ -3516,6 +3998,7 @@
    "population": 134518,
    "areaKm2": 811,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -157.385,
@@ -3556,6 +4039,7 @@
    "population": 46922,
    "areaKm2": 261,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -62.758,
@@ -3594,6 +4078,9 @@
    "population": 51466201,
    "areaKm2": 100210,
    "tier": 1,
+   "neighbors": [
+    "PRK"
+   ],
    "map": {
     "point": [
      128.13,
@@ -3635,6 +4122,10 @@
    "population": 4464000,
    "areaKm2": 17818,
    "tier": 3,
+   "neighbors": [
+    "IRQ",
+    "SAU"
+   ],
    "map": {
     "point": [
      47.314,
@@ -3672,6 +4163,13 @@
    "population": 6858160,
    "areaKm2": 236800,
    "tier": 3,
+   "neighbors": [
+    "CHN",
+    "KHM",
+    "MMR",
+    "THA",
+    "VNM"
+   ],
    "map": {
     "point": [
      102.534,
@@ -3712,6 +4210,10 @@
    "population": 6100075,
    "areaKm2": 10452,
    "tier": 2,
+   "neighbors": [
+    "ISR",
+    "SYR"
+   ],
    "map": {
     "point": [
      35.993,
@@ -3750,6 +4252,11 @@
    "population": 5214030,
    "areaKm2": 111369,
    "tier": 3,
+   "neighbors": [
+    "CIV",
+    "GIN",
+    "SLE"
+   ],
    "map": {
     "point": [
      -9.46,
@@ -3787,6 +4294,14 @@
    "population": 7381023,
    "areaKm2": 1759540,
    "tier": 2,
+   "neighbors": [
+    "DZA",
+    "EGY",
+    "NER",
+    "SDN",
+    "TCD",
+    "TUN"
+   ],
    "map": {
     "point": [
      18.011,
@@ -3822,6 +4337,7 @@
    "population": 167591,
    "areaKm2": 616,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -60.98,
@@ -3859,6 +4375,10 @@
    "population": 37922,
    "areaKm2": 160,
    "tier": 3,
+   "neighbors": [
+    "AUT",
+    "CHE"
+   ],
    "map": {
     "point": [
      9.559,
@@ -3903,6 +4423,7 @@
    "population": 21444000,
    "areaKm2": 65610,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      80.705,
@@ -3940,6 +4461,9 @@
    "population": 2007201,
    "areaKm2": 30355,
    "tier": 4,
+   "neighbors": [
+    "ZAF"
+   ],
    "map": {
     "point": [
      28.247,
@@ -3979,6 +4503,12 @@
    "population": 2860002,
    "areaKm2": 65300,
    "tier": 2,
+   "neighbors": [
+    "BLR",
+    "LVA",
+    "POL",
+    "RUS"
+   ],
    "map": {
     "point": [
      24.09,
@@ -4017,6 +4547,11 @@
    "population": 690959,
    "areaKm2": 2586,
    "tier": 2,
+   "neighbors": [
+    "BEL",
+    "DEU",
+    "FRA"
+   ],
    "map": {
     "point": [
      6.078,
@@ -4055,6 +4590,12 @@
    "population": 1845096,
    "areaKm2": 64559,
    "tier": 3,
+   "neighbors": [
+    "BLR",
+    "EST",
+    "LTU",
+    "RUS"
+   ],
    "map": {
     "point": [
      25.459,
@@ -4093,6 +4634,11 @@
    "population": 36828330,
    "areaKm2": 446550,
    "tier": 1,
+   "neighbors": [
+    "DZA",
+    "ESP",
+    "MRT"
+   ],
    "map": {
     "point": [
      -7.187,
@@ -4131,6 +4677,9 @@
    "population": 38857,
    "areaKm2": 2,
    "tier": 3,
+   "neighbors": [
+    "FRA"
+   ],
    "map": {
     "point": [
      7.398,
@@ -4172,6 +4721,10 @@
    "population": 2409207,
    "areaKm2": 33846,
    "tier": 3,
+   "neighbors": [
+    "ROU",
+    "UKR"
+   ],
    "map": {
     "point": [
      28.488,
@@ -4211,6 +4764,7 @@
    "population": 31964956,
    "areaKm2": 587041,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      46.704,
@@ -4249,6 +4803,7 @@
    "population": 436330,
    "areaKm2": 300,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      73.532,
@@ -4289,6 +4844,11 @@
    "population": 132274416,
    "areaKm2": 1964375,
    "tier": 1,
+   "neighbors": [
+    "BLZ",
+    "GTM",
+    "USA"
+   ],
    "map": {
     "point": [
      -102.289,
@@ -4327,6 +4887,7 @@
    "population": 53127,
    "areaKm2": 181,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      171.306,
@@ -4365,6 +4926,12 @@
    "population": 1836713,
    "areaKm2": 25713,
    "tier": 3,
+   "neighbors": [
+    "ALB",
+    "BGR",
+    "GRC",
+    "SRB"
+   ],
    "map": {
     "point": [
      21.556,
@@ -4403,6 +4970,15 @@
    "population": 22395489,
    "areaKm2": 1240192,
    "tier": 2,
+   "neighbors": [
+    "BFA",
+    "CIV",
+    "DZA",
+    "GIN",
+    "MRT",
+    "NER",
+    "SEN"
+   ],
    "map": {
     "point": [
      -2.038,
@@ -4442,6 +5018,7 @@
    "population": 553214,
    "areaKm2": 316,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      14.433,
@@ -4482,6 +5059,13 @@
    "population": 53370609,
    "areaKm2": 676578,
    "tier": 2,
+   "neighbors": [
+    "BGD",
+    "CHN",
+    "IND",
+    "LAO",
+    "THA"
+   ],
    "map": {
     "point": [
      95.804,
@@ -4517,6 +5101,12 @@
    "population": 617213,
    "areaKm2": 13812,
    "tier": 3,
+   "neighbors": [
+    "ALB",
+    "BIH",
+    "HRV",
+    "SRB"
+   ],
    "map": {
     "point": [
      19.144,
@@ -4532,7 +5122,7 @@
       43.533
      ]
     ],
-    "small": true
+    "small": false
    }
   },
   {
@@ -4555,6 +5145,10 @@
    "population": 3409939,
    "areaKm2": 1564110,
    "tier": 3,
+   "neighbors": [
+    "CHN",
+    "RUS"
+   ],
    "map": {
     "point": [
      104.15,
@@ -4592,6 +5186,14 @@
    "population": 29668834,
    "areaKm2": 801590,
    "tier": 3,
+   "neighbors": [
+    "MWI",
+    "SWZ",
+    "TZA",
+    "ZAF",
+    "ZMB",
+    "ZWE"
+   ],
    "map": {
     "point": [
      37.838,
@@ -4629,6 +5231,12 @@
    "population": 4736139,
    "areaKm2": 1030700,
    "tier": 3,
+   "neighbors": [
+    "DZA",
+    "MAR",
+    "MLI",
+    "SEN"
+   ],
    "map": {
     "point": [
      -9.74,
@@ -4667,6 +5275,7 @@
    "population": 1264613,
    "areaKm2": 2040,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      57.566,
@@ -4704,6 +5313,11 @@
    "population": 17563749,
    "areaKm2": 118484,
    "tier": 3,
+   "neighbors": [
+    "MOZ",
+    "TZA",
+    "ZMB"
+   ],
    "map": {
     "point": [
      33.608,
@@ -4745,6 +5359,11 @@
    "population": 34231700,
    "areaKm2": 330803,
    "tier": 2,
+   "neighbors": [
+    "BRN",
+    "IDN",
+    "THA"
+   ],
    "map": {
     "point": [
      113.837,
@@ -4782,6 +5401,12 @@
    "population": 2533794,
    "areaKm2": 825615,
    "tier": 3,
+   "neighbors": [
+    "AGO",
+    "BWA",
+    "ZAF",
+    "ZMB"
+   ],
    "map": {
     "point": [
      17.108,
@@ -4820,6 +5445,15 @@
    "population": 21477348,
    "areaKm2": 1267000,
    "tier": 3,
+   "neighbors": [
+    "BEN",
+    "BFA",
+    "DZA",
+    "LBY",
+    "MLI",
+    "NGA",
+    "TCD"
+   ],
    "map": {
     "point": [
      9.504,
@@ -4858,6 +5492,12 @@
    "population": 211400708,
    "areaKm2": 923768,
    "tier": 2,
+   "neighbors": [
+    "BEN",
+    "CMR",
+    "NER",
+    "TCD"
+   ],
    "map": {
     "point": [
      7.503,
@@ -4896,6 +5536,10 @@
    "population": 5142098,
    "areaKm2": 130373,
    "tier": 3,
+   "neighbors": [
+    "CRI",
+    "HND"
+   ],
    "map": {
     "point": [
      -85.069,
@@ -4936,6 +5580,10 @@
    "population": 17100715,
    "areaKm2": 41850,
    "tier": 1,
+   "neighbors": [
+    "BEL",
+    "DEU"
+   ],
    "map": {
     "point": [
      5.611,
@@ -4974,6 +5622,11 @@
    "population": 5627400,
    "areaKm2": 323802,
    "tier": 1,
+   "neighbors": [
+    "FIN",
+    "RUS",
+    "SWE"
+   ],
    "map": {
     "point": [
      9.68,
@@ -5013,6 +5666,10 @@
    "population": 29164578,
    "areaKm2": 147181,
    "tier": 2,
+   "neighbors": [
+    "CHN",
+    "IND"
+   ],
    "map": {
     "point": [
      83.64,
@@ -5053,6 +5710,7 @@
    "population": 13650,
    "areaKm2": 21,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      166.933,
@@ -5089,6 +5747,7 @@
    "population": 5307800,
    "areaKm2": 270467,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      170.583,
@@ -5128,6 +5787,11 @@
    "population": 4829480,
    "areaKm2": 309500,
    "tier": 3,
+   "neighbors": [
+    "ARE",
+    "SAU",
+    "YEM"
+   ],
    "map": {
     "point": [
      57.337,
@@ -5165,6 +5829,12 @@
    "population": 223773700,
    "areaKm2": 881912,
    "tier": 2,
+   "neighbors": [
+    "AFG",
+    "CHN",
+    "IND",
+    "IRN"
+   ],
    "map": {
     "point": [
      68.546,
@@ -5204,6 +5874,10 @@
    "population": 4570133,
    "areaKm2": 75417,
    "tier": 3,
+   "neighbors": [
+    "COL",
+    "CRI"
+   ],
    "map": {
     "point": [
      -80.352,
@@ -5241,6 +5915,13 @@
    "population": 34157732,
    "areaKm2": 1285216,
    "tier": 1,
+   "neighbors": [
+    "BOL",
+    "BRA",
+    "CHL",
+    "COL",
+    "ECU"
+   ],
    "map": {
     "point": [
      -72.9,
@@ -5282,6 +5963,7 @@
    "population": 112729484,
    "areaKm2": 342353,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      122.465,
@@ -5320,6 +6002,7 @@
    "population": 21729,
    "areaKm2": 459,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      134.58,
@@ -5358,6 +6041,9 @@
    "population": 8935000,
    "areaKm2": 462840,
    "tier": 3,
+   "neighbors": [
+    "IDN"
+   ],
    "map": {
     "point": [
      143.91,
@@ -5398,6 +6084,15 @@
    "population": 37563071,
    "areaKm2": 312679,
    "tier": 1,
+   "neighbors": [
+    "BLR",
+    "CZE",
+    "DEU",
+    "LTU",
+    "RUS",
+    "SVK",
+    "UKR"
+   ],
    "map": {
     "point": [
      19.49,
@@ -5435,6 +6130,11 @@
    "population": 26418204,
    "areaKm2": 120538,
    "tier": 2,
+   "neighbors": [
+    "CHN",
+    "KOR",
+    "RUS"
+   ],
    "map": {
     "point": [
      126.445,
@@ -5474,6 +6174,9 @@
    "population": 10347892,
    "areaKm2": 92090,
    "tier": 1,
+   "neighbors": [
+    "ESP"
+   ],
    "map": {
     "point": [
      -8.272,
@@ -5512,6 +6215,11 @@
    "population": 6811297,
    "areaKm2": 406752,
    "tier": 3,
+   "neighbors": [
+    "ARG",
+    "BOL",
+    "BRA"
+   ],
    "map": {
     "point": [
      -60.146,
@@ -5555,6 +6263,11 @@
    "population": 5227193,
    "areaKm2": 6220,
    "tier": 3,
+   "neighbors": [
+    "EGY",
+    "ISR",
+    "JOR"
+   ],
    "map": {
     "point": [
      35.291,
@@ -5593,6 +6306,9 @@
    "population": 2639211,
    "areaKm2": 11586,
    "tier": 3,
+   "neighbors": [
+    "SAU"
+   ],
    "map": {
     "point": [
      51.144,
@@ -5631,6 +6347,13 @@
    "population": 19053815,
    "areaKm2": 238391,
    "tier": 2,
+   "neighbors": [
+    "BGR",
+    "HUN",
+    "MDA",
+    "SRB",
+    "UKR"
+   ],
    "map": {
     "point": [
      24.973,
@@ -5672,6 +6395,22 @@
    "population": 146119928,
    "areaKm2": 17098242,
    "tier": 1,
+   "neighbors": [
+    "AZE",
+    "BLR",
+    "CHN",
+    "EST",
+    "FIN",
+    "GEO",
+    "KAZ",
+    "LTU",
+    "LVA",
+    "MNG",
+    "NOR",
+    "POL",
+    "PRK",
+    "UKR"
+   ],
    "map": {
     "point": [
      44.686,
@@ -5710,6 +6449,12 @@
    "population": 14569341,
    "areaKm2": 26338,
    "tier": 3,
+   "neighbors": [
+    "BDI",
+    "COD",
+    "TZA",
+    "UGA"
+   ],
    "map": {
     "point": [
      30.104,
@@ -5749,6 +6494,15 @@
    "population": 33000000,
    "areaKm2": 2149690,
    "tier": 1,
+   "neighbors": [
+    "ARE",
+    "IRQ",
+    "JOR",
+    "KWT",
+    "OMN",
+    "QAT",
+    "YEM"
+   ],
    "map": {
     "point": [
      44.7,
@@ -5787,6 +6541,15 @@
    "population": 40533330,
    "areaKm2": 1886068,
    "tier": 2,
+   "neighbors": [
+    "CAF",
+    "EGY",
+    "ERI",
+    "ETH",
+    "LBY",
+    "SSD",
+    "TCD"
+   ],
    "map": {
     "point": [
      29.261,
@@ -5825,6 +6588,13 @@
    "population": 16876720,
    "areaKm2": 196722,
    "tier": 1,
+   "neighbors": [
+    "GIN",
+    "GMB",
+    "GNB",
+    "MLI",
+    "MRT"
+   ],
    "map": {
     "point": [
      -14.779,
@@ -5865,6 +6635,7 @@
    "population": 5866139,
    "areaKm2": 710,
    "tier": 2,
+   "neighbors": [],
    "map": {
     "point": [
      103.817,
@@ -5902,6 +6673,7 @@
    "population": 611343,
    "areaKm2": 28896,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      159.17,
@@ -5940,6 +6712,10 @@
    "population": 7557212,
    "areaKm2": 71740,
    "tier": 3,
+   "neighbors": [
+    "GIN",
+    "LBR"
+   ],
    "map": {
     "point": [
      -11.764,
@@ -5979,6 +6755,10 @@
    "population": 6029976,
    "areaKm2": 21041,
    "tier": 3,
+   "neighbors": [
+    "GTM",
+    "HND"
+   ],
    "map": {
     "point": [
      -88.89,
@@ -6019,6 +6799,9 @@
    "population": 34167,
    "areaKm2": 61,
    "tier": 3,
+   "neighbors": [
+    "ITA"
+   ],
    "map": {
     "point": [
      12.441,
@@ -6058,6 +6841,11 @@
    "population": 11031386,
    "areaKm2": 637657,
    "tier": 2,
+   "neighbors": [
+    "DJI",
+    "ETH",
+    "KEN"
+   ],
    "map": {
     "point": [
      45.192,
@@ -6096,6 +6884,15 @@
    "population": 6605168,
    "areaKm2": 88361,
    "tier": 2,
+   "neighbors": [
+    "BGR",
+    "BIH",
+    "HRV",
+    "HUN",
+    "MKD",
+    "MNE",
+    "ROU"
+   ],
    "map": {
     "point": [
      20.788,
@@ -6136,6 +6933,14 @@
    "population": 12575714,
    "areaKm2": 619745,
    "tier": 3,
+   "neighbors": [
+    "CAF",
+    "COD",
+    "ETH",
+    "KEN",
+    "SDN",
+    "UGA"
+   ],
    "map": {
     "point": [
      30.39,
@@ -6174,6 +6979,7 @@
    "population": 204327,
    "areaKm2": 964,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      6.606,
@@ -6212,6 +7018,10 @@
    "population": 563402,
    "areaKm2": 163820,
    "tier": 4,
+   "neighbors": [
+    "BRA",
+    "GUY"
+   ],
    "map": {
     "point": [
      -55.911,
@@ -6250,6 +7060,13 @@
    "population": 5409407,
    "areaKm2": 49037,
    "tier": 2,
+   "neighbors": [
+    "AUT",
+    "CZE",
+    "HUN",
+    "POL",
+    "UKR"
+   ],
    "map": {
     "point": [
      19.05,
@@ -6288,6 +7105,12 @@
    "population": 2066880,
    "areaKm2": 20273,
    "tier": 3,
+   "neighbors": [
+    "AUT",
+    "HRV",
+    "HUN",
+    "ITA"
+   ],
    "map": {
     "point": [
      14.915,
@@ -6326,6 +7149,10 @@
    "population": 10609460,
    "areaKm2": 450295,
    "tier": 1,
+   "neighbors": [
+    "FIN",
+    "NOR"
+   ],
    "map": {
     "point": [
      19.017,
@@ -6367,6 +7194,10 @@
    "population": 1230506,
    "areaKm2": 17364,
    "tier": 4,
+   "neighbors": [
+    "MOZ",
+    "ZAF"
+   ],
    "map": {
     "point": [
      31.467,
@@ -6404,6 +7235,7 @@
    "population": 119773,
    "areaKm2": 452,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      55.48,
@@ -6444,6 +7276,13 @@
    "population": 23865423,
    "areaKm2": 185180,
    "tier": 2,
+   "neighbors": [
+    "IRQ",
+    "ISR",
+    "JOR",
+    "LBN",
+    "TUR"
+   ],
    "map": {
     "point": [
      38.278,
@@ -6482,6 +7321,14 @@
    "population": 19319064,
    "areaKm2": 1284000,
    "tier": 2,
+   "neighbors": [
+    "CAF",
+    "CMR",
+    "LBY",
+    "NER",
+    "NGA",
+    "SDN"
+   ],
    "map": {
     "point": [
      18.645,
@@ -6519,6 +7366,11 @@
    "population": 7797694,
    "areaKm2": 56785,
    "tier": 3,
+   "neighbors": [
+    "BEN",
+    "BFA",
+    "GHA"
+   ],
    "map": {
     "point": [
      1.058,
@@ -6557,6 +7409,12 @@
    "population": 66188503,
    "areaKm2": 513120,
    "tier": 1,
+   "neighbors": [
+    "KHM",
+    "LAO",
+    "MMR",
+    "MYS"
+   ],
    "map": {
     "point": [
      101.073,
@@ -6597,6 +7455,12 @@
    "population": 9504000,
    "areaKm2": 143100,
    "tier": 3,
+   "neighbors": [
+    "AFG",
+    "CHN",
+    "KGZ",
+    "UZB"
+   ],
    "map": {
     "point": [
      72.587,
@@ -6638,6 +7502,12 @@
    "population": 6117933,
    "areaKm2": 488100,
    "tier": 3,
+   "neighbors": [
+    "AFG",
+    "IRN",
+    "KAZ",
+    "UZB"
+   ],
    "map": {
     "point": [
      58.677,
@@ -6676,6 +7546,9 @@
    "population": 1400638,
    "areaKm2": 14874,
    "tier": 4,
+   "neighbors": [
+    "IDN"
+   ],
    "map": {
     "point": [
      125.855,
@@ -6691,7 +7564,7 @@
       -8.309
      ]
     ],
-    "small": false
+    "small": true
    }
   },
   {
@@ -6713,6 +7586,7 @@
    "population": 108020,
    "areaKm2": 747,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -175.163,
@@ -6754,6 +7628,7 @@
    "population": 1369125,
    "areaKm2": 5130,
    "tier": 3,
+   "neighbors": [],
    "map": {
     "point": [
      -61.278,
@@ -6792,6 +7667,10 @@
    "population": 11565204,
    "areaKm2": 163610,
    "tier": 1,
+   "neighbors": [
+    "DZA",
+    "LBY"
+   ],
    "map": {
     "point": [
      9.008,
@@ -6832,6 +7711,16 @@
    "population": 85372377,
    "areaKm2": 783562,
    "tier": 1,
+   "neighbors": [
+    "ARM",
+    "AZE",
+    "BGR",
+    "GEO",
+    "GRC",
+    "IRN",
+    "IRQ",
+    "SYR"
+   ],
    "map": {
     "point": [
      34.508,
@@ -6868,6 +7757,7 @@
    "population": 10643,
    "areaKm2": 26,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      179.204,
@@ -6907,6 +7797,16 @@
    "population": 57310019,
    "areaKm2": 945087,
    "tier": 2,
+   "neighbors": [
+    "BDI",
+    "COD",
+    "KEN",
+    "MOZ",
+    "MWI",
+    "RWA",
+    "UGA",
+    "ZMB"
+   ],
    "map": {
     "point": [
      34.959,
@@ -6944,6 +7844,13 @@
    "population": 47123531,
    "areaKm2": 241550,
    "tier": 2,
+   "neighbors": [
+    "COD",
+    "KEN",
+    "RWA",
+    "SSD",
+    "TZA"
+   ],
    "map": {
     "point": [
      32.949,
@@ -6981,6 +7888,15 @@
    "population": 41167335,
    "areaKm2": 603500,
    "tier": 1,
+   "neighbors": [
+    "BLR",
+    "HUN",
+    "MDA",
+    "POL",
+    "ROU",
+    "RUS",
+    "SVK"
+   ],
    "map": {
     "point": [
      32.141,
@@ -7019,6 +7935,10 @@
    "population": 3444263,
    "areaKm2": 181034,
    "tier": 3,
+   "neighbors": [
+    "ARG",
+    "BRA"
+   ],
    "map": {
     "point": [
      -55.967,
@@ -7062,6 +7982,10 @@
    "population": 340110988,
    "areaKm2": 9372610,
    "tier": 1,
+   "neighbors": [
+    "CAN",
+    "MEX"
+   ],
    "map": {
     "point": [
      -97.483,
@@ -7102,6 +8026,13 @@
    "population": 34915100,
    "areaKm2": 447400,
    "tier": 2,
+   "neighbors": [
+    "AFG",
+    "KAZ",
+    "KGZ",
+    "TJK",
+    "TKM"
+   ],
    "map": {
     "point": [
      64.005,
@@ -7144,6 +8075,9 @@
    "population": 882,
    "areaKm2": 0,
    "tier": 3,
+   "neighbors": [
+    "ITA"
+   ],
    "map": {
     "point": [
      12.453,
@@ -7179,6 +8113,7 @@
    "population": 109897,
    "areaKm2": 389,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -61.195,
@@ -7217,6 +8152,11 @@
    "population": 31250306,
    "areaKm2": 916445,
    "tier": 2,
+   "neighbors": [
+    "BRA",
+    "COL",
+    "GUY"
+   ],
    "map": {
     "point": [
      -64.599,
@@ -7255,6 +8195,11 @@
    "population": 96208984,
    "areaKm2": 331212,
    "tier": 1,
+   "neighbors": [
+    "CHN",
+    "KHM",
+    "LAO"
+   ],
    "map": {
     "point": [
      105.387,
@@ -7292,6 +8237,7 @@
    "population": 300019,
    "areaKm2": 12189,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      166.909,
@@ -7327,6 +8273,7 @@
    "population": 200010,
    "areaKm2": 2842,
    "tier": 4,
+   "neighbors": [],
    "map": {
     "point": [
      -172.438,
@@ -7368,6 +8315,10 @@
    "population": 28250420,
    "areaKm2": 527968,
    "tier": 2,
+   "neighbors": [
+    "OMN",
+    "SAU"
+   ],
    "map": {
     "point": [
      45.874,
@@ -7410,6 +8361,14 @@
    "population": 62027503,
    "areaKm2": 1221037,
    "tier": 1,
+   "neighbors": [
+    "BWA",
+    "LSO",
+    "MOZ",
+    "NAM",
+    "SWZ",
+    "ZWE"
+   ],
    "map": {
     "point": [
      23.666,
@@ -7447,6 +8406,16 @@
    "population": 19610769,
    "areaKm2": 752612,
    "tier": 2,
+   "neighbors": [
+    "AGO",
+    "BWA",
+    "COD",
+    "MOZ",
+    "MWI",
+    "NAM",
+    "TZA",
+    "ZWE"
+   ],
    "map": {
     "point": [
      26.395,
@@ -7484,6 +8453,12 @@
    "population": 15178979,
    "areaKm2": 390757,
    "tier": 2,
+   "neighbors": [
+    "BWA",
+    "MOZ",
+    "ZAF",
+    "ZMB"
+   ],
    "map": {
     "point": [
      29.925,

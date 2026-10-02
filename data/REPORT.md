@@ -16,6 +16,7 @@ Généré par `npm run data:validate` — données du 2026-10-02.
 | Pays avec une forme sur la carte | 195 / 195 ✅ |
 | Noms ambigus entre deux pays | 0 ✅ |
 | Nom d'un pays accepté pour un autre | 0 ✅ |
+| Frontières terrestres (symétriques) | 312 paires ✅ |
 | Tests de saisie tolérante | 26 / 26 ✅ |
 
 
@@ -106,12 +107,30 @@ Burundi / Brunei (2) · Canada / Panama (2) · Chili / Chine (2) · Estonie / Le
 - Capitale NRU : Wikidata « Yaren District » ≠ mledoze « Yaren » → retenue : Yaren
 - Capitale SMR : Wikidata « San Marino » ≠ mledoze « City of San Marino » → retenue : Saint-Marin
 
+## Frontières terrestres (jeu « Chemin »)
+
+- 312 frontières, toutes symétriques.
+- Blocs de pays reliés par la terre : 130 pays (dont Afghanistan, Chine, Iran…) ; 22 pays (dont Argentine, Bolivie, Brésil…) ; 2 pays (République dominicaine, Haïti) ; 2 pays (Royaume-Uni, Irlande).
+- 39 pays sans frontière terrestre (îles), jamais choisis comme départ ou arrivée : Antigua-et-Barbuda, Australie, Bahreïn, Bahamas, Barbade, Comores, Cap-Vert, Cuba, Chypre, Dominique, Fidji, Micronésie, Grenade, Islande, Jamaïque, Japon, Kiribati, Saint-Christophe-et-Niévès, Sainte-Lucie, Sri Lanka, Madagascar, Maldives, Îles Marshall, Malte, Maurice, Nauru, Nouvelle-Zélande, Philippines, Palaos, Singapour, Îles Salomon, Sao Tomé-et-Principe, Seychelles, Tonga, Trinité-et-Tobago, Tuvalu, Saint-Vincent-et-les-Grenadines, Vanuatu, Samoa.
+
+Corrections et cas particuliers :
+- BWA–ZMB : selon mledoze seulement (trop petite pour la carte simplifiée)
+- ESP–MAR : selon mledoze seulement (trop petite pour la carte simplifiée)
+- ISR–SYR : selon mledoze seulement (trop petite pour la carte simplifiée)
+- IND–LKA : selon mledoze seulement (trop petite pour la carte simplifiée)
+- FRA–SUR : présente sur la carte seulement
+- BRA–FRA : présente sur la carte seulement
+- MAR–MRT : présente sur la carte seulement
+- BRA–FRA : retirée (Frontière de la Guyane (outre-mer) : on garde le jeu centré sur les territoires principaux.)
+- FRA–SUR : retirée (Idem (Guyane).)
+- IND–LKA : retirée (Pas de frontière terrestre (détroit de Palk).)
+
 ## Carte
 
-- Source : Natural Earth 1:10m, version « point de vue France » (domaine public).
+- Source : Natural Earth 1:10m, version « point de vue France » (domaine public), projection de Miller.
 - 244 formes, dont 195 pays jouables et 49 territoires affichés en gris (non cliquables) : ESB, MAF, SXM, KOS, BRI, GIB, WSB, BRT, GRL, NCL, CUW, ABW, TCA, TWN, SPM, PCN, PYF, ATF, UMI, MSR, VIR, BLM, PRI, AIA, VGB, CYM, BMU, HMD, SHN, JEY, GGY, IMN, FRO, IOA, IOT, NFK, COK, WLF, SGS, FLK, NIU, ASM, GUM, MNP, CSI, PGA, CLP, ATC, SCR.
 - 64 îlots minuscules retirés pour alléger la carte (jamais la dernière forme d'un pays).
-- 42 pays trop petits pour être cliqués à l'échelle du monde, affichés avec un marqueur : Andorre, Antigua-et-Barbuda, Bahreïn, Bahamas, Barbade, Brunei, Comores, Cap-Vert, Chypre, Dominique, Micronésie, Gambie, Grenade, Jamaïque, Kiribati, Saint-Christophe-et-Niévès, Liban, Sainte-Lucie, Liechtenstein, Luxembourg, Monaco, Maldives, Îles Marshall, Malte, Monténégro, Maurice, Nauru, Palaos, Palestine, Qatar, Singapour, Îles Salomon, Saint-Marin, Sao Tomé-et-Principe, Seychelles, Tonga, Trinité-et-Tobago, Tuvalu, Vatican, Saint-Vincent-et-les-Grenadines, Vanuatu, Samoa.
+- 43 pays trop petits pour être cliqués à l'échelle du monde, affichés avec un marqueur : Andorre, Antigua-et-Barbuda, Bahreïn, Bahamas, Barbade, Brunei, Comores, Cap-Vert, Chypre, Dominique, Fidji, Micronésie, Gambie, Grenade, Jamaïque, Kiribati, Saint-Christophe-et-Niévès, Liban, Sainte-Lucie, Liechtenstein, Luxembourg, Monaco, Maldives, Îles Marshall, Malte, Maurice, Nauru, Palaos, Palestine, Qatar, Singapour, Îles Salomon, Saint-Marin, Sao Tomé-et-Principe, Seychelles, Timor oriental, Tonga, Trinité-et-Tobago, Tuvalu, Vatican, Saint-Vincent-et-les-Grenadines, Vanuatu, Samoa.
 
 <details><summary>Formulations générées pour les 195 pays (relecture grammaticale)</summary>
 

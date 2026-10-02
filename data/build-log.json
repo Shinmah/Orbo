@@ -9,6 +9,18 @@
   "Capitale SMR : Wikidata « San Marino » ≠ mledoze « City of San Marino » → retenue : Saint-Marin"
  ],
  "droppedAliases": [],
+ "borders": [
+  "BWA–ZMB : selon mledoze seulement (trop petite pour la carte simplifiée)",
+  "ESP–MAR : selon mledoze seulement (trop petite pour la carte simplifiée)",
+  "ISR–SYR : selon mledoze seulement (trop petite pour la carte simplifiée)",
+  "IND–LKA : selon mledoze seulement (trop petite pour la carte simplifiée)",
+  "FRA–SUR : présente sur la carte seulement",
+  "BRA–FRA : présente sur la carte seulement",
+  "MAR–MRT : présente sur la carte seulement",
+  "BRA–FRA : retirée (Frontière de la Guyane (outre-mer) : on garde le jeu centré sur les territoires principaux.)",
+  "FRA–SUR : retirée (Idem (Guyane).)",
+  "IND–LKA : retirée (Pas de frontière terrestre (détroit de Palk).)"
+ ],
  "droppedIslets": 64,
  "otherMapFeatures": [
   "ABW",

@@ -3,13 +3,15 @@
   import Segmented from '../lib/ui/Segmented.svelte';
   import Card from '../lib/ui/Card.svelte';
   import Button from '../lib/ui/Button.svelte';
-  import { settings, type Motion, type Theme } from '../lib/settings.svelte';
+  import { settings, type Motion, type SoundLevel, type Theme } from '../lib/settings.svelte';
+  import { sound } from '../lib/sound';
   import { router } from '../lib/router.svelte';
   import { progress } from '../lib/progress.svelte';
 
   let theme = $state<Theme>(settings.value.theme);
   let motion = $state<Motion>(settings.value.motion);
   let goal = $state(settings.value.dailyGoal);
+  let soundLevel = $state<SoundLevel>(settings.value.sound);
   let confirmReset = $state(false);
   let resetDone = $state(false);
 
@@ -40,6 +42,22 @@
             { value: 'auto', label: 'Auto' },
             { value: 'light', label: 'Clair' },
             { value: 'dark', label: 'Sombre' },
+          ]}
+        />
+      </div>
+      <div class="row">
+        <span class="label">Sons</span>
+        <Segmented
+          label="Sons"
+          bind:value={soundLevel}
+          onchange={(v) => {
+            settings.update({ sound: v });
+            sound.correct();
+          }}
+          options={[
+            { value: 'off', label: 'Coupés' },
+            { value: 'soft', label: 'Doux' },
+            { value: 'normal', label: 'Normaux' },
           ]}
         />
       </div>

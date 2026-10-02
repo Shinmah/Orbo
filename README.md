@@ -9,15 +9,20 @@ Des sessions courtes, une progression visible, et les pays que tu rates qui revi
 </p>
 <p>
   <img src="docs/captures/carte.png" width="490" alt="Mode carte">
+  <img src="docs/captures/chemin.png" width="490" alt="Jeu Chemin : de la France à la Turquie">
+</p>
+<p>
   <img src="docs/captures/statistiques.png" width="490" alt="Statistiques en mode sombre">
 </p>
 
 - **195 pays** : les 193 États membres de l'ONU + le Vatican et la Palestine (observateurs), tout en français.
 - **6 façons de jouer** : pays → capitale, capitale → pays, drapeau → pays, pays → drapeau, situer un pays sur la carte, nommer le pays affiché.
+- **Chemin** : relie deux pays (par exemple la France et la Turquie) en tapant le nom des pays à traverser, de frontière en frontière. Variante : un pays interdit à contourner.
 - **QCM puis saisie libre**, automatiquement pays par pays : après 2 bonnes réponses d'affilée, on te demande de taper la réponse.
 - **Saisie tolérante** : accents, majuscules, tirets et petites fautes acceptés ; noms alternatifs reconnus (Birmanie / Myanmar, RDC, Kyiv…) ; mais « Niger » n'est pas accepté pour « Nigeria ».
 - **Révision** : répétition espacée (1, 2, 4, 9, 21 jours), les erreurs d'abord.
 - **Statistiques** : réussite, séries, carte de maîtrise, pays les plus ratés.
+- **Sons discrets** (désactivables) : synthétisés à la volée, très courts et doux.
 - **Hors ligne**, sans compte, sans serveur : tout est enregistré sur l'appareil. Mode clair / sombre, mobile et bureau.
 
 ---
@@ -61,7 +66,7 @@ npm run preview       # sert dist/ en local
 
 | Commande | Rôle |
 |---|---|
-| `npm test` | Tests unitaires (saisie tolérante, modes de jeu, sélection, répétition espacée) |
+| `npm test` | Tests unitaires (saisie tolérante, modes de jeu, sélection, répétition espacée, jeu Chemin) |
 | `npm run test:e2e` | Tests de bout en bout dans un vrai navigateur, mobile et bureau (`npx playwright install chromium` la première fois) |
 | `npm run check` | Vérification des types (TypeScript + Svelte) |
 | `npm run data:fetch` | Retélécharge les sources (Wikidata, mledoze/countries, Natural Earth) |
@@ -102,6 +107,21 @@ Dans **Réglages** (roue dentée), le thème et la réduction des animations son
 4. Ouvre **Statistiques** (icône graphique) : carte de maîtrise, pays les plus ratés, bouton « S'entraîner sur ces pays ».
 5. Réponds juste deux fois de suite au même pays en mode Auto : la fois suivante, il est demandé en saisie libre.
 
+### Jeu « Chemin »
+
+1. Accueil → **Chemin**. Choisis **Départ : France**, **Arrivée : Turquie** (ou laisse « Au hasard »).
+2. Tape les pays à traverser : `allemagne`, `autriche`… Chaque pays se colore sur la carte :
+   vert = sur un chemin le plus court, violet = petit détour, rose = hors route.
+3. La partie est gagnée dès que tes pays relient le départ à l'arrivée par la terre. Le bilan montre ton chemin, et le plus court si tu as fait un détour.
+4. **Indice** entoure en pointillés un pays utile (un second clic donne sa première lettre). **Pays interdit : Toujours** ajoute un pays hachuré à contourner.
+
+Les frontières utilisées (312) sont listées et contrôlées dans `data/REPORT.md`.
+
+### Sons et carte
+
+- **Réglages → Sons** : Coupés, Doux (par défaut) ou Normaux. Chaque bouton fait un petit « tic » ; bonne réponse, erreur, série de 5 et fin de partie ont leur son.
+- La carte utilise la projection de Miller (formes proches des cartes habituelles) et remplit tout l'écran dans les questions sur carte.
+
 ### Étape 5 — Appli de bureau et hors ligne
 
 - `npm run electron:dev` lance l'appli de bureau ; ta progression est conservée entre deux lancements.
@@ -129,11 +149,13 @@ src/
     distractors.ts     mauvaises réponses plausibles
     selection.ts       choix des questions d'une partie
     srs.ts             répétition espacée (Leitner)
+    path.ts            jeu « Chemin » (graphe des frontières, génération, indices)
     random.ts          hasard reproductible (graine)
-  lib/map/             carte SVG (d3-geo, d3-zoom)
+  lib/map/             carte SVG (d3-geo, d3-zoom, projection de Miller)
+  lib/sound.ts         sons synthétisés (Web Audio)
   lib/ui/              composants du design system
   lib/progress.svelte.ts   progression sauvegardée (localStorage, format versionné)
-  screens/             écrans : accueil, préparation, jeu, révision, stats, réglages, design
+  screens/             écrans : accueil, préparation, jeu, chemin, révision, stats, réglages, design
 electron/main.cjs      appli de bureau
 tests/e2e/             tests Playwright
 ```
@@ -185,8 +207,8 @@ Le tirage des questions passe déjà par un générateur aléatoire à graine (`
 |---|---|---|
 | [Wikidata](https://www.wikidata.org) | capitales (FR/EN), appartenance à l'ONU, notoriété, population | CC0 |
 | [CLDR (Unicode)](https://cldr.unicode.org) via `Intl.DisplayNames` | noms des pays en français | Unicode License |
-| [mledoze/countries](https://github.com/mledoze/countries) | recoupement (capitales, ONU), régions, noms officiels | ODbL |
-| [Natural Earth](https://www.naturalearthdata.com) 1:10m, point de vue France | frontières | domaine public |
+| [mledoze/countries](https://github.com/mledoze/countries) | recoupement (capitales, ONU, frontières), régions, noms officiels | ODbL |
+| [Natural Earth](https://www.naturalearthdata.com) 1:10m, point de vue France | carte et frontières terrestres | domaine public |
 | [flag-icons](https://github.com/lipis/flag-icons) | drapeaux SVG | MIT |
 | [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) via Fontsource | typographie | OFL |
 | [Lucide](https://lucide.dev) | icônes | ISC |

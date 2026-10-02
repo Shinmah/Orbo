@@ -1,22 +1,23 @@
 /**
- * Géométrie de la carte, calculée une seule fois : projection Equal Earth (surfaces
- * respectées), tracés SVG des pays, emprises de zoom.
+ * Géométrie de la carte, calculée une seule fois : projection de Miller,
+ * tracés SVG des pays, emprises de zoom.
  */
-import { geoEqualEarth, geoPath } from 'd3-geo';
+import { geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import type { Topology } from 'topojson-specification';
 import type { Feature, FeatureCollection } from 'geojson';
 import topo from '../data/world.topo.json';
 import { BY_ID } from '../data';
 import type { Country, LonLat } from '../data/types';
+import { MAP_WIDTH, NORTH, SOUTH, createProjection } from './projection';
 
-export const WIDTH = 1000;
-const projection = geoEqualEarth().fitWidth(WIDTH, { type: 'Sphere' });
+export const WIDTH = MAP_WIDTH;
+const projection = createProjection();
 const path = geoPath(projection);
 
-/** On coupe sous 58° S (pas d'Antarctique) et au-dessus de 84° N. */
-export const TOP = Math.floor(projection([0, 84])![1]);
-export const BOTTOM = Math.ceil(projection([0, -58])![1]);
+/** On coupe au cap Horn (pas d'Antarctique) et au nord du Groenland. */
+export const TOP = Math.floor(projection([0, NORTH])![1]);
+export const BOTTOM = Math.ceil(projection([0, SOUTH])![1]);
 export const HEIGHT = BOTTOM - TOP;
 
 export type Box = [[number, number], [number, number]];

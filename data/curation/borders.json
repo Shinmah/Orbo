@@ -1,0 +1,9 @@
+{
+  "_doc": "Frontières terrestres du jeu « Chemin ». Base : union de mledoze/countries et des frontières partagées sur la carte (Natural Earth, point de vue France). Corrections ci-dessous.",
+  "remove": [
+    ["FRA", "BRA", "Frontière de la Guyane (outre-mer) : on garde le jeu centré sur les territoires principaux."],
+    ["FRA", "SUR", "Idem (Guyane)."],
+    ["LKA", "IND", "Pas de frontière terrestre (détroit de Palk)."]
+  ],
+  "add": []
+}

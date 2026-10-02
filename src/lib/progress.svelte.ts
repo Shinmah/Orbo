@@ -24,6 +24,8 @@ export interface ProgressData {
   cards: Record<string, Card>;
   days: Record<string, DayStats>;
   totals: { answered: number; correct: number; bestStreak: number; sessions: number; points: number };
+  /** Jeu « Chemin ». */
+  paths: { played: number; won: number; perfect: number; bestScore: number };
 }
 
 const empty = (): ProgressData => ({
@@ -31,13 +33,14 @@ const empty = (): ProgressData => ({
   cards: {},
   days: {},
   totals: { answered: 0, correct: 0, bestStreak: 0, sessions: 0, points: 0 },
+  paths: { played: 0, won: 0, perfect: 0, bestScore: 0 },
 });
 
 function load(): ProgressData {
   const raw = loadJson<ProgressData | null>(KEY, null);
   if (!raw || typeof raw !== 'object' || raw.version !== VERSION) return empty();
   // Migration future : if (raw.version === 1) { … }
-  return { ...empty(), ...raw, totals: { ...empty().totals, ...raw.totals } };
+  return { ...empty(), ...raw, totals: { ...empty().totals, ...raw.totals }, paths: { ...empty().paths, ...raw.paths } };
 }
 
 /** Date locale au format AAAA-MM-JJ. */
@@ -74,6 +77,27 @@ class ProgressStore {
     this.data.days[day] = { answered: d.answered + 1, correct: d.correct + (o.correct ? 1 : 0) };
     this.data.totals.answered++;
     if (o.correct) this.data.totals.correct++;
+    this.save();
+  }
+
+  /** Un pays proposé dans le jeu « Chemin » compte comme une réponse (juste s'il est sur un plus court chemin). */
+  recordPathGuess(optimal: boolean, now = Date.now()) {
+    const day = dayKey(new Date(now));
+    const d = this.data.days[day] ?? { answered: 0, correct: 0 };
+    this.data.days[day] = { answered: d.answered + 1, correct: d.correct + (optimal ? 1 : 0) };
+    this.data.totals.answered++;
+    if (optimal) this.data.totals.correct++;
+    this.save();
+  }
+
+  endPath(won: boolean, perfect: boolean, points: number) {
+    const p = this.data.paths;
+    p.played++;
+    if (won) p.won++;
+    if (perfect) p.perfect++;
+    p.bestScore = Math.max(p.bestScore, points);
+    this.data.totals.sessions++;
+    this.data.totals.points += points;
     this.save();
   }
 

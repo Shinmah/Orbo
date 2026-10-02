@@ -31,6 +31,8 @@ export interface Country {
   flagGroup?: number;
   population: number;
   areaKm2: number;
+  /** Pays voisins par une frontière terrestre (jeu « Chemin »). */
+  neighbors: string[];
   map: {
     /** Point d'ancrage (étiquette / marqueur des petits pays). */
     point: LonLat;

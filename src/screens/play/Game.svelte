@@ -24,6 +24,7 @@
   import { progress } from '../../lib/progress.svelte';
   import { settings } from '../../lib/settings.svelte';
   import { router } from '../../lib/router.svelte';
+  import { sound } from '../../lib/sound';
 
   interface Props {
     config: SessionConfig;
@@ -67,6 +68,13 @@
     if (pts) gain = { n: pts, key: gain.key + 1 };
     progress.record(q, o);
     results.push({ q, o });
+    if (o.correct) {
+      if (o.typo) sound.typo();
+      else sound.correct();
+      if (streak > 0 && streak % 5 === 0) setTimeout(() => sound.streak(), 260);
+    } else {
+      sound.wrong();
+    }
     phase = 'feedback';
     if (o.correct && !o.typo && q.answer.kind !== 'map') timer = setTimeout(next, 1100);
   }
@@ -77,6 +85,7 @@
     if (index + 1 >= total) {
       progress.endSession(bestStreak, score);
       phase = 'done';
+      setTimeout(() => sound.complete(), 200);
       return;
     }
     index++;
@@ -185,10 +194,10 @@
     {#key index}
       <section class="question" in:fly={{ x: 28, duration: dur * 1.2, easing: cubicOut }}>
         {#if q.prompt.kind === 'map'}
-          <div class="map-prompt">
-            <PromptView prompt={q.prompt} />
-          </div>
           <div class="map-box">
+            <div class="map-prompt">
+              <PromptView prompt={q.prompt} />
+            </div>
             <WorldMap
               interactive={phase === 'answer' && q.answer.kind === 'map'}
               onpick={(id) => answer({ kind: 'map', countryId: id })}
@@ -205,7 +214,7 @@
 
         <div class="answers">
           {#if q.answer.kind === 'choice'}
-            <div class="choices {q.answer.display}" class:six={q.answer.choices.length > 4}>
+            <div class="choices {q.answer.display}" class:six={q.answer.choices.length > 4} data-sound="off">
               {#each q.answer.choices as c, i (c.id)}
                 <ChoiceButton
                   status={choiceState(c.id)}
@@ -223,6 +232,7 @@
               {/each}
             </div>
           {:else if q.answer.kind === 'input'}
+            <div data-sound="off">
             <TextAnswer
               bind:value={typed}
               status={inputState}
@@ -230,6 +240,7 @@
               disabled={phase !== 'answer'}
               onsubmit={(text) => answer({ kind: 'input', text })}
             />
+            </div>
           {:else if phase === 'answer'}
             <p class="hint muted">Touche le pays sur la carte. Molette, pincement ou double-clic pour zoomer.</p>
           {/if}
@@ -258,10 +269,22 @@
     margin: 0 auto;
   }
   .game {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
     min-height: calc(100dvh - 48px);
+  }
+  /* Questions sur carte : la carte prend toute la hauteur disponible. */
+  .game.map {
+    height: calc(100dvh - 48px);
+    min-height: 520px;
+    gap: 0.75rem;
+  }
+  .map .question {
+    flex: 1;
+    min-height: 0;
+    gap: 0.75rem;
   }
   .hud {
     display: grid;
@@ -324,14 +347,27 @@
     min-height: 26vh;
     padding: 1rem 0;
   }
-  .map-prompt {
-    margin-top: -0.25rem;
-  }
   .map-box {
-    height: min(56vh, 560px);
+    position: relative;
+    flex: 1;
+    min-height: 0;
   }
-  .map-box :global(.map) {
-    height: 100%;
+  .map-prompt {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    z-index: 3;
+    translate: -50% 0;
+    max-width: calc(100% - 24px);
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--surface) 90%, transparent);
+    box-shadow: var(--shadow-1);
+    backdrop-filter: blur(8px);
+    pointer-events: none;
+  }
+  .map-prompt :global(h2) {
+    font-size: clamp(1rem, 3.6vw, 1.25rem);
   }
   .answers {
     display: grid;
@@ -354,6 +390,9 @@
     .choices.text {
       grid-template-columns: 1fr 1fr;
     }
+    .map .choices.text {
+      grid-template-columns: repeat(4, 1fr);
+    }
     .choices.flag.six {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -365,6 +404,13 @@
   .skip {
     display: flex;
     justify-content: center;
+  }
+  .map .feedback-slot {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    translate: -50% 0;
+    width: min(var(--content), calc(100% - 24px));
   }
   .feedback-slot {
     position: sticky;
