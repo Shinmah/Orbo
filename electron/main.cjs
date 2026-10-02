@@ -5,9 +5,11 @@
  * plutôt que file:// : l'origine reste identique d'un lancement à l'autre, donc la
  * progression (localStorage) est conservée, et aucune page distante n'est chargée.
  */
-const { app, BrowserWindow, Menu, nativeTheme, net, protocol, shell } = require('electron');
+const { app, BrowserWindow, Menu, ipcMain, nativeTheme, net, protocol, shell } = require('electron');
+const fs = require('node:fs');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
+const { LATEST_API, RELEASES_PAGE, interpretRelease, latestDownloadUrl } = require('./updates.cjs');
 
 const SCHEME = 'app';
 const HOST = 'orbo';
@@ -53,6 +55,7 @@ function createWindow() {
     autoHideMenuBar: true,
     show: false,
     webPreferences: {
+      preload: path.join(__dirname, 'preload.cjs'),
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: true,
@@ -78,8 +81,77 @@ function createWindow() {
   return win;
 }
 
+// ---------------------------------------------------------------------------
+// Mises à jour : vérifie la dernière version publiée sur GitHub.
+// - dépôt public : téléchargement dans l'appli, puis lancement de l'installateur ;
+// - dépôt privé (invisible sans compte) : ouverture du lien de téléchargement dans le navigateur.
+// ---------------------------------------------------------------------------
+
+/** La version portable (un seul .exe) ne peut pas se remplacer elle-même. */
+const portable = Boolean(process.env.PORTABLE_EXECUTABLE_FILE);
+/** Dernière version disponible trouvée : l'installation n'utilise que cette adresse, jamais une adresse venant de la page. */
+let available = null;
+
+function registerUpdateHandlers() {
+  ipcMain.handle('orbo:info', () => ({
+    version: app.getVersion(),
+    packaged: app.isPackaged,
+    portable,
+    platform: process.platform,
+  }));
+
+  ipcMain.handle('orbo:check-update', async () => {
+    available = null;
+    try {
+      const res = await net.fetch(LATEST_API, {
+        headers: { Accept: 'application/vnd.github+json', 'User-Agent': `Orbo/${app.getVersion()}` },
+      });
+      const body = res.status === 200 ? await res.json() : null;
+      const result = interpretRelease(res.status, body, { current: app.getVersion(), portable, platform: process.platform });
+      if (result.status === 'available') available = result;
+      return result;
+    } catch {
+      return { status: 'offline' };
+    }
+  });
+
+  ipcMain.handle('orbo:install-update', async (event) => {
+    if (!available || !available.canInstall) return { ok: false };
+    const target = path.join(app.getPath('temp'), `Orbo-Setup-${available.version}.exe`);
+    try {
+      const res = await net.fetch(available.url);
+      if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+      const total = Number(res.headers.get('content-length')) || 0;
+      const file = fs.createWriteStream(target);
+      const reader = res.body.getReader();
+      let received = 0;
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        received += value.length;
+        if (!file.write(Buffer.from(value))) await new Promise((r) => file.once('drain', r));
+        if (total) event.sender.send('orbo:update-progress', received / total);
+      }
+      await new Promise((resolve, reject) => file.end((err) => (err ? reject(err) : resolve())));
+      // Lance l'installateur puis ferme Orbo pour qu'il puisse remplacer les fichiers.
+      const error = await shell.openPath(target);
+      if (error) throw new Error(error);
+      setTimeout(() => app.quit(), 800);
+      return { ok: true };
+    } catch (e) {
+      return { ok: false, message: String(e && e.message ? e.message : e) };
+    }
+  });
+
+  ipcMain.handle('orbo:open-download', () => {
+    const url = available ? available.url : app.isPackaged ? latestDownloadUrl(portable) : RELEASES_PAGE;
+    return shell.openExternal(url);
+  });
+}
+
 app.whenReady().then(() => {
   Menu.setApplicationMenu(null);
+  registerUpdateHandlers();
   serveDist();
   createWindow();
   app.on('activate', () => {

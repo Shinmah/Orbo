@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitest/config';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { readFileSync } from 'node:fs';
 import type { Plugin } from 'vite';
 import { serviceWorker } from './scripts/vite/service-worker.ts';
 
@@ -14,8 +15,11 @@ const csp = (): Plugin => ({
     ),
 });
 
+const { version } = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
+
 export default defineConfig({
   plugins: [svelte(), csp(), serviceWorker()],
+  define: { __APP_VERSION__: JSON.stringify(version) },
   // Chemins relatifs : le même build fonctionne en ligne et dans l'appli de bureau (Electron).
   base: './',
   build: { target: 'es2022', chunkSizeWarningLimit: 1200 },

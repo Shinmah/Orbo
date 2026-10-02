@@ -143,3 +143,57 @@ test('chemin : le pays interdit est refusé', async ({ page }) => {
   await input.press('Enter');
   await expect(page.locator('.msg')).toContainText('Interdit');
 });
+
+/** Simule l'appli de bureau (window.orbo) pour tester l'interface des mises à jour. */
+async function fakeDesktop(page: Page, check: Record<string, unknown>) {
+  await page.addInitScript((result) => {
+    let progress: ((r: number) => void) | null = null;
+    (window as any).__opened = 0;
+    (window as any).orbo = {
+      info: async () => ({ version: '1.0.4', packaged: true, portable: false, platform: 'win32' }),
+      checkUpdate: async () => result,
+      installUpdate: async () => {
+        for (const r of [0.25, 0.6, 1]) {
+          await new Promise((res) => setTimeout(res, 120));
+          progress?.(r);
+        }
+        return { ok: true };
+      },
+      openDownload: async () => void ((window as any).__opened += 1),
+      onProgress: (cb: (r: number) => void) => ((progress = cb), () => {}),
+    };
+  }, check);
+}
+
+test('mise à jour : bandeau sur l’accueil puis installation', async ({ page }) => {
+  await fakeDesktop(page, { status: 'available', version: '1.0.7', notes: 'Jeu Chemin', canInstall: true });
+  await page.goto('./');
+  await expect(page.getByText('Orbo 1.0.7 est disponible')).toBeVisible({ timeout: 6000 });
+  await page.getByRole('button', { name: 'Mettre à jour', exact: true }).click();
+  await expect(page.getByText("L'installateur s'ouvre, Orbo va se fermer.")).toBeVisible();
+});
+
+test('mise à jour : dépôt privé, téléchargement dans le navigateur', async ({ page }) => {
+  await fakeDesktop(page, { status: 'private' });
+  await page.goto('./#/reglages');
+  await expect(page.getByText('1.0.4').first()).toBeVisible();
+  await page.getByRole('button', { name: 'Rechercher une mise à jour' }).click();
+  await expect(page.getByText(/dépôt GitHub d'Orbo est privé/)).toBeVisible();
+  await page.getByRole('button', { name: 'Télécharger la dernière version' }).click();
+  expect(await page.evaluate(() => (window as any).__opened)).toBe(1);
+});
+
+test('mise à jour : section absente de la version web', async ({ page }) => {
+  await page.goto('./#/reglages');
+  await expect(page.getByRole('heading', { name: 'Thème' }).or(page.getByText('Apparence'))).toBeVisible();
+  await expect(page.getByText('Mises à jour')).toHaveCount(0);
+});
+
+test('mise à jour : le bouton de l’accueil télécharge la dernière version (dépôt privé)', async ({ page }) => {
+  await fakeDesktop(page, { status: 'private' });
+  await page.goto('./');
+  const button = page.getByRole('button', { name: 'Télécharger la dernière version d’Orbo' });
+  await expect(button).toBeVisible({ timeout: 6000 });
+  await button.click();
+  expect(await page.evaluate(() => (window as any).__opened)).toBe(1);
+});

@@ -13,6 +13,9 @@
   import PathSetup from './screens/path/PathSetup.svelte';
   import Path from './screens/Path.svelte';
   import { sound } from './lib/sound';
+  import { updates } from './lib/updates.svelte';
+
+  void updates.init();
   import { skillFromSlug } from './lib/game/skills';
 
   const route = $derived(router.current);

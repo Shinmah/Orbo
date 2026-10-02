@@ -7,6 +7,8 @@
   import { sound } from '../lib/sound';
   import { router } from '../lib/router.svelte';
   import { progress } from '../lib/progress.svelte';
+  import { updates } from '../lib/updates.svelte';
+  import UpdatePanel from '../lib/ui/UpdatePanel.svelte';
 
   let theme = $state<Theme>(settings.value.theme);
   let motion = $state<Motion>(settings.value.motion);
@@ -109,6 +111,15 @@
     </Card>
   </section>
 
+  {#if updates.supported}
+    <section>
+      <h2>Mises à jour</h2>
+      <Card>
+        <UpdatePanel />
+      </Card>
+    </section>
+  {/if}
+
   <section>
     <h2>À propos</h2>
     <Card>
@@ -116,7 +127,10 @@
         Orbo couvre les 193 États membres de l'ONU et les 2 États observateurs (Vatican, Palestine). Données :
         Wikidata (CC0), mledoze/countries (ODbL), Natural Earth (domaine public), drapeaux flag-icons (MIT).
       </p>
-      <Button variant="ghost" size="sm" onclick={() => router.go('/design')}>Voir le design system</Button>
+      <div class="about-actions">
+        <Button variant="ghost" size="sm" onclick={() => router.go('/design')}>Voir le design system</Button>
+        {#if updates.current}<span class="muted small num">Version {updates.current}</span>{/if}
+      </div>
     </Card>
   </section>
 </div>
@@ -158,6 +172,12 @@
   }
   .small {
     font-size: var(--fs-sm);
+  }
+  .about-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
   }
   .about {
     margin-bottom: 0.6rem;

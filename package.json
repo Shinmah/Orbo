@@ -91,7 +91,7 @@
         }
       ],
       "icon": "build/icon.ico",
-      "artifactName": "${productName}-${version}-${arch}-${target}.${ext}"
+      "artifactName": "${productName}-${arch}-${target}.${ext}"
     },
     "nsis": {
       "oneClick": false,
@@ -100,14 +100,14 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "Orbo",
-      "artifactName": "${productName}-Setup-${version}.${ext}",
+      "artifactName": "Orbo-Setup.${ext}",
       "installerLanguages": [
         "fr_FR"
       ],
       "language": "1036"
     },
     "portable": {
-      "artifactName": "${productName}-${version}-portable.${ext}"
+      "artifactName": "Orbo-portable.${ext}"
     },
     "linux": {
       "target": [

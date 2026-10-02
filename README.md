@@ -29,18 +29,28 @@ Des sessions courtes, une progression visible, et les pays que tu rates qui revi
 
 ## Installer l'appli Windows (.exe)
 
-Le fichier `.exe` est construit automatiquement par GitHub Actions à chaque push :
+À chaque push sur la branche principale, GitHub Actions teste l'appli, construit le `.exe` et publie une
+**version numérotée** (1.0.N) dans l'onglet **Releases** du dépôt :
 
-1. Sur GitHub, onglet **Actions** → workflow **« Tests et build Windows (.exe) »** → dernière exécution réussie.
-2. En bas de la page, télécharge l'artefact **Orbo-Windows** (un fichier zip).
-3. Dans le zip :
-   - `Orbo-Setup-1.0.0.exe` : installateur (raccourcis Bureau et menu Démarrer) ;
-   - `Orbo-1.0.0-portable.exe` : version portable, rien à installer, il suffit de double-cliquer.
+- `Orbo-Setup.exe` : installateur (raccourcis Bureau et menu Démarrer) ;
+- `Orbo-portable.exe` : version portable, rien à installer.
+
+Lien direct vers le dernier installateur : `https://github.com/Shinmah/Orbo/releases/latest/download/Orbo-Setup.exe`.
 
 Windows peut afficher « Windows a protégé votre ordinateur » parce que l'exécutable n'est pas signé :
 clique sur **Informations complémentaires → Exécuter quand même**.
 
-Pour publier une version dans l'onglet **Releases**, crée un tag : `git tag v1.0.0 && git push origin v1.0.0`.
+### Mettre à jour depuis l'appli
+
+L'appli de bureau a un bouton de mise à jour (icône de téléchargement en haut de l'accueil, et **Réglages → Mises à jour**) :
+
+- **Dépôt privé** (cas actuel) : GitHub ne montre pas les versions aux visiteurs sans compte, donc l'appli ne peut pas
+  savoir seule qu'une version existe. Le bouton ouvre le téléchargement du dernier `Orbo-Setup.exe` dans ton
+  navigateur (où tu es connecté à GitHub). Lance-le : il remplace l'ancienne version, ta progression est conservée.
+- **Dépôt public** : l'appli vérifie au démarrage, affiche un bandeau « Orbo 1.0.N est disponible », télécharge la mise à
+  jour et lance l'installateur en un clic. Rien à changer dans le code : il suffit de rendre le dépôt public.
+
+La version installée est affichée dans **Réglages → À propos**.
 
 ### Construire le .exe sur ton PC Windows
 
@@ -48,7 +58,7 @@ Prérequis : [Node.js 22](https://nodejs.org).
 
 ```bash
 npm install
-npm run dist:win      # → release/Orbo-Setup-1.0.0.exe et release/Orbo-1.0.0-portable.exe
+npm run dist:win      # → release/Orbo-Setup.exe et release/Orbo-portable.exe
 ```
 
 Pour lancer l'appli de bureau sans l'empaqueter : `npm run electron:dev`.
@@ -125,6 +135,7 @@ Les frontières utilisées (312) sont listées et contrôlées dans `data/REPORT
 ### Étape 5 — Appli de bureau et hors ligne
 
 - `npm run electron:dev` lance l'appli de bureau ; ta progression est conservée entre deux lancements.
+- **Réglages → Mises à jour → Rechercher une mise à jour** : avec le dépôt privé, le bouton « Télécharger la dernière version » ouvre le `.exe` dans le navigateur.
 - Hors ligne (version web) : `npm run build && npm run preview`, ouvre la page une fois, coupe le réseau, recharge : l'appli fonctionne toujours.
 - `npm run test:e2e` rejoue automatiquement les scénarios principaux.
 
@@ -156,7 +167,8 @@ src/
   lib/ui/              composants du design system
   lib/progress.svelte.ts   progression sauvegardée (localStorage, format versionné)
   screens/             écrans : accueil, préparation, jeu, chemin, révision, stats, réglages, design
-electron/main.cjs      appli de bureau
+electron/              appli de bureau : main.cjs (fenêtre, protocole app://), preload.cjs (pont sécurisé),
+                       updates.cjs (vérification des versions sur GitHub)
 tests/e2e/             tests Playwright
 ```
 

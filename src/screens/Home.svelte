@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BarChart3, Flag, Flame, Landmark, MapPinned, RotateCcw, Route, Settings as SettingsIcon } from '@lucide/svelte';
+  import { BarChart3, Download, Flag, Flame, Landmark, MapPinned, RotateCcw, Route, Settings as SettingsIcon } from '@lucide/svelte';
   import Logo from '../lib/ui/Logo.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
   import Card from '../lib/ui/Card.svelte';
@@ -10,6 +10,24 @@
   import { COUNTRIES } from '../lib/data';
   import { progress } from '../lib/progress.svelte';
   import { settings } from '../lib/settings.svelte';
+  import UpdateBanner from '../lib/ui/UpdateBanner.svelte';
+  import { updates } from '../lib/updates.svelte';
+
+  /** Bouton « mise à jour » : télécharge directement si l'on sait où, sinon ouvre la section des réglages. */
+  const updateLabel = $derived(
+    updates.status === 'available' && updates.latest
+      ? `Mettre à jour vers Orbo ${updates.latest.version}`
+      : updates.status === 'private'
+        ? 'Télécharger la dernière version d’Orbo'
+        : 'Mises à jour',
+  );
+  function onUpdate() {
+    if (updates.status === 'available' || updates.status === 'private') void updates.install();
+    else {
+      router.go('/reglages');
+      void updates.check();
+    }
+  }
 
   const ICONS = { capital: Landmark, flag: Flag, map: MapPinned };
 
@@ -32,10 +50,17 @@
 <header class="head">
   <Logo />
   <div class="actions">
+    {#if updates.supported}
+      <span class="update-btn" class:pending={updates.status === 'available'}>
+        <IconButton label={updateLabel} onclick={onUpdate}><Download /></IconButton>
+      </span>
+    {/if}
     <IconButton label="Statistiques" onclick={() => router.go('/stats')}><BarChart3 /></IconButton>
     <IconButton label="Réglages" onclick={() => router.go('/reglages')}><SettingsIcon /></IconButton>
   </div>
 </header>
+
+<UpdateBanner />
 
 <section class="hero">
   <div class="hero-text">
@@ -127,6 +152,22 @@
     display: flex;
     gap: 2px;
     margin-right: -6px;
+  }
+  .update-btn {
+    position: relative;
+    display: inline-flex;
+  }
+  .update-btn.pending::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--pink-strong);
+    box-shadow: 0 0 0 2px var(--bg);
+    pointer-events: none;
   }
   .hero {
     display: flex;
