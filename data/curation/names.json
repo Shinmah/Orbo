@@ -1,0 +1,203 @@
+{
+  "_doc": "display : nom affiché (sinon nom CLDR). alt : noms acceptés en plus en saisie libre (les accents, majuscules, tirets et apostrophes sont déjà tolérés automatiquement).",
+  "display": {
+    "COD": "République démocratique du Congo",
+    "COG": "République du Congo",
+    "MMR": "Birmanie",
+    "PSE": "Palestine",
+    "VAT": "Vatican",
+    "VCT": "Saint-Vincent-et-les-Grenadines",
+    "VNM": "Vietnam",
+    "KGZ": "Kirghizistan"
+  },
+  "alt": {
+    "COD": [
+      "RDC",
+      "RD Congo",
+      "Congo-Kinshasa",
+      "Congo Kinshasa",
+      "Zaïre"
+    ],
+    "COG": [
+      "Congo",
+      "Congo-Brazzaville",
+      "Congo Brazzaville",
+      "Congo Brazza"
+    ],
+    "MMR": [
+      "Myanmar"
+    ],
+    "PSE": [
+      "État de Palestine",
+      "Territoires palestiniens"
+    ],
+    "VAT": [
+      "Cité du Vatican",
+      "Saint-Siège"
+    ],
+    "VNM": [
+      "Viêt Nam",
+      "Viet Nam"
+    ],
+    "KGZ": [
+      "Kirghizstan",
+      "Kirghizie"
+    ],
+    "USA": [
+      "USA",
+      "Amérique",
+      "États-Unis d'Amérique"
+    ],
+    "GBR": [
+      "UK",
+      "Grande-Bretagne",
+      "Angleterre"
+    ],
+    "ARE": [
+      "EAU",
+      "Émirats"
+    ],
+    "CZE": [
+      "République tchèque"
+    ],
+    "MKD": [
+      "Macédoine"
+    ],
+    "SWZ": [
+      "Swaziland"
+    ],
+    "TLS": [
+      "Timor-Leste",
+      "Timor-Oriental"
+    ],
+    "CPV": [
+      "Cabo Verde",
+      "Îles du Cap-Vert"
+    ],
+    "TUR": [
+      "Türkiye"
+    ],
+    "NLD": [
+      "Hollande"
+    ],
+    "BLR": [
+      "Bélarus",
+      "Biélorussie"
+    ],
+    "MDA": [
+      "Moldova"
+    ],
+    "KNA": [
+      "Saint-Kitts-et-Nevis",
+      "Saint-Kitts",
+      "Saint-Christophe-et-Nevis"
+    ],
+    "CAF": [
+      "Centrafrique"
+    ],
+    "BIH": [
+      "Bosnie",
+      "Bosnie-et-Herzégovine"
+    ],
+    "PNG": [
+      "Papouasie"
+    ],
+    "FSM": [
+      "États fédérés de Micronésie"
+    ],
+    "MUS": [
+      "Île Maurice"
+    ],
+    "STP": [
+      "São Tomé-et-Príncipe",
+      "Sao Tomé"
+    ],
+    "SUR": [
+      "Surinam"
+    ],
+    "PLW": [
+      "Palau"
+    ],
+    "KOR": [
+      "Corée"
+    ],
+    "BRN": [
+      "Brunéi",
+      "Brunei Darussalam"
+    ],
+    "NGA": [
+      "Nigéria"
+    ],
+    "LBR": [
+      "Libéria"
+    ],
+    "GNB": [
+      "Guinée Bissau"
+    ],
+    "TTO": [
+      "Trinidad-et-Tobago",
+      "Trinidad"
+    ],
+    "DOM": [
+      "Dominicaine"
+    ],
+    "IRN": [
+      "Perse"
+    ],
+    "LKA": [
+      "Ceylan"
+    ],
+    "BEN": [
+      "Dahomey"
+    ],
+    "BFA": [
+      "Burkina",
+      "Haute-Volta"
+    ],
+    "THA": [
+      "Siam"
+    ],
+    "TKM": [
+      "Turkménie"
+    ],
+    "SSD": [
+      "Sud-Soudan"
+    ],
+    "GIN": [
+      "Guinée-Conakry"
+    ],
+    "SLV": [
+      "El Salvador"
+    ],
+    "SLB": [
+      "Salomon"
+    ],
+    "MHL": [
+      "Marshall"
+    ],
+    "FJI": [
+      "Îles Fidji"
+    ],
+    "KAZ": [
+      "Kazakstan"
+    ],
+    "CHE": [
+      "Helvétie"
+    ],
+    "GRC": [
+      "Hellas"
+    ],
+    "FRA": [
+      "Hexagone"
+    ],
+    "LTU": [
+      "Lithuanie"
+    ],
+    "MDV": [
+      "Îles Maldives"
+    ],
+    "PHL": [
+      "Îles Philippines"
+    ]
+  }
+}

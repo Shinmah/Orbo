@@ -1,0 +1,5889 @@
+[
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ZAF"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q258"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Afrique du Sud"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "368"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "62027503"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "république d’Afrique du Sud|République d’Afrique du Sud|république sud-africaine|République sud-africaine"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DZA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q262"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Algérie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "374"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "46164219"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Algerie|République algérienne démocratique et populaire|Alg.|Dzayer|RADP|République algérienne démocratique populaire"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "JPN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q17"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Japon"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "419"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "123802000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "État du Japon|Jap.|le Japon|pays du soleil levant"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BRB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q244"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Barbade"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "276"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "303431"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "bb|brb|la Barbade"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "IDN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q252"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Indonésie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "365"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "275439000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Indonesie|République d'Indonésie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NIU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34020"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Niue"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "178"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1821"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nioué|Savage|Nioue|Niué"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CAN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q16"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Canada"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "398"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "36991981"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "le Canada"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CHL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q298"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Chili"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "380"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "19458000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République du Chili"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SGP"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q334"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Singapour"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "333"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5866139"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Singapour"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "UZB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q265"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Ouzbékistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "309"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "34915100"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "UZ|la République d’Ouzbékistan|Ouzbekistan|Ouzbekisthan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "IRL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q27"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Irlande"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "342"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5149139"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Irl.|l'Irlande|République d'Irlande|République irlandaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NOR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q20"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Norvège"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "393"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5627400"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "le Royaume de Norvège|Norv.|Royaume de Norvège"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LIE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q347"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Liechtenstein"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "316"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "37922"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la Principauté du Liechtenstein|principauté de Liechtenstein"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AUS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q408"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Australie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "399"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "27614411"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Commonwealth d'Australie|l'Australie|Nouvelle-Hollande"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ESP"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q29"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Espagne"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "396"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "48592909"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Royaume d'Espagne|Esp."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ARG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q414"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Argentine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "372"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "47327407"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Arg.|la République argentine|République argentine"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "USA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q30"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "États-Unis"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "427"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "340110988"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "States|Oncle Sam|É-U|É-U.|E.-U.|É.-U.|É.-U. A.|É.U.|Etats-unis|États-unis|États-Unis d’Amérique|ÉU|les États|les États-Unis d’Amérique|Pays de l'Oncle Sam|Etats-Unis|Amérique|États-Unis d'Amérique|pays de l’Oncle Sam"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PRK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q423"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Corée du Nord"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "311"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "26418204"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République populaire démocratique de Corée|kp|Corée Du Nord|la République populaire démocratique de Corée|République populaire de Corée|RPDC"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SRB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q403"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Serbie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "352"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6605168"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Serbie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BHR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q398"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bahreïn"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "306"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1569666"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "le Royaume de Bahreïn|Royaume de Bahreïn"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PER"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q419"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Pérou"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "333"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "34157732"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "pe|Perou|République du Pérou"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TCD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q657"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tchad"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "317"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "19319064"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Tchad|République du Tchad"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NZL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q664"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Nouvelle-Zélande"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "349"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5307800"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nouvelle Zélande"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ARM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q399"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Arménie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "353"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2930450"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Armenie|République d'Arménie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "HUN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q28"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Hongrie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "358"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9603634"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la Hongrie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LUX"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q32"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Luxembourg"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "335"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "690959"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Grand-Duché de Luxembourg|Grand-duché de Luxembourg|grand-duché de Luxembourg|le Grand-Duché de Luxembourg|Lux."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "WSM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q683"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Samoa"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "261"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "200010"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "État indépendant des Samoa|Samoa occidentales|WS"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SLB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q685"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Îles Salomon"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "245"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "611343"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Salomon|SB|îles Salomon|les Îles Salomon"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "VUT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q686"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Vanuatu"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "264"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "300019"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Vanuatu|République de Vanuatu"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KHM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q424"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Cambodge"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "330"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "17423880"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Royaume du Cambodge|le Royaume du Cambodge"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "POL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q36"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Pologne"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "391"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "37563071"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Pologne|Pol.|République de Pologne|République polonaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PNG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q691"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Papouasie-Nouvelle-Guinée"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "285"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "8935000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "PG|État indépendant de Papouasie-Nouvelle-Guinée|l’État indépendant de Papouasie- Nouvelle-Guinée|Papouasie-nouvelle-Guinée"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MNG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q711"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Mongolie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "321"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3409939"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "MGL|Mongalie|Mongolie-extérieure"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "FJI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q712"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Fidji"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "280"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "926276"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Fiji|îles Fidji|îles Fiji|la République des Fidji|République des Fidji|République des îles Fidji"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "IND"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q668"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Inde"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "403"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1326093247"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Hindustan|Bharatvarsh|Indostan|République d'Inde|République de l'Inde"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LTU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q37"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Lituanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "352"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2860002"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Lithuanie|la République de Lituanie|République de Lituanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TLS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q574"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Timor oriental"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "291"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1400638"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République démocratique du Timor oriental|TL|la République démocratique du Timor oriental|République démocratique du Timor-Leste|République démocratique du Timor-Oriental|Timor Oriental|Timor-Oriental"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GUY"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q734"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Guyana"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "286"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "878674"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République coopérative du Guyana"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ECU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q736"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Équateur"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "315"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "16938986"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Equateur|L’Équateur|la République d’Équateur|République d'Équateur|République de l'Équateur"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "VEN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q717"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Venezuela"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "344"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "31250306"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République bolivarienne du Venezuela|République bolivarienne du Vénézuéla|Vénézuela|Vénézuéla"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SUR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q730"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Suriname"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "288"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "563402"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Surinam|République du Surinam|République du Suriname"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BEL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q31"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Belgique"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "383"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "11825551"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Belg.|Royaume de Belgique"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TUR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q43"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Turquie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "425"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "85372377"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Turq|la République de Turquie|République de Turquie|République turque"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PLW"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q695"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Palaos"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "257"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "21729"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Palau|PW|Belau|la République des Palaos"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NRU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q697"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Nauru"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "265"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "13650"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Nauru|Naoero"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AUT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q40"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Autriche"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "372"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "8979894"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République d'Autriche"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "FIN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q33"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Finlande"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "403"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5652881"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Fin.|Finl.|la République de Finlande"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ITA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q38"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Italie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "409"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "58850717"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République italienne|It.|Ita.|Ital.|la République italienne"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "COL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q739"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Colombie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "367"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "52321152"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Col.|la République de Colombie|République de Colombie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PRY"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q733"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Paraguay"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "311"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6811297"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cœur de l’Amérique du Sud|la République du Paraguay|République du Paraguay"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BHS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q778"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bahamas"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "280"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "399440"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Commonwealth des Bahamas|les Bahamas"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PRT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q45"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Portugal"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "371"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10347892"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République portugaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MEX"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q96"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Mexique"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "400"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "132274416"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "États-Unis du Mexique|États-Unis mexicains|Mex."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "FSM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q702"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "États fédérés de Micronésie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "222"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "75817"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Micronésie|FM|EFM|les États fédérés de Micronésie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SWE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Suède"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "370"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10609460"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Royaume de Suède"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GRC"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q41"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Grèce"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "378"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10482487"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "GR|Hellas|🇬🇷|République hellénique"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BOL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q750"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bolivie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "313"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "12244159"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "l’État plurinational de Bolivie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ATG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q781"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Antigua-et-Barbuda"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "266"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "101489"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Antigue-et-Barbude"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "HND"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q783"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Honduras"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "298"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "8303771"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Honduras|République du Honduras"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MHL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q709"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Îles Marshall"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "236"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "53127"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Marshall|la République des Îles Marshall|république des Îles Marshall"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KIR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q710"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Kiribati"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "249"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "134518"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ki|Îles Gilbert|la république des Kiribati|république des Kiribati"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "URY"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q77"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Uruguay"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "324"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3444263"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République orientale de l’Uruguay"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "IRN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q794"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Iran"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "376"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "92417700"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "La République Islamique d’Iran|République islamique d'Iran|République islamique iranienne|Perse"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "IRQ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q796"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Irak"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "350"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "38274618"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Iraq|al-‘Irāq|République d’Irak"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TUV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q672"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tuvalu"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "253"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10643"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "TV|État des Tuvalu|les Tuvalu"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TON"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q678"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tonga"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "260"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "108020"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "TO|Royaume des Tonga"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KEN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q114"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Kenya"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "337"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "48468138"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kénya|la République du Kenya"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DNK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q35"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Danemark"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "369"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5822863"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Dan.|Danemark métropolitain|Danemark propre"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TTO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q754"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Trinité-et-Tobago"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "251"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1369125"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Trinidad-et-Tobago|République de Trinité-et-Tobago|Trinidad-et-Tobago"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "VCT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q757"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Saint-Vincent-et-les-Grenadines"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "238"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "109897"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "VC|SVG|Saint-Vincent-et-Grenadines"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CHE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q39"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Suisse"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "387"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9104063"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Helvétie|Confédération helvétique|Confédération suisse|la Confédération suisse"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DMA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q784"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Dominique"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "264"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "74656"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "dm|Dominica|Isle de la Dominique|le Commonwealth de Dominique"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DOM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q786"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "République dominicaine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "280"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10760028"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Dominicaine|la République dominicaine|Rep. Dominicaine"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "EGY"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q79"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Égypte"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "391"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "114535772"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ég.|République arabe d'Égypte"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KWT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q817"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Koweït"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "305"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "4464000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "État du Koweït|Kuwait|Koweit"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LAO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q819"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Laos"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "315"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6858160"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République démocratique populaire lao|République populaire démocratique du Laos"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GBR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q145"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Royaume-Uni"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "396"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "67326569"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Grande-Bretagne|R.-U.|R.U.|Royaume Uni|Royaume-uni|Royaume-Uni de Grande-Bretagne et d'Irlande du Nord|Royaume-Uni de Grande-Bretagne et Irlande du Nord"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CHN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q148"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "république populaire de Chine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "399"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1404890000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Chine|Chine communiste|Chine continentale|Chine populaire"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ETH"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q115"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Éthiopie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "347"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "128691692"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ethiopie|la République démocratique fédérale d’Éthiopie|République fédérale démocratique d'Éthiopie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MYS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q833"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Malaisie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "339"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "34231700"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Fédération malaise|Fédération de Malaisie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LCA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q760"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Sainte-Lucie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "235"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "167591"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "LC|Sainte Lucie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KNA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q763"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Saint-Christophe-et-Niévès"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "239"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "46922"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint-Kitts-et-Nevis|Saint-Christophe-et-Nevis|KN|Fédération de Saint-Christophe-et-Niévès|la fédération de Saint-Christophe-et-Niévès|Saint-Christopher-et-Nevis"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "HTI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q790"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Haïti"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "291"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10981229"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Haiti|la République d’Haïti|République d'Haïti"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SLV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q792"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Salvador"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "287"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6029976"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "El Salvador|la République du Salvador"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CRI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q800"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Costa Rica"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "302"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5265575"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Costa-Rica|la République du Costa Rica"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ISR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q801"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Israël"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "380"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9840000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Israel|ISR|État d'Israël|État hébreu|Isr.|l’État d’Israël"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "JOR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q810"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Jordanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "314"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10428241"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Jord.|Royaume hachémite de Jordanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NIC"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q811"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Nicaragua"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "282"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5142098"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ni|NCA|NI|NIC|la République du Nicaragua|République du Nicaragua|République nicaraguayenne"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "RUS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q159"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Russie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "421"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "146119928"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "RU|RUS|Fédération de Russie|Fédération russe"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DEU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q183"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Allemagne"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "405"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "83467117"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République fédérale d'Allemagne|All.|la République fédérale d’Allemagne|R. F. A.|République fédérale allemande|RFA"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MMR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q836"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Birmanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "317"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "53370609"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de l'Union du Myanmar|République de l’Union de Birmanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "JAM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q766"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Jamaïque"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "281"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2697983"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Jamaique|la Jamaïque"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GRD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q769"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Grenade"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "251"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "114299"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "gd|grd|la Grenade"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GTM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q774"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Guatemala"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "281"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "17263239"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Guatémala|GT|République du Guatémala"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GHA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q117"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Ghana"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "324"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "32833031"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Ghana|République du Ghana"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "FRA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q142"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "France"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "428"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "68605616"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "La France|RF|L'Hexagone|Fr.|la République française"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PAN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q804"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Panama"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "302"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "4570133"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "PM|pa|la République du Panama|République du Panama"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KGZ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q813"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Kirghizistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "319"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "7281800"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kirghizie|Kirghizstan|République kirghize"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "OMN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q842"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Oman"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "297"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "4829480"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "OMA|om|le Sultanat d’Oman|Sultanat d’Oman"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PAK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q843"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Pakistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "355"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "223773700"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "pk|la République islamique du Pakistan|République islamique du Pakistan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "YEM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q805"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Yémen"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "315"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "28250420"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Yémen"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BRA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q155"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Brésil"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "387"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "214211951"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Amérique lusophone|Auriverde|Bré.|Brés.|Bresil|Brézil|la République fédérative du Brésil|République des États-Unis du Brésil|République fédérative du Brésil|Brésilien|Brésilienne|Brazil"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CZE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q213"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tchéquie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "355"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10909500"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République tchèque|Rep. Tcheque|Rép. tchèque|tchèque (rép.)|République tchèque"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SVN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q215"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Slovénie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "331"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2066880"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Carniole|la République de Slovénie|République de Slovénie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KOR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q884"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Corée du Sud"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "355"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "51466201"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cor. du Sud|Coree du Sud|Corée Du Sud|la République de Corée|République de Corée|Hanguk"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LKA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q854"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Sri Lanka"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "308"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "21444000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ceylan|Serendib|Taprobane|île de Ceylan|la République socialiste démocratique de Sri Lanka"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TJK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q863"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tadjikistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "307"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9504000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Tadjikistan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TWN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q865"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Taïwan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "314"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "23317031"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Formose|RDC|république de Chine|Chine nationaliste|république nationaliste de Chine"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NPL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q837"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Népal"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "323"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "29164578"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nepal|la République démocratique fédérale du Népal|Nipal|np|Paï-pou|République démocratique fédérale du Népal"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BLR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q184"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Biélorussie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "358"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9056080"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "république de Biélorussie|Bélarus|Biélor.|la République de Biélorussie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ISL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q189"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Islande"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "355"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "364260"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Isl.|l'Islande|République d'Islande"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MDV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q826"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Maldives"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "289"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "436330"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "MV|îles Maldives|la République des Maldives"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LBN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q822"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Liban"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "329"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6100075"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République libanaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SVK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q214"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Slovaquie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "341"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5409407"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "SK|République slovaque|la République slovaque"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "THA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q869"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Thaïlande"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "355"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "66188503"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Thailande|th|Royaume de Thailande|Royaume de Thaïlande|Thaïl|Thaïl."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MKD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q221"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Macédoine du Nord"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "326"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1836713"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Macédoine|République de Macédoine|ARYM|L'Ancienne République yougoslave de Macédoine|L'ex-République yougoslave de Macédoine|la République de Macédoine du Nord|Macedoine|Macédoine Du Nord"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LVA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q211"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Lettonie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "336"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1845096"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Lettonie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "EST"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q191"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Estonie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "354"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1369995"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Esthonie|la République d'Estonie|République d'Estonie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "VNM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q881"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Vietnam"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "369"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "96208984"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Viêt Nam|VN|la République socialiste du Vietnam|Viet Nam|Việt Nam|Viet-Nam|Viêt-Nam|Viêtnam"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AFG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q889"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Afghanistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "362"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "41454761"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Af.|pays des Cavaliers"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ROU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q218"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Roumanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "348"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "19053815"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la Roumanie|Roum."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TKM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q874"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Turkménistan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "299"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6117933"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Turkménie|Turkmenistan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "QAT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q846"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Qatar"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "290"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2639211"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Katar|l’État du Qatar|Qa."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "HRV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q224"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Croatie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "356"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3871833"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Croatie|HR"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BIH"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q225"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bosnie-Herzégovine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "342"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3816459"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bosnie-et-Herzégovine|ba|Bosnie et Herzégovine|Bosnie Herzégovine|la Bosnie-Herzégovine"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GEO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q230"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Géorgie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "348"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3929581"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Georgie|Géorg.|Géorgie (pays)|République de Géorgie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "UKR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q212"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Ukraine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "389"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "41167335"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ukr."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BGD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q902"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bangladesh"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "348"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "171466990"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République populaire du Bangladesh"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GRL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q223"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Groenland"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "255"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "56609"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Groënland"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TZA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q924"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tanzanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "320"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "57310019"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la république unie de Tanzanie|république unie de Tanzanie|république-unie de Tanzanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PHL"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q928"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Philippines"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "334"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "112729484"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "RP|République des Philippines|Phil.|Îles Philippines|la République des Philippines"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MLI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q912"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Mali"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "312"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "22395489"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République du Mali"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MDA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q217"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Moldavie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "331"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2409207"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Moldavie|République de Moldavie|République de Moldova"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "KAZ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q232"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Kazakhstan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "350"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "20139914"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Qazaqstan|Kazakh.|Kazakstan|la République du Kazakhstan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AGO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q916"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Angola"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "323"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "36749906"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "république d'Angola"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BTN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q917"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bhoutan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "304"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "787424"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "BT|le Royaume du Bhoutan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ALB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q222"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Albanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "387"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2811655"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la république d’Albanie|république d'Albanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AZE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q227"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Azerbaïdjan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "361"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10180770"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Azerbaidjan|la République d'Azerbaïdjan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SYR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q858"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Syrie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "336"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "23865423"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République arabe syrienne"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SAU"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q851"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Arabie saoudite"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "350"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "33000000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Arabie Saoudite|Arabie séoudite|Arabie Séoudite|Royaume d’Arabie saoudite|Royaume d’Arabie séoudite"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MUS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1027"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Maurice"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "283"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1264613"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "MU|Ile Maurice|île Maurice|la République de Maurice|République de Maurice"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BFA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q965"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Burkina Faso"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "309"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "23025776"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Burkina|bf|Burk. F.|Burk. Faso|le Burkina Faso|Pays des Hommes intègres"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BDI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q967"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Burundi"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "302"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "13689450"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Burundi|République du Burundi"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ARE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q878"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Émirats arabes unis"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "319"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "9890400"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "É.A.U.|Émir. ar. unis|Émirats|Émirats Arabes Unis|les Émirats arabes unis"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BLZ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q242"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Belize"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "281"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "411106"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bélize|le Bélize"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "COM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q970"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Comores"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "284"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "902348"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "l’Union des Comores|Union des Comores"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GIN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1006"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Guinée"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "301"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "17521167"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Guinée-Conakry|République de Guinée"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MLT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q233"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Malte"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "327"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "553214"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Malte"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MCO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q235"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Monaco"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "321"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "38857"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "mc|Fort-Hercule|la Principauté de Monaco|Monaco (rattachée au District de Menton en 1793)|Principatu de Mu̍negu|Principauté de Monaco"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SMR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q238"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Saint-Marin"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "314"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "34167"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Saint-Marin|République de Saint-Marin|Sérénissime république de Saint-Marin"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BRN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q921"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Brunei"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "298"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "458949"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Brunéi|Brunéi Darussalam|le Brunei Darussalam"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SSD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q958"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Soudan du Sud"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "281"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "12575714"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République du Soudan du Sud|Soudan-du-Sud|Sud Soudan|Sud-Soudan"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "VAT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q237"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Vatican"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "342"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "882"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cité du Vatican|État de la Cité du Vatican"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "DJI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q977"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Djibouti"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "300"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1152944"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Djibouti"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GNQ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q983"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Guinée équatoriale"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "284"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1847549"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Guinee Equat.|Guinée Équatoriale|Guinée-Équatoriale|République de Guinée équatoriale"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "AND"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q228"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Andorre"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "333"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "89752"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la Principauté d’Andorre|Principauté d'Andorre"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MAR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1028"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Maroc"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "334"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "36828330"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Royaume du Maroc"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CMR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1009"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Cameroun"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "314"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "28372687"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Cameroun|République du Cameroun"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CAF"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q929"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "République centrafricaine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "301"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5152421"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Centrafrique|la République|Rep. Centrafrique"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TGO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q945"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Togo"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "302"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "7797694"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République togolaise|République togolaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "PSE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q219060"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "État de Palestine"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "225"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5227193"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Autorité palestinienne|Palestine|Autorité nationale palestinienne|État palestinien"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BGR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q219"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bulgarie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "361"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6423207"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bulg.|République de Bulgarie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GNB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1007"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Guinée-Bissau"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "298"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1861283"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "GB.|Guinee Bissau|Guinée Bissau|Guinée-bissao|Guinée-Bissao|la République de Guinée-Bissao|la République de Guinée-Bissau|République de Guinée-Bissau"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NAM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1030"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Namibie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "315"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2533794"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République de Namibie|République de Namibie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NER"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1032"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Niger"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "302"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "21477348"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ne|NE|la République du Niger|NIG|République du Niger"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "COG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q971"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "République du Congo"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "300"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "6142180"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Congo|RC|CG|Congo Brazza|Congo-Brazzaville"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CYP"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q229"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Chypre"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "325"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1344976"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Chypriotes|cy|Chypre-Sud|république de Chypre|République de Chypre"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ERI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q986"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Érythrée"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "308"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "3497000"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Erythrée|État d'Érythrée"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ZWE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q954"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Zimbabwe"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "320"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "15178979"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République du Zimbabwe|République du Zimbabwé|Zimbabwé"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CPV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1011"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Cap-Vert"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "290"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "555988"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cap-V.|Cap-vert|îles du Cap-Vert|la République du Cap-Vert"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LSO"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1013"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Lesotho"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "280"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2007201"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "le Royaume du Lesotho|LS"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MOZ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1029"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Mozambique"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "301"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "29668834"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Mozambique|Moz.|république du Mozambique"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CUB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q241"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Cuba"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "312"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "10985974"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Cuba"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MNE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q236"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Monténégro"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "323"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "617213"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ME|le Monténégro|Montén."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BEN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q962"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Bénin"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "308"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "14111034"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République du Bénin|Benin|la République du Bénin"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "BWA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q963"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Botswana"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "314"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2480244"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Botswana"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CIV"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1008"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Côte d'Ivoire"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "312"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "31165654"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cote d'ivoire|Côte-d'Ivoire|Côte-d’Ivoire|république de Côte d’Ivoire"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NGA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1033"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Nigeria"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "349"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "211400708"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nigéria|la République fédérale du Nigéria|ng|République fédérale du Nigeria|République fédérale du Nigéria|République fédérale nigériane"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LBR"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1014"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Liberia"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "292"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "5214030"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Libéria|la République du Libéria"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SDN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1049"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Soudan"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "334"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "40533330"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Soudan|SD"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SWZ"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1050"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Eswatini"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "286"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1230506"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Swaziland|Ngwané|Royaume d'Eswatini|Royaume du Swaziland|sz"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MWI"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1020"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Malawi"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "298"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "17563749"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Malawi|MW|République du Malawi"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MRT"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1025"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Mauritanie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "304"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "4736139"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République islamique de Mauritanie|République islamique de Mauritanie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "LBY"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1016"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Libye"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "333"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "7381023"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "l’État de Libye"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "MDG"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1019"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Madagascar"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "321"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "31964956"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la république de Madagascar|république de Madagascar"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GAB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1000"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Gabon"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "295"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2025137"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "GA|la République gabonaise|Le Gabon|République du Gabon|République gabonaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "GMB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1005"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Gambie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "300"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "2639916"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Gambie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "COD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q974"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "République démocratique du Congo"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "334"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "105789731"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Zaïre|RDC|RD Congo|RD du Congo|Rep. Dem. du Congo"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ZMB"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q953"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Zambie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "309"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "19610769"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Zambie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "TUN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q948"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Tunisie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "328"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "11565204"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République tunisienne|Tun."
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "UGA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1036"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Ouganda"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "312"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "47123531"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République d'Ouganda|République de l'Ouganda"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "XKS"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1246"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Kosovo"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "283"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "1586659"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kossovo|la République du Kosovo|XK"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "RWA"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1037"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Rwanda"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "303"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "14569341"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Rwanda|République Rwandaise"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "STP"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1039"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Sao Tomé-et-Principe"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "273"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "204327"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République démocratique de Sao Tomé-et-Principe|Saint-Thomas-et-Île-du-Prince|Saint-Thomas-et-Prince|São Tomé e Príncipe|São Tomé et Príncipe|Sao Tomé-et-Pr.|Sao Tomé-et-principe"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SEN"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1041"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Sénégal"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "308"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "16876720"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République du Sénégal|République du Sénégal"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "ABW"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q21203"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Aruba"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "200"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "106739"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "île d'Aruba"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "NLD"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q29999"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Royaume des Pays-Bas"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "107"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "17100715"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "royaume des Pays-Bas|Pays-Bas"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SYC"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1042"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Seychelles"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "278"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "119773"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République des Seychelles|Repiblik Sesel|République des Seychelles|sc"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SLE"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1044"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Sierra Leone"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "294"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "7557212"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Sierra Leone|SL"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SOM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1045"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Somalie"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "326"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "11031386"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "la République fédérale de Somalie"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "CUW"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q25279"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Curaçao"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "166"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "152849"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "île de Curaçao"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "SXM"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q26273"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Saint-Martin"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "126"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "43847"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint Martin|Sint-Maarten|SX|Sint Maarten|État de Saint Martin|État de Saint-Martin|État de Sint Maarten|Land Sint Maarten|NL-SX|Saint Martin (partie néerlandaise)|Saint-Martin (partie néerlandaise)|Saint-Martin (Royaume des Pays-Bas)|Sint Maarten (partie néerlandaise)|St Maarten"
+  }
+ },
+ {
+  "iso3": {
+   "type": "literal",
+   "value": "COK"
+  },
+  "state": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q26988"
+  },
+  "labelFr": {
+   "xml:lang": "fr",
+   "type": "literal",
+   "value": "Îles Cook"
+  },
+  "sitelinks": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "187"
+  },
+  "population": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+   "type": "literal",
+   "value": "14222"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Iles Cook|Cook|Archipel Cook|Cook Islands|Îles-Cook|Kūki 'Āirani"
+  }
+ }
+]

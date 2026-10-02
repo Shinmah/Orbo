@@ -1,0 +1,1102 @@
+[
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q235"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "mc|Fort-Hercule|la Principauté de Monaco|Monaco (rattachée au District de Menton en 1793)|Principatu de Mu̍negu|Principauté de Monaco"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93230"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Râwalpindî|Rāwalpindi"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q334"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "République de Singapour"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1218"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Salem|Al Quds|Hiérosolyme|Solyme|ville sainte|ville trois fois sainte|Yerushaláyim"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q727"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "A'dam"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2449"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Hamar|Xamar|Maqadīshū|Mogadishu, Somalia|The Seat of the Shah"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1519"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Abu Dhabi|Aboû Dabî|Abou Dhabi"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1354"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Dhaka"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1461"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ville de Manille"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q237"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cité du Vatican|État de la Cité du Vatican"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1858"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Hà Nội|Hanoi"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3904"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Mbabané"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3932"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint-Thomas|Sao Tomé"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3859"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kigali Ville|Ville de Kigali"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3889"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Lourenço Marques"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3551"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Rabbat"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3674"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ville de Niamey|Communauté Urbaine de Niamey"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1867"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Taibei|Tanshoui|Tanshouï"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q25270"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Prishtinë|Priština|Quartier de Dardania|Prishtina"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1953"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Érévan|Iérevan"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3926"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Prétoria"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3659"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ndjamena|Fort-Lamy"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2887"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint-Jacques du Chili|Santiago du Chili"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3642"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Asmera"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q994"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Tiflis"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2841"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bogotá D.C."
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3306"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Panamá|Ville de Panama"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2467"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ville de Nassau"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1533"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Santiago de León de Caracas"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2933"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "La Muy Noble y Leal Ciudad de Nuestra Señora Santa María de la Asunción|Assomption|Asunción"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3001"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Parbo"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1861"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Krung Thep|Krungthep mahanakhon amon rattanakosin mahintara ayuthaya mahadilok phop noppharat ratchathani burirom udomratchaniwet mahasathan amon piman awatan sathit sakkathattiya witsanukam prasit|Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3940"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "L'Établissement"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3692"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ar-Riyāḍ"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3726"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bathurst"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1520"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Noursoultan|Akmola|Akmolinsk|Nour-Soultan|Tselinograd"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q5465"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cité du Cap"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3935"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "ߣߊߡߓߌ߫ ߞߎߓߋߛߏ"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q61"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "D.C.|DC|Washington D.C.|Washington DC|Washington, D.C.|Washington, district de Columbia|Washington, District de Columbia"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3792"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Lomé la belle"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3766"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Dimashq|Dimashq ach-Cham"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3768"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Yakro"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q18808"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Hpyeng-yang|Hpyengyang|P'yŏngyang|Phyŏngyang|Pyeongyang"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1555"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Guate|Ville de Guatemala"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1865"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "KL"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q131243"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Oranjestad (Aruba)"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q132679"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Amsterdam des tropiques|Guillaumeville|Zone historique de Willemstad, centre ville et port, Antilles néerlandaises"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3826"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Muscat|Masqat"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1947"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Juba"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q23661"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "District de Wellington|Te Whanganui-a-Tara|Ville de Wellington|Pōneke"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3274"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Municipalité de Managua|Managua (municipalité)"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3808"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Yaounde, Ongola"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3739"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bissao"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1863"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Andorre-la-vieille"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q23564"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Podgorića|Pogdorica"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q38834"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nuku'alofa|Nuku’alofa|Nukualofa"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q90"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "FR-75|Pantruche|Ville de l'Amour|Ville-Lumière|Paname|Ville de Paris|Lutèce"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34126"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Vaiaku"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q36260"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Faleolo"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3043"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Belmopán"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3630"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Batavia|Djakarta"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q212938"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "capitale de la Palestine|troisième ville sainte de l'Islam"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q8684"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ville spéciale de Séoul|Gyeongseong|Hanseong|Kenghi|Sŏul|Wiryeseong"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3915"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Iarivo|Tananarive"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q226"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nûk|Nuk|Godthåb"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q36262"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint-Jean"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q23430"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ikh khüree|Niislel khüree|Nomyn khüree|Örgöö|Oulan Bator|Oulan-bator|Ourga|Ulaan Baatar|Улаанбаатар"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34692"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Tinson"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34820"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Dominicaine|Saint Domingue|Saint-domingue|San Domingo|Santo Dominguo|Santo-Domingo|Ville de Saint-Domingue"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q220"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "l'Urbs|La ville aux sept collines|La ville éternelle"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q36526"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Port-Moresby|Pot Mosbi"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3929"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Port Louis"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q31026"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Jarren|Makwa|District de Yaren|Moqua"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q131233"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bairiki|Tarawa sud"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q39178"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Port d'Espagne|Port of Spain|Port-of-Spain|TTPP"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q34261"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Port-au-prince|Port-Républicain"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q37400"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Nay Pyi Daw|Naypidaw|Pyinmana|နေပြည်တော်"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q84"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Londres, Angleterre"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q85"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cairo|Caire"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q23800"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Citta Umilissima|Citta' Umilissima|Il-Belt|La Vallette|Ville de la Valette"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q216"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Vilnė|Vilnious|Wilne|Wilnja|Wilnjus"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q5838"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kâboul"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q956"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Pe-king|Pé-king|Péking|Beiping"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q167551"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kitega"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1140136"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Oyala"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q9365"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Stalinabad"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q35178"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Koweit|Koweit City|Koweït City|Kuwait City|Ville de Koweït"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q239"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Bruxelles-Ville|Ville de Bruxelles"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1524"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Athenes"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q437"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Laybach|Lioubiana|Lioubliana|Loubiana"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q19660"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "capitale de la Roumanie|Bucuresti|Bucureşti|municipalité de Bucarest|Paris des Balkans|petit Paris|petit Paris des Balkans"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1770"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Reval"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q384"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Scopie"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1930"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Ottawa (Ontario)|Ville d'Ottawa"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1490"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "métropole de Tokyo|préfecture métropolitaine de Tokyo|Tôkyô|Tokyo Metropolis|Tokyo-to|Tôkyô-to|Tōkyō-to|préfecture de Tokyo"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1842"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Luxembourg-Ville|Ville de Luxembourg"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q41547"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Saint George's|St. George's"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q23438"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Achgabad|Achkabad|Achkhabad|Ashkabad"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1761"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Duibhlinn"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1335"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Montévidéo|San Felipe y Santiago de Montevideo"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1780"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Presbourg"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q37806"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Port Vila|Port-vila"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1899"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Kyiv|Kyïv"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q2807"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Madrid (Espagne)"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3624"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Addis Abäba|Finfinne"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q41963"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Sri Jayewardenepura-Kotte"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q21197"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Capitale de la Moldavie|Chisinau|Chisinău|Chişinau|Chişinău|Kichinev|Kichiniov|Kischinev|Kishinev|Kishinew|Kishinyov|Кишинёв"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1489"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Cité de Mexico|Cité du Mexique|Ville du Mexique"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1764"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "Reykjavíkurborg|Reykjavík"
+  }
+ },
+ {
+  "capital": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1754"
+  },
+  "aliases": {
+   "type": "literal",
+   "value": "STHLM"
+  }
+ }
+]

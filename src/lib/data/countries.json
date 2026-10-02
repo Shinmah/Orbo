@@ -1,0 +1,7506 @@
+{
+ "generatedAt": "2026-10-02",
+ "countries": [
+  {
+   "id": "AFG",
+   "iso2": "af",
+   "status": "member",
+   "name": "Afghanistan",
+   "article": "l'",
+   "altNames": [
+    "République islamique d'Afghanistan"
+   ],
+   "capital": "Kaboul",
+   "capitalAlt": [
+    "Kabul"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 41454761,
+   "areaKm2": 652230,
+   "tier": 2,
+   "map": {
+    "point": [
+     66.497,
+     34.164
+    ],
+    "focus": [
+     [
+      60.487,
+      29.387
+     ],
+     [
+      74.892,
+      38.474
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "AGO",
+   "iso2": "ao",
+   "status": "member",
+   "name": "Angola",
+   "article": "l'",
+   "altNames": [
+    "République d'Angola"
+   ],
+   "capital": "Luanda",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "population": 36749906,
+   "areaKm2": 1246700,
+   "tier": 2,
+   "map": {
+    "point": [
+     17.984,
+     -12.183
+    ],
+    "focus": [
+     [
+      11.737,
+      -18.031
+     ],
+     [
+      24.061,
+      -4.391
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ALB",
+   "iso2": "al",
+   "status": "member",
+   "name": "Albanie",
+   "article": "l'",
+   "altNames": [
+    "République d'Albanie"
+   ],
+   "capital": "Tirana",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "population": 2811655,
+   "areaKm2": 28748,
+   "tier": 2,
+   "map": {
+    "point": [
+     20.114,
+     40.655
+    ],
+    "focus": [
+     [
+      19.272,
+      39.64
+     ],
+     [
+      21.037,
+      42.585
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "AND",
+   "iso2": "ad",
+   "status": "member",
+   "name": "Andorre",
+   "article": "l'",
+   "altNames": [
+    "Principauté d'Andorre"
+   ],
+   "capital": "Andorre-la-Vieille",
+   "capitalAlt": [
+    "Andorra la Vella"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "flagGroup": 0,
+   "population": 89752,
+   "areaKm2": 468,
+   "tier": 3,
+   "map": {
+    "point": [
+     1.539,
+     42.548
+    ],
+    "focus": [
+     [
+      1.429,
+      42.435
+     ],
+     [
+      1.722,
+      42.642
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "ARE",
+   "iso2": "ae",
+   "status": "member",
+   "name": "Émirats arabes unis",
+   "article": "les",
+   "altNames": [
+    "EAU",
+    "Émirats"
+   ],
+   "capital": "Abou Dabi",
+   "capitalAlt": [
+    "Abu Dhabi",
+    "Abou Dhabi"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 10,
+   "population": 9890400,
+   "areaKm2": 83600,
+   "tier": 2,
+   "map": {
+    "point": [
+     54.547,
+     23.466
+    ],
+    "focus": [
+     [
+      51.569,
+      22.621
+     ],
+     [
+      56.383,
+      26.061
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ARG",
+   "iso2": "ar",
+   "status": "member",
+   "name": "Argentine",
+   "article": "l'",
+   "altNames": [
+    "République argentine"
+   ],
+   "capital": "Buenos Aires",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 9,
+   "population": 47327407,
+   "areaKm2": 2780400,
+   "tier": 1,
+   "map": {
+    "point": [
+     -64.173,
+     -33.501
+    ],
+    "focus": [
+     [
+      -73.573,
+      -55.051
+     ],
+     [
+      -53.667,
+      -21.792
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ARM",
+   "iso2": "am",
+   "status": "member",
+   "name": "Arménie",
+   "article": "l'",
+   "altNames": [
+    "République d'Arménie"
+   ],
+   "capital": "Erevan",
+   "capitalAlt": [
+    "Yerevan"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "population": 2930450,
+   "areaKm2": 29743,
+   "tier": 2,
+   "map": {
+    "point": [
+     44.801,
+     40.459
+    ],
+    "focus": [
+     [
+      43.44,
+      38.864
+     ],
+     [
+      46.598,
+      41.291
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ATG",
+   "iso2": "ag",
+   "status": "member",
+   "name": "Antigua-et-Barbuda",
+   "article": "",
+   "altNames": [],
+   "capital": "Saint John's",
+   "capitalAlt": [
+    "Saint-Jean"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 101489,
+   "areaKm2": 442,
+   "tier": 4,
+   "map": {
+    "point": [
+     -61.8,
+     17.07
+    ],
+    "focus": [
+     [
+      -61.884,
+      17.008
+     ],
+     [
+      -61.686,
+      17.169
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "AUS",
+   "iso2": "au",
+   "status": "member",
+   "name": "Australie",
+   "article": "l'",
+   "altNames": [],
+   "capital": "Canberra",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Australie et Nouvelle-Zélande",
+   "flagGroup": 4,
+   "population": 27614411,
+   "areaKm2": 7692024,
+   "tier": 1,
+   "map": {
+    "point": [
+     134.05,
+     -24.13
+    ],
+    "focus": [
+     [
+      112.919,
+      -43.629
+     ],
+     [
+      153.631,
+      -10.714
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "AUT",
+   "iso2": "at",
+   "status": "member",
+   "name": "Autriche",
+   "article": "l'",
+   "altNames": [
+    "République d'Autriche"
+   ],
+   "capital": "Vienne",
+   "capitalAlt": [
+    "Vienna"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 14,
+   "population": 8979894,
+   "areaKm2": 83871,
+   "tier": 1,
+   "map": {
+    "point": [
+     14.131,
+     47.519
+    ],
+    "focus": [
+     [
+      9.521,
+      46.418
+     ],
+     [
+      17.148,
+      49.008
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "AZE",
+   "iso2": "az",
+   "status": "member",
+   "name": "Azerbaïdjan",
+   "article": "l'",
+   "altNames": [
+    "République d'Azerbaïdjan"
+   ],
+   "capital": "Bakou",
+   "capitalAlt": [
+    "Baku"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 24,
+   "population": 10180770,
+   "areaKm2": 86600,
+   "tier": 2,
+   "map": {
+    "point": [
+     47.211,
+     40.402
+    ],
+    "focus": [
+     [
+      44.775,
+      38.396
+     ],
+     [
+      50.336,
+      41.89
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BDI",
+   "iso2": "bi",
+   "status": "member",
+   "name": "Burundi",
+   "article": "le",
+   "altNames": [
+    "République du Burundi"
+   ],
+   "capital": "Gitega",
+   "capitalAlt": [],
+   "capitalNote": "Bujumbura reste la capitale économique.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 13689450,
+   "areaKm2": 27834,
+   "tier": 3,
+   "map": {
+    "point": [
+     29.917,
+     -3.333
+    ],
+    "focus": [
+     [
+      29.015,
+      -4.462
+     ],
+     [
+      30.832,
+      -2.303
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BEL",
+   "iso2": "be",
+   "status": "member",
+   "name": "Belgique",
+   "article": "la",
+   "altNames": [
+    "Royaume de Belgique"
+   ],
+   "capital": "Bruxelles",
+   "capitalAlt": [
+    "Brussels"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 13,
+   "population": 11825551,
+   "areaKm2": 30528,
+   "tier": 1,
+   "map": {
+    "point": [
+     4.8,
+     50.785
+    ],
+    "focus": [
+     [
+      2.522,
+      49.495
+     ],
+     [
+      6.338,
+      51.486
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BEN",
+   "iso2": "bj",
+   "status": "member",
+   "name": "Bénin",
+   "article": "le",
+   "altNames": [
+    "République du Bénin",
+    "Dahomey"
+   ],
+   "capital": "Porto-Novo",
+   "capitalAlt": [
+    "Cotonou"
+   ],
+   "capitalNote": "Porto-Novo est la capitale officielle, Cotonou le siège du gouvernement.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 14111034,
+   "areaKm2": 112622,
+   "tier": 3,
+   "map": {
+    "point": [
+     2.352,
+     10.325
+    ],
+    "focus": [
+     [
+      0.769,
+      6.214
+     ],
+     [
+      3.837,
+      12.399
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BFA",
+   "iso2": "bf",
+   "status": "member",
+   "name": "Burkina Faso",
+   "article": "le",
+   "altNames": [
+    "République du Burkina",
+    "Burkina",
+    "Haute-Volta"
+   ],
+   "capital": "Ouagadougou",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 23025776,
+   "areaKm2": 272967,
+   "tier": 2,
+   "map": {
+    "point": [
+     -1.364,
+     12.673
+    ],
+    "focus": [
+     [
+      -5.523,
+      9.392
+     ],
+     [
+      2.39,
+      15.08
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BGD",
+   "iso2": "bd",
+   "status": "member",
+   "name": "Bangladesh",
+   "article": "le",
+   "altNames": [
+    "La République populaire du Bangladesh"
+   ],
+   "capital": "Dacca",
+   "capitalAlt": [
+    "Dhaka"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "flagGroup": 20,
+   "population": 171466990,
+   "areaKm2": 147570,
+   "tier": 2,
+   "map": {
+    "point": [
+     89.685,
+     24.215
+    ],
+    "focus": [
+     [
+      88.022,
+      20.996
+     ],
+     [
+      92.643,
+      26.579
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BGR",
+   "iso2": "bg",
+   "status": "member",
+   "name": "Bulgarie",
+   "article": "la",
+   "altNames": [
+    "République de Bulgarie"
+   ],
+   "capital": "Sofia",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "flagGroup": 17,
+   "population": 6423207,
+   "areaKm2": 110879,
+   "tier": 2,
+   "map": {
+    "point": [
+     25.157,
+     42.509
+    ],
+    "focus": [
+     [
+      22.345,
+      41.239
+     ],
+     [
+      28.604,
+      44.228
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BHR",
+   "iso2": "bh",
+   "status": "member",
+   "name": "Bahreïn",
+   "article": "",
+   "altNames": [
+    "Royaume de Bahreïn"
+   ],
+   "capital": "Manama",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 16,
+   "population": 1569666,
+   "areaKm2": 765,
+   "tier": 3,
+   "map": {
+    "point": [
+     50.555,
+     26.056
+    ],
+    "focus": [
+     [
+      50.453,
+      25.855
+     ],
+     [
+      50.615,
+      26.194
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "BHS",
+   "iso2": "bs",
+   "status": "member",
+   "name": "Bahamas",
+   "article": "les",
+   "altNames": [
+    "Commonwealth des Bahamas"
+   ],
+   "capital": "Nassau",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 399440,
+   "areaKm2": 13943,
+   "tier": 3,
+   "map": {
+    "point": [
+     -77.147,
+     26.402
+    ],
+    "focus": [
+     [
+      -78.714,
+      20.925
+     ],
+     [
+      -73.006,
+      26.927
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "BIH",
+   "iso2": "ba",
+   "status": "member",
+   "name": "Bosnie-Herzégovine",
+   "article": "la",
+   "altNames": [
+    "Bosnie-et-Herzégovine",
+    "Bosnie"
+   ],
+   "capital": "Sarajevo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "population": 3816459,
+   "areaKm2": 51209,
+   "tier": 2,
+   "map": {
+    "point": [
+     18.068,
+     44.091
+    ],
+    "focus": [
+     [
+      15.717,
+      42.559
+     ],
+     [
+      19.619,
+      45.279
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BLR",
+   "iso2": "by",
+   "status": "member",
+   "name": "Biélorussie",
+   "article": "la",
+   "altNames": [
+    "République de Biélorussie",
+    "Bélarus"
+   ],
+   "capital": "Minsk",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Est",
+   "population": 9056080,
+   "areaKm2": 207600,
+   "tier": 2,
+   "map": {
+    "point": [
+     28.418,
+     53.822
+    ],
+    "focus": [
+     [
+      23.166,
+      51.244
+     ],
+     [
+      32.719,
+      56.142
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BLZ",
+   "iso2": "bz",
+   "status": "member",
+   "name": "Belize",
+   "article": "le",
+   "altNames": [],
+   "capital": "Belmopan",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "population": 411106,
+   "areaKm2": 22966,
+   "tier": 4,
+   "map": {
+    "point": [
+     -88.713,
+     17.202
+    ],
+    "focus": [
+     [
+      -89.236,
+      15.894
+     ],
+     [
+      -88.091,
+      18.485
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BOL",
+   "iso2": "bo",
+   "status": "member",
+   "name": "Bolivie",
+   "article": "la",
+   "altNames": [
+    "État plurinational de Bolivie"
+   ],
+   "capital": "Sucre",
+   "capitalAlt": [
+    "La Paz"
+   ],
+   "capitalNote": "Sucre est la capitale constitutionnelle, La Paz le siège du gouvernement.",
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 12,
+   "population": 12244159,
+   "areaKm2": 1098581,
+   "tier": 3,
+   "map": {
+    "point": [
+     -64.593,
+     -16.666
+    ],
+    "focus": [
+     [
+      -69.666,
+      -22.892
+     ],
+     [
+      -57.551,
+      -9.681
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BRA",
+   "iso2": "br",
+   "status": "member",
+   "name": "Brésil",
+   "article": "le",
+   "altNames": [
+    "République fédérative du Brésil"
+   ],
+   "capital": "Brasilia",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "population": 214211951,
+   "areaKm2": 8515767,
+   "tier": 1,
+   "map": {
+    "point": [
+     -49.559,
+     -12.099
+    ],
+    "focus": [
+     [
+      -73.979,
+      -33.741
+     ],
+     [
+      -34.797,
+      5.267
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BRB",
+   "iso2": "bb",
+   "status": "member",
+   "name": "Barbade",
+   "article": "la",
+   "altNames": [],
+   "capital": "Bridgetown",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 303431,
+   "areaKm2": 430,
+   "tier": 4,
+   "map": {
+    "point": [
+     -59.569,
+     13.164
+    ],
+    "focus": [
+     [
+      -59.654,
+      13.057
+     ],
+     [
+      -59.427,
+      13.295
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "BRN",
+   "iso2": "bn",
+   "status": "member",
+   "name": "Brunei",
+   "article": "le",
+   "altNames": [
+    "État de Brunei Darussalam",
+    "Brunei Darussalam"
+   ],
+   "capital": "Bandar Seri Begawan",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 458949,
+   "areaKm2": 5765,
+   "tier": 3,
+   "map": {
+    "point": [
+     114.552,
+     4.448
+    ],
+    "focus": [
+     [
+      113.999,
+      4.021
+     ],
+     [
+      115.324,
+      5.001
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "BTN",
+   "iso2": "bt",
+   "status": "member",
+   "name": "Bhoutan",
+   "article": "le",
+   "altNames": [
+    "Royaume du Bhoutan"
+   ],
+   "capital": "Thimphou",
+   "capitalAlt": [
+    "Thimphu"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 787424,
+   "areaKm2": 38394,
+   "tier": 3,
+   "map": {
+    "point": [
+     90.04,
+     27.537
+    ],
+    "focus": [
+     [
+      88.73,
+      26.701
+     ],
+     [
+      92.085,
+      28.345
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "BWA",
+   "iso2": "bw",
+   "status": "member",
+   "name": "Botswana",
+   "article": "le",
+   "altNames": [
+    "République du Botswana"
+   ],
+   "capital": "Gaborone",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique australe",
+   "population": 2480244,
+   "areaKm2": 582000,
+   "tier": 3,
+   "map": {
+    "point": [
+     24.179,
+     -22.103
+    ],
+    "focus": [
+     [
+      19.978,
+      -26.889
+     ],
+     [
+      29.35,
+      -17.794
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CAF",
+   "iso2": "cf",
+   "status": "member",
+   "name": "République centrafricaine",
+   "article": "la",
+   "altNames": [
+    "Centrafrique"
+   ],
+   "capital": "Bangui",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "population": 5152421,
+   "areaKm2": 622984,
+   "tier": 3,
+   "map": {
+    "point": [
+     20.907,
+     6.99
+    ],
+    "focus": [
+     [
+      14.398,
+      2.237
+     ],
+     [
+      27.441,
+      11.001
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CAN",
+   "iso2": "ca",
+   "status": "member",
+   "name": "Canada",
+   "article": "le",
+   "altNames": [],
+   "capital": "Ottawa",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique du Nord",
+   "population": 36991981,
+   "areaKm2": 9984670,
+   "tier": 1,
+   "map": {
+    "point": [
+     -101.911,
+     60.324
+    ],
+    "focus": [
+     [
+      -141.006,
+      41.677
+     ],
+     [
+      -52.629,
+      83.117
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CHE",
+   "iso2": "ch",
+   "status": "member",
+   "name": "Suisse",
+   "article": "la",
+   "altNames": [
+    "Confédération suisse",
+    "Helvétie"
+   ],
+   "capital": "Berne",
+   "capitalAlt": [
+    "Bern"
+   ],
+   "capitalNote": "Officiellement, Berne est la « ville fédérale ».",
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "population": 9104063,
+   "areaKm2": 41284,
+   "tier": 1,
+   "map": {
+    "point": [
+     7.464,
+     46.719
+    ],
+    "focus": [
+     [
+      6.064,
+      45.881
+     ],
+     [
+      10.454,
+      47.801
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CHL",
+   "iso2": "cl",
+   "status": "member",
+   "name": "Chili",
+   "article": "le",
+   "altNames": [
+    "République du Chili"
+   ],
+   "capital": "Santiago",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "population": 19458000,
+   "areaKm2": 756102,
+   "tier": 1,
+   "map": {
+    "point": [
+     -72.319,
+     -38.152
+    ],
+    "focus": [
+     [
+      -75.707,
+      -53.875
+     ],
+     [
+      -67.014,
+      -17.507
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CHN",
+   "iso2": "cn",
+   "status": "member",
+   "name": "Chine",
+   "article": "la",
+   "altNames": [
+    "république populaire de Chine"
+   ],
+   "capital": "Pékin",
+   "capitalAlt": [
+    "Beijing",
+    "Péking"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie de l'Est",
+   "flagGroup": 25,
+   "population": 1404890000,
+   "areaKm2": 9706961,
+   "tier": 1,
+   "map": {
+    "point": [
+     106.337,
+     32.498
+    ],
+    "focus": [
+     [
+      73.602,
+      18.193
+     ],
+     [
+      134.773,
+      53.568
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CIV",
+   "iso2": "ci",
+   "status": "member",
+   "name": "Côte d'Ivoire",
+   "article": "la",
+   "altNames": [
+    "République de Côte d' Ivoire"
+   ],
+   "capital": "Yamoussoukro",
+   "capitalAlt": [],
+   "capitalNote": "Abidjan est la capitale économique.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 2,
+   "population": 31165654,
+   "areaKm2": 322463,
+   "tier": 1,
+   "map": {
+    "point": [
+     -5.569,
+     7.491
+    ],
+    "focus": [
+     [
+      -8.568,
+      4.344
+     ],
+     [
+      -2.506,
+      10.723
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CMR",
+   "iso2": "cm",
+   "status": "member",
+   "name": "Cameroun",
+   "article": "le",
+   "altNames": [
+    "République du Cameroun"
+   ],
+   "capital": "Yaoundé",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "flagGroup": 5,
+   "population": 28372687,
+   "areaKm2": 475442,
+   "tier": 2,
+   "map": {
+    "point": [
+     12.473,
+     4.585
+    ],
+    "focus": [
+     [
+      8.505,
+      1.655
+     ],
+     [
+      16.197,
+      13.081
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "COD",
+   "iso2": "cd",
+   "status": "member",
+   "name": "République démocratique du Congo",
+   "article": "la",
+   "altNames": [
+    "Congo-Kinshasa",
+    "RDC",
+    "RD Congo",
+    "Zaïre"
+   ],
+   "capital": "Kinshasa",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "flagGroup": 23,
+   "population": 105789731,
+   "areaKm2": 2344858,
+   "tier": 2,
+   "map": {
+    "point": [
+     23.459,
+     -1.858
+    ],
+    "focus": [
+     [
+      12.211,
+      -13.458
+     ],
+     [
+      31.268,
+      5.375
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "COG",
+   "iso2": "cg",
+   "status": "member",
+   "name": "République du Congo",
+   "article": "la",
+   "altNames": [
+    "Congo-Brazzaville",
+    "Congo",
+    "Congo Brazza"
+   ],
+   "capital": "Brazzaville",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "flagGroup": 23,
+   "population": 6142180,
+   "areaKm2": 342000,
+   "tier": 3,
+   "map": {
+    "point": [
+     15.901,
+     0.142
+    ],
+    "focus": [
+     [
+      11.114,
+      -5.02
+     ],
+     [
+      18.642,
+      3.708
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "COL",
+   "iso2": "co",
+   "status": "member",
+   "name": "Colombie",
+   "article": "la",
+   "altNames": [
+    "République de Colombie"
+   ],
+   "capital": "Bogota",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 8,
+   "population": 52321152,
+   "areaKm2": 1141748,
+   "tier": 1,
+   "map": {
+    "point": [
+     -73.174,
+     3.373
+    ],
+    "focus": [
+     [
+      -78.998,
+      -4.236
+     ],
+     [
+      -66.875,
+      12.465
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "COM",
+   "iso2": "km",
+   "status": "member",
+   "name": "Comores",
+   "article": "les",
+   "altNames": [
+    "Union des Comores"
+   ],
+   "capital": "Moroni",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 902348,
+   "areaKm2": 1862,
+   "tier": 4,
+   "map": {
+    "point": [
+     43.318,
+     -11.728
+    ],
+    "focus": [
+     [
+      43.244,
+      -12.355
+     ],
+     [
+      44.529,
+      -11.38
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "CPV",
+   "iso2": "cv",
+   "status": "member",
+   "name": "Cap-Vert",
+   "article": "le",
+   "altNames": [
+    "Îles du Cap-Vert",
+    "République du Cap-Vert",
+    "Cabo Verde"
+   ],
+   "capital": "Praia",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 555988,
+   "areaKm2": 4033,
+   "tier": 3,
+   "map": {
+    "point": [
+     -23.639,
+     15.075
+    ],
+    "focus": [
+     [
+      -25.317,
+      14.816
+     ],
+     [
+      -22.682,
+      17.197
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "CRI",
+   "iso2": "cr",
+   "status": "member",
+   "name": "Costa Rica",
+   "article": "le",
+   "altNames": [
+    "République du Costa Rica"
+   ],
+   "capital": "San José",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "population": 5265575,
+   "areaKm2": 51100,
+   "tier": 3,
+   "map": {
+    "point": [
+     -84.078,
+     10.065
+    ],
+    "focus": [
+     [
+      -85.909,
+      8.035
+     ],
+     [
+      -82.574,
+      11.196
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CUB",
+   "iso2": "cu",
+   "status": "member",
+   "name": "Cuba",
+   "article": "",
+   "altNames": [
+    "République de Cuba"
+   ],
+   "capital": "La Havane",
+   "capitalAlt": [
+    "Havana"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "flagGroup": 22,
+   "population": 10985974,
+   "areaKm2": 109884,
+   "tier": 2,
+   "map": {
+    "point": [
+     -77.976,
+     21.334
+    ],
+    "focus": [
+     [
+      -84.947,
+      19.856
+     ],
+     [
+      -74.142,
+      23.201
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "CYP",
+   "iso2": "cy",
+   "status": "member",
+   "name": "Chypre",
+   "article": "",
+   "altNames": [
+    "République de Chypre"
+   ],
+   "capital": "Nicosie",
+   "capitalAlt": [
+    "Nicosia"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 1344976,
+   "areaKm2": 9251,
+   "tier": 2,
+   "map": {
+    "point": [
+     33.084,
+     34.913
+    ],
+    "focus": [
+     [
+      32.329,
+      34.634
+     ],
+     [
+      34.573,
+      35.644
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "CZE",
+   "iso2": "cz",
+   "status": "member",
+   "name": "Tchéquie",
+   "article": "la",
+   "altNames": [
+    "République tchèque"
+   ],
+   "capital": "Prague",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 18,
+   "population": 10909500,
+   "areaKm2": 78865,
+   "tier": 2,
+   "map": {
+    "point": [
+     15.378,
+     49.882
+    ],
+    "focus": [
+     [
+      12.107,
+      48.558
+     ],
+     [
+      18.833,
+      51.017
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "DEU",
+   "iso2": "de",
+   "status": "member",
+   "name": "Allemagne",
+   "article": "l'",
+   "altNames": [
+    "République fédérale d'Allemagne"
+   ],
+   "capital": "Berlin",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 13,
+   "population": 83467117,
+   "areaKm2": 357114,
+   "tier": 1,
+   "map": {
+    "point": [
+     9.678,
+     50.962
+    ],
+    "focus": [
+     [
+      5.928,
+      47.302
+     ],
+     [
+      15.02,
+      54.906
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "DJI",
+   "iso2": "dj",
+   "status": "member",
+   "name": "Djibouti",
+   "article": "",
+   "altNames": [
+    "République de Djibouti"
+   ],
+   "capital": "Djibouti",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 1152944,
+   "areaKm2": 23200,
+   "tier": 3,
+   "map": {
+    "point": [
+     42.499,
+     11.976
+    ],
+    "focus": [
+     [
+      41.749,
+      10.941
+     ],
+     [
+      43.419,
+      12.708
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "DMA",
+   "iso2": "dm",
+   "status": "member",
+   "name": "Dominique",
+   "article": "la",
+   "altNames": [
+    "Commonwealth de la Dominique"
+   ],
+   "capital": "Roseau",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 74656,
+   "areaKm2": 751,
+   "tier": 4,
+   "map": {
+    "point": [
+     -61.345,
+     15.459
+    ],
+    "focus": [
+     [
+      -61.489,
+      15.202
+     ],
+     [
+      -61.257,
+      15.634
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "DNK",
+   "iso2": "dk",
+   "status": "member",
+   "name": "Danemark",
+   "article": "le",
+   "altNames": [
+    "Royaume du Danemark"
+   ],
+   "capital": "Copenhague",
+   "capitalAlt": [
+    "Copenhagen"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 6,
+   "population": 5822863,
+   "areaKm2": 43094,
+   "tier": 1,
+   "map": {
+    "point": [
+     9.018,
+     55.967
+    ],
+    "focus": [
+     [
+      8.094,
+      54.628
+     ],
+     [
+      12.622,
+      57.717
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "DOM",
+   "iso2": "do",
+   "status": "member",
+   "name": "République dominicaine",
+   "article": "la",
+   "altNames": [
+    "Dominicaine"
+   ],
+   "capital": "Saint-Domingue",
+   "capitalAlt": [
+    "Santo Domingo"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 10760028,
+   "areaKm2": 48671,
+   "tier": 3,
+   "map": {
+    "point": [
+     -70.654,
+     19.104
+    ],
+    "focus": [
+     [
+      -72.001,
+      17.605
+     ],
+     [
+      -68.334,
+      19.938
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "DZA",
+   "iso2": "dz",
+   "status": "member",
+   "name": "Algérie",
+   "article": "l'",
+   "altNames": [
+    "République démocratique et populaire d'Algérie"
+   ],
+   "capital": "Alger",
+   "capitalAlt": [
+    "Algiers"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "population": 46164219,
+   "areaKm2": 2381741,
+   "tier": 1,
+   "map": {
+    "point": [
+     2.808,
+     27.397
+    ],
+    "focus": [
+     [
+      -8.682,
+      18.982
+     ],
+     [
+      11.969,
+      37.094
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ECU",
+   "iso2": "ec",
+   "status": "member",
+   "name": "Équateur",
+   "article": "l'",
+   "altNames": [
+    "République de l'Équateur"
+   ],
+   "capital": "Quito",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 8,
+   "population": 16938986,
+   "areaKm2": 276841,
+   "tier": 2,
+   "map": {
+    "point": [
+     -78.188,
+     -1.259
+    ],
+    "focus": [
+     [
+      -80.951,
+      -4.98
+     ],
+     [
+      -75.227,
+      1.434
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "EGY",
+   "iso2": "eg",
+   "status": "member",
+   "name": "Égypte",
+   "article": "l'",
+   "altNames": [
+    "République arabe d'Égypte"
+   ],
+   "capital": "Le Caire",
+   "capitalAlt": [
+    "Cairo"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "flagGroup": 11,
+   "population": 114535772,
+   "areaKm2": 1002450,
+   "tier": 1,
+   "map": {
+    "point": [
+     29.446,
+     26.186
+    ],
+    "focus": [
+     [
+      24.688,
+      21.994
+     ],
+     [
+      36.895,
+      31.657
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ERI",
+   "iso2": "er",
+   "status": "member",
+   "name": "Érythrée",
+   "article": "l'",
+   "altNames": [
+    "État d'Érythrée"
+   ],
+   "capital": "Asmara",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 3497000,
+   "areaKm2": 117600,
+   "tier": 3,
+   "map": {
+    "point": [
+     38.286,
+     15.787
+    ],
+    "focus": [
+     [
+      36.424,
+      12.36
+     ],
+     [
+      43.118,
+      18.005
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ESP",
+   "iso2": "es",
+   "status": "member",
+   "name": "Espagne",
+   "article": "l'",
+   "altNames": [
+    "Royaume d'Espagne"
+   ],
+   "capital": "Madrid",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 48592909,
+   "areaKm2": 505992,
+   "tier": 1,
+   "map": {
+    "point": [
+     -3.465,
+     40.091
+    ],
+    "focus": [
+     [
+      -9.251,
+      36.007
+     ],
+     [
+      4.303,
+      43.743
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "EST",
+   "iso2": "ee",
+   "status": "member",
+   "name": "Estonie",
+   "article": "l'",
+   "altNames": [
+    "République d'Estonie"
+   ],
+   "capital": "Tallinn",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "population": 1369995,
+   "areaKm2": 45227,
+   "tier": 3,
+   "map": {
+    "point": [
+     25.867,
+     58.725
+    ],
+    "focus": [
+     [
+      21.868,
+      57.516
+     ],
+     [
+      28.187,
+      59.633
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ETH",
+   "iso2": "et",
+   "status": "member",
+   "name": "Éthiopie",
+   "article": "l'",
+   "altNames": [
+    "République fédérale démocratique d'Éthiopie"
+   ],
+   "capital": "Addis-Abeba",
+   "capitalAlt": [
+    "Addis Ababa"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "flagGroup": 12,
+   "population": 128691692,
+   "areaKm2": 1104300,
+   "tier": 2,
+   "map": {
+    "point": [
+     39.089,
+     8.033
+    ],
+    "focus": [
+     [
+      32.99,
+      3.405
+     ],
+     [
+      47.979,
+      14.88
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "FIN",
+   "iso2": "fi",
+   "status": "member",
+   "name": "Finlande",
+   "article": "la",
+   "altNames": [
+    "République de Finlande"
+   ],
+   "capital": "Helsinki",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 6,
+   "population": 5652881,
+   "areaKm2": 338424,
+   "tier": 2,
+   "map": {
+    "point": [
+     27.276,
+     63.252
+    ],
+    "focus": [
+     [
+      19.683,
+      59.898
+     ],
+     [
+      31.57,
+      70.075
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "FJI",
+   "iso2": "fj",
+   "status": "member",
+   "name": "Fidji",
+   "article": "les",
+   "altNames": [
+    "République des Fidji",
+    "Îles Fidji"
+   ],
+   "capital": "Suva",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Mélanésie",
+   "flagGroup": 4,
+   "population": 926276,
+   "areaKm2": 18272,
+   "tier": 3,
+   "map": {
+    "point": [
+     177.975,
+     -17.826
+    ],
+    "focus": [
+     [
+      177.252,
+      -18.266
+     ],
+     [
+      180,
+      -16.149
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "FRA",
+   "iso2": "fr",
+   "status": "member",
+   "name": "France",
+   "article": "la",
+   "altNames": [
+    "République française",
+    "Hexagone"
+   ],
+   "capital": "Paris",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 3,
+   "population": 68605616,
+   "areaKm2": 551695,
+   "tier": 1,
+   "map": {
+    "point": [
+     2.552,
+     46.696
+    ],
+    "focus": [
+     [
+      -4.783,
+      41.441
+     ],
+     [
+      9.56,
+      51.088
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "FSM",
+   "iso2": "fm",
+   "status": "member",
+   "name": "Micronésie",
+   "article": "la",
+   "altNames": [
+    "États fédérés de Micronésie"
+   ],
+   "capital": "Palikir",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Micronésie",
+   "population": 75817,
+   "areaKm2": 702,
+   "tier": 4,
+   "map": {
+    "point": [
+     158.234,
+     6.888
+    ],
+    "focus": [
+     [
+      158.126,
+      6.793
+     ],
+     [
+      158.293,
+      6.979
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "GAB",
+   "iso2": "ga",
+   "status": "member",
+   "name": "Gabon",
+   "article": "le",
+   "altNames": [
+    "République gabonaise"
+   ],
+   "capital": "Libreville",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "flagGroup": 26,
+   "population": 2025137,
+   "areaKm2": 267668,
+   "tier": 3,
+   "map": {
+    "point": [
+     11.836,
+     -0.438
+    ],
+    "focus": [
+     [
+      8.8,
+      -3.937
+     ],
+     [
+      14.499,
+      2.321
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GBR",
+   "iso2": "gb",
+   "status": "member",
+   "name": "Royaume-Uni",
+   "article": "le",
+   "altNames": [
+    "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+    "UK",
+    "Grande-Bretagne",
+    "Angleterre"
+   ],
+   "capital": "Londres",
+   "capitalAlt": [
+    "London"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "population": 67326569,
+   "areaKm2": 242900,
+   "tier": 1,
+   "map": {
+    "point": [
+     -2.116,
+     54.403
+    ],
+    "focus": [
+     [
+      -8.156,
+      49.967
+     ],
+     [
+      1.771,
+      59.128
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GEO",
+   "iso2": "ge",
+   "status": "member",
+   "name": "Géorgie",
+   "article": "la",
+   "altNames": [
+    "République de Géorgie"
+   ],
+   "capital": "Tbilissi",
+   "capitalAlt": [
+    "Tbilisi"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "population": 3929581,
+   "areaKm2": 69700,
+   "tier": 2,
+   "map": {
+    "point": [
+     43.736,
+     41.87
+    ],
+    "focus": [
+     [
+      39.986,
+      41.045
+     ],
+     [
+      46.695,
+      43.576
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GHA",
+   "iso2": "gh",
+   "status": "member",
+   "name": "Ghana",
+   "article": "le",
+   "altNames": [
+    "République du Ghana"
+   ],
+   "capital": "Accra",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 12,
+   "population": 32833031,
+   "areaKm2": 238533,
+   "tier": 2,
+   "map": {
+    "point": [
+     -1.037,
+     7.718
+    ],
+    "focus": [
+     [
+      -3.262,
+      4.737
+     ],
+     [
+      1.185,
+      11.135
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GIN",
+   "iso2": "gn",
+   "status": "member",
+   "name": "Guinée",
+   "article": "la",
+   "altNames": [
+    "République de Guinée",
+    "Guinée-Conakry"
+   ],
+   "capital": "Conakry",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 5,
+   "population": 17521167,
+   "areaKm2": 245857,
+   "tier": 3,
+   "map": {
+    "point": [
+     -10.016,
+     10.619
+    ],
+    "focus": [
+     [
+      -15.081,
+      7.238
+     ],
+     [
+      -7.69,
+      12.673
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GMB",
+   "iso2": "gm",
+   "status": "member",
+   "name": "Gambie",
+   "article": "la",
+   "altNames": [
+    "République de Gambie"
+   ],
+   "capital": "Banjul",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 2639916,
+   "areaKm2": 10689,
+   "tier": 3,
+   "map": {
+    "point": [
+     -14.998,
+     13.642
+    ],
+    "focus": [
+     [
+      -16.83,
+      13.065
+     ],
+     [
+      -13.819,
+      13.82
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "GNB",
+   "iso2": "gw",
+   "status": "member",
+   "name": "Guinée-Bissau",
+   "article": "la",
+   "altNames": [
+    "République de Guinée-Bissau"
+   ],
+   "capital": "Bissau",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 1861283,
+   "areaKm2": 36125,
+   "tier": 4,
+   "map": {
+    "point": [
+     -14.524,
+     12.164
+    ],
+    "focus": [
+     [
+      -16.728,
+      10.968
+     ],
+     [
+      -13.663,
+      12.679
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GNQ",
+   "iso2": "gq",
+   "status": "member",
+   "name": "Guinée équatoriale",
+   "article": "la",
+   "altNames": [
+    "République de Guinée équatoriale"
+   ],
+   "capital": "Ciudad de la Paz",
+   "capitalAlt": [
+    "Malabo",
+    "Oyala"
+   ],
+   "capitalNote": "Malabo, l'ancienne capitale, est aussi acceptée.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "population": 1847549,
+   "areaKm2": 28051,
+   "tier": 4,
+   "map": {
+    "point": [
+     10.464,
+     1.565
+    ],
+    "focus": [
+     [
+      9.36,
+      0.935
+     ],
+     [
+      11.336,
+      2.342
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GRC",
+   "iso2": "gr",
+   "status": "member",
+   "name": "Grèce",
+   "article": "la",
+   "altNames": [
+    "République hellénique",
+    "Hellas"
+   ],
+   "capital": "Athènes",
+   "capitalAlt": [
+    "Athens"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "flagGroup": 22,
+   "population": 10482487,
+   "areaKm2": 131990,
+   "tier": 1,
+   "map": {
+    "point": [
+     21.726,
+     39.493
+    ],
+    "focus": [
+     [
+      19.677,
+      36.145
+     ],
+     [
+      27.048,
+      41.746
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GRD",
+   "iso2": "gd",
+   "status": "member",
+   "name": "Grenade",
+   "article": "la",
+   "altNames": [],
+   "capital": "Saint-Georges",
+   "capitalAlt": [
+    "St. George's"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 114299,
+   "areaKm2": 344,
+   "tier": 4,
+   "map": {
+    "point": [
+     -61.68,
+     12.113
+    ],
+    "focus": [
+     [
+      -61.756,
+      12.003
+     ],
+     [
+      -61.613,
+      12.236
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "GTM",
+   "iso2": "gt",
+   "status": "member",
+   "name": "Guatemala",
+   "article": "le",
+   "altNames": [
+    "République du Guatemala"
+   ],
+   "capital": "Guatemala",
+   "capitalAlt": [
+    "Guatemala City",
+    "Ciudad de Guatemala"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "flagGroup": 9,
+   "population": 17263239,
+   "areaKm2": 108889,
+   "tier": 3,
+   "map": {
+    "point": [
+     -90.497,
+     14.982
+    ],
+    "focus": [
+     [
+      -92.246,
+      13.731
+     ],
+     [
+      -88.221,
+      17.816
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "GUY",
+   "iso2": "gy",
+   "status": "member",
+   "name": "Guyana",
+   "article": "le",
+   "altNames": [
+    "République coopérative de Guyana"
+   ],
+   "capital": "Georgetown",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "population": 878674,
+   "areaKm2": 214969,
+   "tier": 3,
+   "map": {
+    "point": [
+     -58.943,
+     5.124
+    ],
+    "focus": [
+     [
+      -61.38,
+      1.201
+     ],
+     [
+      -56.482,
+      8.558
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "HND",
+   "iso2": "hn",
+   "status": "member",
+   "name": "Honduras",
+   "article": "le",
+   "altNames": [
+    "République du Honduras"
+   ],
+   "capital": "Tegucigalpa",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "flagGroup": 9,
+   "population": 8303771,
+   "areaKm2": 112492,
+   "tier": 3,
+   "map": {
+    "point": [
+     -86.888,
+     14.795
+    ],
+    "focus": [
+     [
+      -89.362,
+      12.982
+     ],
+     [
+      -83.13,
+      15.988
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "HRV",
+   "iso2": "hr",
+   "status": "member",
+   "name": "Croatie",
+   "article": "la",
+   "altNames": [
+    "République de Croatie"
+   ],
+   "capital": "Zagreb",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "flagGroup": 3,
+   "population": 3871833,
+   "areaKm2": 56594,
+   "tier": 2,
+   "map": {
+    "point": [
+     16.372,
+     45.806
+    ],
+    "focus": [
+     [
+      13.513,
+      42.416
+     ],
+     [
+      19.29,
+      46.547
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "HTI",
+   "iso2": "ht",
+   "status": "member",
+   "name": "Haïti",
+   "article": "",
+   "altNames": [
+    "République d'Haïti"
+   ],
+   "capital": "Port-au-Prince",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 10981229,
+   "areaKm2": 27750,
+   "tier": 2,
+   "map": {
+    "point": [
+     -72.224,
+     19.264
+    ],
+    "focus": [
+     [
+      -74.489,
+      18.026
+     ],
+     [
+      -71.639,
+      19.944
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "HUN",
+   "iso2": "hu",
+   "status": "member",
+   "name": "Hongrie",
+   "article": "la",
+   "altNames": [],
+   "capital": "Budapest",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 17,
+   "population": 9603634,
+   "areaKm2": 93028,
+   "tier": 2,
+   "map": {
+    "point": [
+     19.448,
+     47.087
+    ],
+    "focus": [
+     [
+      16.094,
+      45.743
+     ],
+     [
+      22.878,
+      48.569
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "IDN",
+   "iso2": "id",
+   "status": "member",
+   "name": "Indonésie",
+   "article": "l'",
+   "altNames": [
+    "République d'Indonésie"
+   ],
+   "capital": "Jakarta",
+   "capitalAlt": [
+    "Djakarta"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "flagGroup": 1,
+   "population": 275439000,
+   "areaKm2": 1904569,
+   "tier": 1,
+   "map": {
+    "point": [
+     101.893,
+     -0.954
+    ],
+    "focus": [
+     [
+      95.197,
+      -9.107
+     ],
+     [
+      140.977,
+      5.65
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "IND",
+   "iso2": "in",
+   "status": "member",
+   "name": "Inde",
+   "article": "l'",
+   "altNames": [
+    "République de l'Inde"
+   ],
+   "capital": "New Delhi",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "flagGroup": 21,
+   "population": 1326093247,
+   "areaKm2": 3287590,
+   "tier": 1,
+   "map": {
+    "point": [
+     79.358,
+     22.687
+    ],
+    "focus": [
+     [
+      68.164,
+      6.801
+     ],
+     [
+      97.355,
+      35.646
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "IRL",
+   "iso2": "ie",
+   "status": "member",
+   "name": "Irlande",
+   "article": "l'",
+   "altNames": [
+    "République d'Irlande"
+   ],
+   "capital": "Dublin",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 2,
+   "population": 5149139,
+   "areaKm2": 70273,
+   "tier": 1,
+   "map": {
+    "point": [
+     -7.799,
+     53.079
+    ],
+    "focus": [
+     [
+      -10.45,
+      51.446
+     ],
+     [
+      -5.997,
+      55.373
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "IRN",
+   "iso2": "ir",
+   "status": "member",
+   "name": "Iran",
+   "article": "l'",
+   "altNames": [
+    "République islamique d'Iran",
+    "Perse"
+   ],
+   "capital": "Téhéran",
+   "capitalAlt": [
+    "Tehran"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 92417700,
+   "areaKm2": 1648195,
+   "tier": 1,
+   "map": {
+    "point": [
+     54.931,
+     32.166
+    ],
+    "focus": [
+     [
+      44.061,
+      25.059
+     ],
+     [
+      63.265,
+      39.766
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "IRQ",
+   "iso2": "iq",
+   "status": "member",
+   "name": "Irak",
+   "article": "l'",
+   "altNames": [
+    "République d'Irak"
+   ],
+   "capital": "Bagdad",
+   "capitalAlt": [
+    "Baghdad"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 11,
+   "population": 38274618,
+   "areaKm2": 438317,
+   "tier": 2,
+   "map": {
+    "point": [
+     43.262,
+     33.094
+    ],
+    "focus": [
+     [
+      38.775,
+      29.063
+     ],
+     [
+      48.531,
+      37.375
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ISL",
+   "iso2": "is",
+   "status": "member",
+   "name": "Islande",
+   "article": "l'",
+   "altNames": [
+    "République d'Islande"
+   ],
+   "capital": "Reykjavik",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 6,
+   "population": 364260,
+   "areaKm2": 103000,
+   "tier": 2,
+   "map": {
+    "point": [
+     -18.674,
+     64.779
+    ],
+    "focus": [
+     [
+      -24.482,
+      63.397
+     ],
+     [
+      -13.52,
+      66.537
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ISR",
+   "iso2": "il",
+   "status": "member",
+   "name": "Israël",
+   "article": "",
+   "altNames": [
+    "État d'Israël"
+   ],
+   "capital": "Jérusalem",
+   "capitalAlt": [],
+   "reverseCapital": false,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "population": 9840000,
+   "areaKm2": 20770,
+   "tier": 1,
+   "map": {
+    "point": [
+     34.848,
+     30.911
+    ],
+    "focus": [
+     [
+      34.248,
+      29.49
+     ],
+     [
+      35.672,
+      33.24
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ITA",
+   "iso2": "it",
+   "status": "member",
+   "name": "Italie",
+   "article": "l'",
+   "altNames": [
+    "République italienne"
+   ],
+   "capital": "Rome",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "flagGroup": 2,
+   "population": 58850717,
+   "areaKm2": 301336,
+   "tier": 1,
+   "map": {
+    "point": [
+     11.077,
+     44.732
+    ],
+    "focus": [
+     [
+      6.603,
+      36.659
+     ],
+     [
+      18.517,
+      47.038
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "JAM",
+   "iso2": "jm",
+   "status": "member",
+   "name": "Jamaïque",
+   "article": "la",
+   "altNames": [],
+   "capital": "Kingston",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 2697983,
+   "areaKm2": 10991,
+   "tier": 3,
+   "map": {
+    "point": [
+     -77.319,
+     18.137
+    ],
+    "focus": [
+     [
+      -78.341,
+      17.717
+     ],
+     [
+      -76.188,
+      18.519
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "JOR",
+   "iso2": "jo",
+   "status": "member",
+   "name": "Jordanie",
+   "article": "la",
+   "altNames": [
+    "Royaume hachémite de Jordanie"
+   ],
+   "capital": "Amman",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 10,
+   "population": 10428241,
+   "areaKm2": 89342,
+   "tier": 3,
+   "map": {
+    "point": [
+     36.376,
+     30.805
+    ],
+    "focus": [
+     [
+      34.949,
+      29.19
+     ],
+     [
+      39.292,
+      33.372
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "JPN",
+   "iso2": "jp",
+   "status": "member",
+   "name": "Japon",
+   "article": "le",
+   "altNames": [],
+   "capital": "Tokyo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie de l'Est",
+   "flagGroup": 20,
+   "population": 123802000,
+   "areaKm2": 377930,
+   "tier": 1,
+   "map": {
+    "point": [
+     138.442,
+     36.143
+    ],
+    "focus": [
+     [
+      129.552,
+      31.047
+     ],
+     [
+      145.767,
+      45.51
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KAZ",
+   "iso2": "kz",
+   "status": "member",
+   "name": "Kazakhstan",
+   "article": "le",
+   "altNames": [
+    "République du Kazakhstan",
+    "Kazakstan"
+   ],
+   "capital": "Astana",
+   "capitalAlt": [
+    "Nour-Soultan"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie centrale",
+   "population": 20139914,
+   "areaKm2": 2724900,
+   "tier": 2,
+   "map": {
+    "point": [
+     68.686,
+     49.054
+    ],
+    "focus": [
+     [
+      46.479,
+      40.585
+     ],
+     [
+      87.324,
+      55.385
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KEN",
+   "iso2": "ke",
+   "status": "member",
+   "name": "Kenya",
+   "article": "le",
+   "altNames": [
+    "République du Kenya"
+   ],
+   "capital": "Nairobi",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 48468138,
+   "areaKm2": 580367,
+   "tier": 2,
+   "map": {
+    "point": [
+     37.908,
+     0.549
+    ],
+    "focus": [
+     [
+      33.894,
+      -4.677
+     ],
+     [
+      41.885,
+      5.03
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KGZ",
+   "iso2": "kg",
+   "status": "member",
+   "name": "Kirghizistan",
+   "article": "le",
+   "altNames": [
+    "Kirghizstan",
+    "République kirghize",
+    "Kirghizie"
+   ],
+   "capital": "Bichkek",
+   "capitalAlt": [
+    "Bishkek"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie centrale",
+   "population": 7281800,
+   "areaKm2": 199951,
+   "tier": 3,
+   "map": {
+    "point": [
+     74.533,
+     41.669
+    ],
+    "focus": [
+     [
+      69.226,
+      39.241
+     ],
+     [
+      80.257,
+      43.216
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KHM",
+   "iso2": "kh",
+   "status": "member",
+   "name": "Cambodge",
+   "article": "le",
+   "altNames": [
+    "Royaume du Cambodge"
+   ],
+   "capital": "Phnom Penh",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 17423880,
+   "areaKm2": 181035,
+   "tier": 2,
+   "map": {
+    "point": [
+     104.505,
+     12.648
+    ],
+    "focus": [
+     [
+      102.328,
+      10.42
+     ],
+     [
+      107.607,
+      14.705
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KIR",
+   "iso2": "ki",
+   "status": "member",
+   "name": "Kiribati",
+   "article": "",
+   "altNames": [
+    "République de Kiribati"
+   ],
+   "capital": "Tarawa-Sud",
+   "capitalAlt": [
+    "South Tarawa",
+    "Tarawa",
+    "Bairiki"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Micronésie",
+   "population": 134518,
+   "areaKm2": 811,
+   "tier": 4,
+   "map": {
+    "point": [
+     -157.385,
+     1.82
+    ],
+    "focus": [
+     [
+      -157.449,
+      1.75
+     ],
+     [
+      -157.191,
+      1.902
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "KNA",
+   "iso2": "kn",
+   "status": "member",
+   "name": "Saint-Christophe-et-Niévès",
+   "article": "",
+   "altNames": [
+    "Fédération de Saint-Christophe-et-Niévès",
+    "Saint-Kitts-et-Nevis",
+    "Saint-Kitts",
+    "Saint-Christophe-et-Nevis"
+   ],
+   "capital": "Basseterre",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 46922,
+   "areaKm2": 261,
+   "tier": 4,
+   "map": {
+    "point": [
+     -62.758,
+     17.337
+    ],
+    "focus": [
+     [
+      -62.861,
+      17.266
+     ],
+     [
+      -62.65,
+      17.416
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "KOR",
+   "iso2": "kr",
+   "status": "member",
+   "name": "Corée du Sud",
+   "article": "la",
+   "altNames": [
+    "République de Corée",
+    "Corée"
+   ],
+   "capital": "Séoul",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie de l'Est",
+   "population": 51466201,
+   "areaKm2": 100210,
+   "tier": 1,
+   "map": {
+    "point": [
+     128.13,
+     36.385
+    ],
+    "focus": [
+     [
+      126.116,
+      33.2
+     ],
+     [
+      129.543,
+      38.624
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "KWT",
+   "iso2": "kw",
+   "status": "member",
+   "name": "Koweït",
+   "article": "le",
+   "altNames": [
+    "État du Koweït"
+   ],
+   "capital": "Koweït",
+   "capitalAlt": [
+    "Kuwait City",
+    "Koweït City"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 10,
+   "population": 4464000,
+   "areaKm2": 17818,
+   "tier": 3,
+   "map": {
+    "point": [
+     47.314,
+     29.414
+    ],
+    "focus": [
+     [
+      46.532,
+      28.534
+     ],
+     [
+      48.433,
+      30.098
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LAO",
+   "iso2": "la",
+   "status": "member",
+   "name": "Laos",
+   "article": "le",
+   "altNames": [
+    "République démocratique populaire lao"
+   ],
+   "capital": "Vientiane",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 6858160,
+   "areaKm2": 236800,
+   "tier": 3,
+   "map": {
+    "point": [
+     102.534,
+     19.432
+    ],
+    "focus": [
+     [
+      100.099,
+      13.916
+     ],
+     [
+      107.658,
+      22.492
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LBN",
+   "iso2": "lb",
+   "status": "member",
+   "name": "Liban",
+   "article": "le",
+   "altNames": [
+    "République libanaise"
+   ],
+   "capital": "Beyrouth",
+   "capitalAlt": [
+    "Beirut"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 14,
+   "population": 6100075,
+   "areaKm2": 10452,
+   "tier": 2,
+   "map": {
+    "point": [
+     35.993,
+     34.133
+    ],
+    "focus": [
+     [
+      35.105,
+      33.087
+     ],
+     [
+      36.604,
+      34.65
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "LBR",
+   "iso2": "lr",
+   "status": "member",
+   "name": "Liberia",
+   "article": "le",
+   "altNames": [
+    "République du Libéria"
+   ],
+   "capital": "Monrovia",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 15,
+   "population": 5214030,
+   "areaKm2": 111369,
+   "tier": 3,
+   "map": {
+    "point": [
+     -9.46,
+     6.447
+    ],
+    "focus": [
+     [
+      -11.476,
+      4.353
+     ],
+     [
+      -7.394,
+      8.51
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LBY",
+   "iso2": "ly",
+   "status": "member",
+   "name": "Libye",
+   "article": "la",
+   "altNames": [
+    "Grande République arabe libyenne populaire et socialiste"
+   ],
+   "capital": "Tripoli",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "population": 7381023,
+   "areaKm2": 1759540,
+   "tier": 2,
+   "map": {
+    "point": [
+     18.011,
+     26.639
+    ],
+    "focus": [
+     [
+      9.287,
+      19.496
+     ],
+     [
+      25.151,
+      33.181
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LCA",
+   "iso2": "lc",
+   "status": "member",
+   "name": "Sainte-Lucie",
+   "article": "",
+   "altNames": [],
+   "capital": "Castries",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 167591,
+   "areaKm2": 616,
+   "tier": 4,
+   "map": {
+    "point": [
+     -60.98,
+     13.892
+    ],
+    "focus": [
+     [
+      -61.076,
+      13.722
+     ],
+     [
+      -60.887,
+      14.112
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "LIE",
+   "iso2": "li",
+   "status": "member",
+   "name": "Liechtenstein",
+   "article": "le",
+   "altNames": [
+    "Principauté du Liechtenstein"
+   ],
+   "capital": "Vaduz",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "population": 37922,
+   "areaKm2": 160,
+   "tier": 3,
+   "map": {
+    "point": [
+     9.559,
+     47.111
+    ],
+    "focus": [
+     [
+      9.485,
+      47.057
+     ],
+     [
+      9.616,
+      47.263
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "LKA",
+   "iso2": "lk",
+   "status": "member",
+   "name": "Sri Lanka",
+   "article": "le",
+   "altNames": [
+    "République démocratique socialiste du Sri Lanka",
+    "Ceylan"
+   ],
+   "capital": "Sri Jayawardenapura Kotte",
+   "capitalAlt": [
+    "Sri Jayawardenapura",
+    "Kotte",
+    "Colombo",
+    "Sri Jayawardenepura Kotte"
+   ],
+   "capitalNote": "Colombo est la capitale commerciale.",
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 21444000,
+   "areaKm2": 65610,
+   "tier": 2,
+   "map": {
+    "point": [
+     80.705,
+     7.581
+    ],
+    "focus": [
+     [
+      79.76,
+      5.924
+     ],
+     [
+      81.89,
+      9.83
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LSO",
+   "iso2": "ls",
+   "status": "member",
+   "name": "Lesotho",
+   "article": "le",
+   "altNames": [
+    "Royaume du Lesotho"
+   ],
+   "capital": "Maseru",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique australe",
+   "population": 2007201,
+   "areaKm2": 30355,
+   "tier": 4,
+   "map": {
+    "point": [
+     28.247,
+     -29.48
+    ],
+    "focus": [
+     [
+      27.015,
+      -30.65
+     ],
+     [
+      29.436,
+      -28.597
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LTU",
+   "iso2": "lt",
+   "status": "member",
+   "name": "Lituanie",
+   "article": "la",
+   "altNames": [
+    "République de Lituanie",
+    "Lithuanie"
+   ],
+   "capital": "Vilnius",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 12,
+   "population": 2860002,
+   "areaKm2": 65300,
+   "tier": 2,
+   "map": {
+    "point": [
+     24.09,
+     55.104
+    ],
+    "focus": [
+     [
+      21.053,
+      53.887
+     ],
+     [
+      26.769,
+      56.439
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "LUX",
+   "iso2": "lu",
+   "status": "member",
+   "name": "Luxembourg",
+   "article": "le",
+   "altNames": [
+    "Grand-Duché de Luxembourg"
+   ],
+   "capital": "Luxembourg",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 3,
+   "population": 690959,
+   "areaKm2": 2586,
+   "tier": 2,
+   "map": {
+    "point": [
+     6.078,
+     49.734
+    ],
+    "focus": [
+     [
+      5.715,
+      49.441
+     ],
+     [
+      6.5,
+      50.166
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "LVA",
+   "iso2": "lv",
+   "status": "member",
+   "name": "Lettonie",
+   "article": "la",
+   "altNames": [
+    "République de Lettonie"
+   ],
+   "capital": "Riga",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 14,
+   "population": 1845096,
+   "areaKm2": 64559,
+   "tier": 3,
+   "map": {
+    "point": [
+     25.459,
+     57.067
+    ],
+    "focus": [
+     [
+      20.969,
+      55.667
+     ],
+     [
+      28.215,
+      58.059
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MAR",
+   "iso2": "ma",
+   "status": "member",
+   "name": "Maroc",
+   "article": "le",
+   "altNames": [
+    "Royaume du Maroc"
+   ],
+   "capital": "Rabat",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "flagGroup": 25,
+   "population": 36828330,
+   "areaKm2": 446550,
+   "tier": 1,
+   "map": {
+    "point": [
+     -7.187,
+     31.651
+    ],
+    "focus": [
+     [
+      -17.1,
+      20.767
+     ],
+     [
+      -1.047,
+      35.925
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MCO",
+   "iso2": "mc",
+   "status": "member",
+   "name": "Monaco",
+   "article": "",
+   "altNames": [
+    "Principauté de Monaco"
+   ],
+   "capital": "Monaco",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 1,
+   "population": 38857,
+   "areaKm2": 2,
+   "tier": 3,
+   "map": {
+    "point": [
+     7.398,
+     43.74
+    ],
+    "focus": [
+     [
+      7.366,
+      43.723
+     ],
+     [
+      7.438,
+      43.764
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MDA",
+   "iso2": "md",
+   "status": "member",
+   "name": "Moldavie",
+   "article": "la",
+   "altNames": [
+    "République de Moldavie",
+    "Moldova"
+   ],
+   "capital": "Chișinău",
+   "capitalAlt": [
+    "Kichinev"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Est",
+   "flagGroup": 0,
+   "population": 2409207,
+   "areaKm2": 33846,
+   "tier": 3,
+   "map": {
+    "point": [
+     28.488,
+     47.435
+    ],
+    "focus": [
+     [
+      26.618,
+      45.462
+     ],
+     [
+      30.081,
+      48.472
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MDG",
+   "iso2": "mg",
+   "status": "member",
+   "name": "Madagascar",
+   "article": "",
+   "altNames": [
+    "République de Madagascar"
+   ],
+   "capital": "Antananarivo",
+   "capitalAlt": [
+    "Tananarive"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 31964956,
+   "areaKm2": 587041,
+   "tier": 2,
+   "map": {
+    "point": [
+     46.704,
+     -18.628
+    ],
+    "focus": [
+     [
+      43.223,
+      -25.584
+     ],
+     [
+      50.504,
+      -12
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MDV",
+   "iso2": "mv",
+   "status": "member",
+   "name": "Maldives",
+   "article": "les",
+   "altNames": [
+    "République des Maldives",
+    "Îles Maldives"
+   ],
+   "capital": "Malé",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 436330,
+   "areaKm2": 300,
+   "tier": 3,
+   "map": {
+    "point": [
+     73.532,
+     4.204
+    ],
+    "focus": [
+     [
+      73.512,
+      4.183
+     ],
+     [
+      73.546,
+      4.243
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MEX",
+   "iso2": "mx",
+   "status": "member",
+   "name": "Mexique",
+   "article": "le",
+   "altNames": [
+    "États-Unis du Mexique"
+   ],
+   "capital": "Mexico",
+   "capitalAlt": [
+    "Mexico City"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique du Nord",
+   "flagGroup": 2,
+   "population": 132274416,
+   "areaKm2": 1964375,
+   "tier": 1,
+   "map": {
+    "point": [
+     -102.289,
+     23.92
+    ],
+    "focus": [
+     [
+      -117.125,
+      14.546
+     ],
+     [
+      -86.742,
+      32.713
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MHL",
+   "iso2": "mh",
+   "status": "member",
+   "name": "Îles Marshall",
+   "article": "les",
+   "altNames": [
+    "République des Îles Marshall",
+    "Marshall"
+   ],
+   "capital": "Majuro",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Micronésie",
+   "population": 53127,
+   "areaKm2": 181,
+   "tier": 4,
+   "map": {
+    "point": [
+     171.306,
+     7.087
+    ],
+    "focus": [
+     [
+      171.226,
+      7.068
+     ],
+     [
+      171.394,
+      7.11
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MKD",
+   "iso2": "mk",
+   "status": "member",
+   "name": "Macédoine du Nord",
+   "article": "la",
+   "altNames": [
+    "République de Macédoine du Nord",
+    "Macédoine"
+   ],
+   "capital": "Skopje",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "population": 1836713,
+   "areaKm2": 25713,
+   "tier": 3,
+   "map": {
+    "point": [
+     21.556,
+     41.558
+    ],
+    "focus": [
+     [
+      20.444,
+      40.849
+     ],
+     [
+      23.01,
+      42.349
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MLI",
+   "iso2": "ml",
+   "status": "member",
+   "name": "Mali",
+   "article": "le",
+   "altNames": [
+    "République du Mali"
+   ],
+   "capital": "Bamako",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 5,
+   "population": 22395489,
+   "areaKm2": 1240192,
+   "tier": 2,
+   "map": {
+    "point": [
+     -2.038,
+     18.693
+    ],
+    "focus": [
+     [
+      -12.264,
+      10.14
+     ],
+     [
+      4.236,
+      24.995
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MLT",
+   "iso2": "mt",
+   "status": "member",
+   "name": "Malte",
+   "article": "",
+   "altNames": [
+    "République de Malte"
+   ],
+   "capital": "La Valette",
+   "capitalAlt": [
+    "Valletta"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 553214,
+   "areaKm2": 316,
+   "tier": 2,
+   "map": {
+    "point": [
+     14.433,
+     35.893
+    ],
+    "focus": [
+     [
+      14.343,
+      35.801
+     ],
+     [
+      14.548,
+      35.966
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MMR",
+   "iso2": "mm",
+   "status": "member",
+   "name": "Birmanie",
+   "article": "la",
+   "altNames": [
+    "République de l'Union du Myanmar",
+    "Myanmar"
+   ],
+   "capital": "Naypyidaw",
+   "capitalAlt": [
+    "Nay Pyi Taw"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 53370609,
+   "areaKm2": 676578,
+   "tier": 2,
+   "map": {
+    "point": [
+     95.804,
+     21.574
+    ],
+    "focus": [
+     [
+      92.175,
+      10.029
+     ],
+     [
+      101.174,
+      28.53
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MNE",
+   "iso2": "me",
+   "status": "member",
+   "name": "Monténégro",
+   "article": "le",
+   "altNames": [],
+   "capital": "Podgorica",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "population": 617213,
+   "areaKm2": 13812,
+   "tier": 3,
+   "map": {
+    "point": [
+     19.144,
+     42.803
+    ],
+    "focus": [
+     [
+      18.437,
+      41.852
+     ],
+     [
+      20.345,
+      43.533
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MNG",
+   "iso2": "mn",
+   "status": "member",
+   "name": "Mongolie",
+   "article": "la",
+   "altNames": [],
+   "capital": "Oulan-Bator",
+   "capitalAlt": [
+    "Ulaanbaatar",
+    "Ulan Bator"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie de l'Est",
+   "population": 3409939,
+   "areaKm2": 1564110,
+   "tier": 3,
+   "map": {
+    "point": [
+     104.15,
+     45.997
+    ],
+    "focus": [
+     [
+      87.757,
+      41.596
+     ],
+     [
+      119.904,
+      52.107
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MOZ",
+   "iso2": "mz",
+   "status": "member",
+   "name": "Mozambique",
+   "article": "le",
+   "altNames": [
+    "République du Mozambique"
+   ],
+   "capital": "Maputo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 29668834,
+   "areaKm2": 801590,
+   "tier": 3,
+   "map": {
+    "point": [
+     37.838,
+     -13.943
+    ],
+    "focus": [
+     [
+      30.215,
+      -26.86
+     ],
+     [
+      40.843,
+      -10.475
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MRT",
+   "iso2": "mr",
+   "status": "member",
+   "name": "Mauritanie",
+   "article": "la",
+   "altNames": [
+    "République islamique de Mauritanie"
+   ],
+   "capital": "Nouakchott",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 4736139,
+   "areaKm2": 1030700,
+   "tier": 3,
+   "map": {
+    "point": [
+     -9.74,
+     19.587
+    ],
+    "focus": [
+     [
+      -17.081,
+      14.775
+     ],
+     [
+      -4.822,
+      27.285
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MUS",
+   "iso2": "mu",
+   "status": "member",
+   "name": "Maurice",
+   "article": "",
+   "altNames": [
+    "Île Maurice",
+    "République de Maurice"
+   ],
+   "capital": "Port-Louis",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 1264613,
+   "areaKm2": 2040,
+   "tier": 3,
+   "map": {
+    "point": [
+     57.566,
+     -20.3
+    ],
+    "focus": [
+     [
+      57.358,
+      -20.517
+     ],
+     [
+      57.796,
+      -19.994
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "MWI",
+   "iso2": "mw",
+   "status": "member",
+   "name": "Malawi",
+   "article": "le",
+   "altNames": [
+    "République du Malawi"
+   ],
+   "capital": "Lilongwe",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 17563749,
+   "areaKm2": 118484,
+   "tier": 3,
+   "map": {
+    "point": [
+     33.608,
+     -13.387
+    ],
+    "focus": [
+     [
+      32.723,
+      -17.124
+     ],
+     [
+      35.904,
+      -9.391
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "MYS",
+   "iso2": "my",
+   "status": "member",
+   "name": "Malaisie",
+   "article": "la",
+   "altNames": [
+    "Fédération de Malaisie"
+   ],
+   "capital": "Kuala Lumpur",
+   "capitalAlt": [
+    "Putrajaya"
+   ],
+   "capitalNote": "Putrajaya est le siège du gouvernement.",
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "flagGroup": 15,
+   "population": 34231700,
+   "areaKm2": 330803,
+   "tier": 2,
+   "map": {
+    "point": [
+     113.837,
+     2.529
+    ],
+    "focus": [
+     [
+      100.127,
+      0.851
+     ],
+     [
+      119.274,
+      7.343
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NAM",
+   "iso2": "na",
+   "status": "member",
+   "name": "Namibie",
+   "article": "la",
+   "altNames": [
+    "République de Namibie"
+   ],
+   "capital": "Windhoek",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique australe",
+   "population": 2533794,
+   "areaKm2": 825615,
+   "tier": 3,
+   "map": {
+    "point": [
+     17.108,
+     -20.575
+    ],
+    "focus": [
+     [
+      11.718,
+      -28.959
+     ],
+     [
+      25.26,
+      -16.951
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NER",
+   "iso2": "ne",
+   "status": "member",
+   "name": "Niger",
+   "article": "le",
+   "altNames": [
+    "République du Niger"
+   ],
+   "capital": "Niamey",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 21,
+   "population": 21477348,
+   "areaKm2": 1267000,
+   "tier": 3,
+   "map": {
+    "point": [
+     9.504,
+     17.446
+    ],
+    "focus": [
+     [
+      0.153,
+      11.696
+     ],
+     [
+      15.963,
+      23.517
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NGA",
+   "iso2": "ng",
+   "status": "member",
+   "name": "Nigeria",
+   "article": "le",
+   "altNames": [
+    "République fédérale du Nigeria"
+   ],
+   "capital": "Abuja",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 21,
+   "population": 211400708,
+   "areaKm2": 923768,
+   "tier": 2,
+   "map": {
+    "point": [
+     7.503,
+     9.44
+    ],
+    "focus": [
+     [
+      2.672,
+      4.278
+     ],
+     [
+      14.67,
+      13.873
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NIC",
+   "iso2": "ni",
+   "status": "member",
+   "name": "Nicaragua",
+   "article": "le",
+   "altNames": [
+    "République du Nicaragua"
+   ],
+   "capital": "Managua",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "flagGroup": 9,
+   "population": 5142098,
+   "areaKm2": 130373,
+   "tier": 3,
+   "map": {
+    "point": [
+     -85.069,
+     12.671
+    ],
+    "focus": [
+     [
+      -87.667,
+      10.718
+     ],
+     [
+      -83.13,
+      15.031
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NLD",
+   "iso2": "nl",
+   "status": "member",
+   "name": "Pays-Bas",
+   "article": "les",
+   "altNames": [
+    "Royaume des Pays-Bas",
+    "Hollande"
+   ],
+   "capital": "Amsterdam",
+   "capitalAlt": [],
+   "capitalNote": "Le gouvernement siège à La Haye.",
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Ouest",
+   "flagGroup": 3,
+   "population": 17100715,
+   "areaKm2": 41850,
+   "tier": 1,
+   "map": {
+    "point": [
+     5.611,
+     52.422
+    ],
+    "focus": [
+     [
+      3.349,
+      50.75
+     ],
+     [
+      7.195,
+      53.461
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NOR",
+   "iso2": "no",
+   "status": "member",
+   "name": "Norvège",
+   "article": "la",
+   "altNames": [
+    "Royaume de Norvège"
+   ],
+   "capital": "Oslo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 6,
+   "population": 5627400,
+   "areaKm2": 323802,
+   "tier": 1,
+   "map": {
+    "point": [
+     9.68,
+     61.357
+    ],
+    "focus": [
+     [
+      4.964,
+      58.018
+     ],
+     [
+      31.063,
+      80.067
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NPL",
+   "iso2": "np",
+   "status": "member",
+   "name": "Népal",
+   "article": "le",
+   "altNames": [
+    "République du Népal"
+   ],
+   "capital": "Katmandou",
+   "capitalAlt": [
+    "Kathmandu"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 29164578,
+   "areaKm2": 147181,
+   "tier": 2,
+   "map": {
+    "point": [
+     83.64,
+     28.298
+    ],
+    "focus": [
+     [
+      80.036,
+      26.353
+     ],
+     [
+      88.169,
+      30.414
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "NRU",
+   "iso2": "nr",
+   "status": "member",
+   "name": "Nauru",
+   "article": "",
+   "altNames": [
+    "République de Nauru"
+   ],
+   "capital": "Yaren",
+   "capitalAlt": [
+    "Yaren District"
+   ],
+   "capitalNote": "Nauru n'a pas de capitale officielle : Yaren abrite les institutions.",
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Micronésie",
+   "population": 13650,
+   "areaKm2": 21,
+   "tier": 4,
+   "map": {
+    "point": [
+     166.933,
+     -0.52
+    ],
+    "focus": [
+     [
+      166.913,
+      -0.547
+     ],
+     [
+      166.958,
+      -0.49
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "NZL",
+   "iso2": "nz",
+   "status": "member",
+   "name": "Nouvelle-Zélande",
+   "article": "la",
+   "altNames": [],
+   "capital": "Wellington",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Australie et Nouvelle-Zélande",
+   "flagGroup": 4,
+   "population": 5307800,
+   "areaKm2": 270467,
+   "tier": 2,
+   "map": {
+    "point": [
+     170.583,
+     -43.97
+    ],
+    "focus": [
+     [
+      166.469,
+      -47.205
+     ],
+     [
+      178.564,
+      -34.421
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "OMN",
+   "iso2": "om",
+   "status": "member",
+   "name": "Oman",
+   "article": "",
+   "altNames": [
+    "Sultanat d'Oman"
+   ],
+   "capital": "Mascate",
+   "capitalAlt": [
+    "Muscat"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "population": 4829480,
+   "areaKm2": 309500,
+   "tier": 3,
+   "map": {
+    "point": [
+     57.337,
+     22.12
+    ],
+    "focus": [
+     [
+      51.979,
+      16.642
+     ],
+     [
+      59.845,
+      26.31
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PAK",
+   "iso2": "pk",
+   "status": "member",
+   "name": "Pakistan",
+   "article": "le",
+   "altNames": [
+    "République islamique du Pakistan"
+   ],
+   "capital": "Islamabad",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud",
+   "population": 223773700,
+   "areaKm2": 881912,
+   "tier": 2,
+   "map": {
+    "point": [
+     68.546,
+     29.328
+    ],
+    "focus": [
+     [
+      60.844,
+      23.734
+     ],
+     [
+      77.049,
+      37.055
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PAN",
+   "iso2": "pa",
+   "status": "member",
+   "name": "Panama",
+   "article": "le",
+   "altNames": [
+    "République du Panama"
+   ],
+   "capital": "Panama",
+   "capitalAlt": [
+    "Panama City"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "population": 4570133,
+   "areaKm2": 75417,
+   "tier": 3,
+   "map": {
+    "point": [
+     -80.352,
+     8.722
+    ],
+    "focus": [
+     [
+      -83.053,
+      7.213
+     ],
+     [
+      -77.201,
+      9.629
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PER",
+   "iso2": "pe",
+   "status": "member",
+   "name": "Pérou",
+   "article": "le",
+   "altNames": [
+    "République du Pérou"
+   ],
+   "capital": "Lima",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "population": 34157732,
+   "areaKm2": 1285216,
+   "tier": 1,
+   "map": {
+    "point": [
+     -72.9,
+     -12.977
+    ],
+    "focus": [
+     [
+      -81.338,
+      -18.338
+     ],
+     [
+      -68.684,
+      -0.043
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PHL",
+   "iso2": "ph",
+   "status": "member",
+   "name": "Philippines",
+   "article": "les",
+   "altNames": [
+    "République des Philippines",
+    "Îles Philippines"
+   ],
+   "capital": "Manille",
+   "capitalAlt": [
+    "Manila"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "flagGroup": 18,
+   "population": 112729484,
+   "areaKm2": 342353,
+   "tier": 2,
+   "map": {
+    "point": [
+     122.465,
+     11.198
+    ],
+    "focus": [
+     [
+      117.222,
+      5.574
+     ],
+     [
+      126.612,
+      18.643
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PLW",
+   "iso2": "pw",
+   "status": "member",
+   "name": "Palaos",
+   "article": "les",
+   "altNames": [
+    "Palau"
+   ],
+   "capital": "Ngerulmud",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Micronésie",
+   "flagGroup": 20,
+   "population": 21729,
+   "areaKm2": 459,
+   "tier": 4,
+   "map": {
+    "point": [
+     134.58,
+     7.518
+    ],
+    "focus": [
+     [
+      134.488,
+      7.421
+     ],
+     [
+      134.658,
+      7.719
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "PNG",
+   "iso2": "pg",
+   "status": "member",
+   "name": "Papouasie-Nouvelle-Guinée",
+   "article": "la",
+   "altNames": [
+    "État indépendant de Papouasie-Nouvelle-Guinée",
+    "Papouasie"
+   ],
+   "capital": "Port Moresby",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Mélanésie",
+   "population": 8935000,
+   "areaKm2": 462840,
+   "tier": 3,
+   "map": {
+    "point": [
+     143.91,
+     -5.695
+    ],
+    "focus": [
+     [
+      140.849,
+      -10.701
+     ],
+     [
+      152.418,
+      -1.357
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "POL",
+   "iso2": "pl",
+   "status": "member",
+   "name": "Pologne",
+   "article": "la",
+   "altNames": [
+    "République de Pologne"
+   ],
+   "capital": "Varsovie",
+   "capitalAlt": [
+    "Warsaw"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 1,
+   "population": 37563071,
+   "areaKm2": 312679,
+   "tier": 1,
+   "map": {
+    "point": [
+     19.49,
+     51.99
+    ],
+    "focus": [
+     [
+      14.145,
+      49.046
+     ],
+     [
+      24.13,
+      54.838
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PRK",
+   "iso2": "kp",
+   "status": "member",
+   "name": "Corée du Nord",
+   "article": "la",
+   "altNames": [
+    "République populaire démocratique de Corée"
+   ],
+   "capital": "Pyongyang",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie de l'Est",
+   "population": 26418204,
+   "areaKm2": 120538,
+   "tier": 2,
+   "map": {
+    "point": [
+     126.445,
+     39.885
+    ],
+    "focus": [
+     [
+      124.37,
+      37.731
+     ],
+     [
+      130.7,
+      42.996
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PRT",
+   "iso2": "pt",
+   "status": "member",
+   "name": "Portugal",
+   "article": "le",
+   "altNames": [
+    "République portugaise"
+   ],
+   "capital": "Lisbonne",
+   "capitalAlt": [
+    "Lisbon"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 10347892,
+   "areaKm2": 92090,
+   "tier": 1,
+   "map": {
+    "point": [
+     -8.272,
+     39.607
+    ],
+    "focus": [
+     [
+      -9.492,
+      37.002
+     ],
+     [
+      -6.206,
+      42.154
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PRY",
+   "iso2": "py",
+   "status": "member",
+   "name": "Paraguay",
+   "article": "le",
+   "altNames": [
+    "République du Paraguay"
+   ],
+   "capital": "Asuncion",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 3,
+   "population": 6811297,
+   "areaKm2": 406752,
+   "tier": 3,
+   "map": {
+    "point": [
+     -60.146,
+     -21.675
+    ],
+    "focus": [
+     [
+      -62.65,
+      -27.581
+     ],
+     [
+      -54.245,
+      -19.287
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "PSE",
+   "iso2": "ps",
+   "status": "observer",
+   "name": "Palestine",
+   "article": "la",
+   "altNames": [
+    "Territoires palestiniens",
+    "État de Palestine"
+   ],
+   "capital": "Jérusalem-Est",
+   "capitalAlt": [
+    "Ramallah",
+    "East Jerusalem"
+   ],
+   "capitalNote": "Ramallah est le siège de l'Autorité palestinienne.",
+   "reverseCapital": false,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 10,
+   "population": 5227193,
+   "areaKm2": 6220,
+   "tier": 3,
+   "map": {
+    "point": [
+     35.291,
+     32.047
+    ],
+    "focus": [
+     [
+      34.2,
+      31.211
+     ],
+     [
+      35.573,
+      32.543
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "QAT",
+   "iso2": "qa",
+   "status": "member",
+   "name": "Qatar",
+   "article": "le",
+   "altNames": [
+    "État du Qatar"
+   ],
+   "capital": "Doha",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 16,
+   "population": 2639211,
+   "areaKm2": 11586,
+   "tier": 3,
+   "map": {
+    "point": [
+     51.144,
+     25.237
+    ],
+    "focus": [
+     [
+      50.751,
+      24.56
+     ],
+     [
+      51.617,
+      26.16
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "ROU",
+   "iso2": "ro",
+   "status": "member",
+   "name": "Roumanie",
+   "article": "la",
+   "altNames": [],
+   "capital": "Bucarest",
+   "capitalAlt": [
+    "Bucharest"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "flagGroup": 0,
+   "population": 19053815,
+   "areaKm2": 238391,
+   "tier": 2,
+   "map": {
+    "point": [
+     24.973,
+     45.733
+    ],
+    "focus": [
+     [
+      20.243,
+      43.654
+     ],
+     [
+      29.677,
+      48.259
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "RUS",
+   "iso2": "ru",
+   "status": "member",
+   "name": "Russie",
+   "article": "la",
+   "altNames": [
+    "Fédération de Russie"
+   ],
+   "capital": "Moscou",
+   "capitalAlt": [
+    "Moscow"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe",
+    "asia"
+   ],
+   "subregion": "Europe de l'Est",
+   "flagGroup": 7,
+   "population": 146119928,
+   "areaKm2": 17098242,
+   "tier": 1,
+   "map": {
+    "point": [
+     44.686,
+     58.249
+    ],
+    "focus": [
+     [
+      19.61,
+      41.193
+     ],
+     [
+      180,
+      81.859
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "RWA",
+   "iso2": "rw",
+   "status": "member",
+   "name": "Rwanda",
+   "article": "le",
+   "altNames": [
+    "République rwandaise"
+   ],
+   "capital": "Kigali",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "flagGroup": 26,
+   "population": 14569341,
+   "areaKm2": 26338,
+   "tier": 3,
+   "map": {
+    "point": [
+     30.104,
+     -1.897
+    ],
+    "focus": [
+     [
+      28.859,
+      -2.826
+     ],
+     [
+      30.888,
+      -1.061
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SAU",
+   "iso2": "sa",
+   "status": "member",
+   "name": "Arabie saoudite",
+   "article": "l'",
+   "altNames": [
+    "Royaume d'Arabie Saoudite"
+   ],
+   "capital": "Riyad",
+   "capitalAlt": [
+    "Riyadh"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "population": 33000000,
+   "areaKm2": 2149690,
+   "tier": 1,
+   "map": {
+    "point": [
+     44.7,
+     23.807
+    ],
+    "focus": [
+     [
+      34.627,
+      16.371
+     ],
+     [
+      55.638,
+      32.118
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SDN",
+   "iso2": "sd",
+   "status": "member",
+   "name": "Soudan",
+   "article": "le",
+   "altNames": [
+    "République du Soudan"
+   ],
+   "capital": "Khartoum",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "flagGroup": 10,
+   "population": 40533330,
+   "areaKm2": 1886068,
+   "tier": 2,
+   "map": {
+    "point": [
+     29.261,
+     16.331
+    ],
+    "focus": [
+     [
+      21.809,
+      8.689
+     ],
+     [
+      38.602,
+      22.188
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SEN",
+   "iso2": "sn",
+   "status": "member",
+   "name": "Sénégal",
+   "article": "le",
+   "altNames": [
+    "République du Sénégal"
+   ],
+   "capital": "Dakar",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 5,
+   "population": 16876720,
+   "areaKm2": 196722,
+   "tier": 1,
+   "map": {
+    "point": [
+     -14.779,
+     15.138
+    ],
+    "focus": [
+     [
+      -17.371,
+      12.306
+     ],
+     [
+      -11.378,
+      16.691
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SGP",
+   "iso2": "sg",
+   "status": "member",
+   "name": "Singapour",
+   "article": "",
+   "altNames": [
+    "République de Singapour"
+   ],
+   "capital": "Singapour",
+   "capitalAlt": [
+    "Singapore"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "flagGroup": 1,
+   "population": 5866139,
+   "areaKm2": 710,
+   "tier": 2,
+   "map": {
+    "point": [
+     103.817,
+     1.367
+    ],
+    "focus": [
+     [
+      103.648,
+      1.269
+     ],
+     [
+      103.961,
+      1.449
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "SLB",
+   "iso2": "sb",
+   "status": "member",
+   "name": "Îles Salomon",
+   "article": "les",
+   "altNames": [
+    "Salomon"
+   ],
+   "capital": "Honiara",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Mélanésie",
+   "population": 611343,
+   "areaKm2": 28896,
+   "tier": 4,
+   "map": {
+    "point": [
+     159.17,
+     -8.03
+    ],
+    "focus": [
+     [
+      156.461,
+      -11.845
+     ],
+     [
+      162.375,
+      -6.603
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "SLE",
+   "iso2": "sl",
+   "status": "member",
+   "name": "Sierra Leone",
+   "article": "la",
+   "altNames": [
+    "République de Sierra Leone"
+   ],
+   "capital": "Freetown",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "flagGroup": 26,
+   "population": 7557212,
+   "areaKm2": 71740,
+   "tier": 3,
+   "map": {
+    "point": [
+     -11.764,
+     8.617
+    ],
+    "focus": [
+     [
+      -13.301,
+      6.919
+     ],
+     [
+      -10.282,
+      9.996
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SLV",
+   "iso2": "sv",
+   "status": "member",
+   "name": "Salvador",
+   "article": "le",
+   "altNames": [
+    "République du Salvador",
+    "El Salvador"
+   ],
+   "capital": "San Salvador",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique centrale",
+   "flagGroup": 9,
+   "population": 6029976,
+   "areaKm2": 21041,
+   "tier": 3,
+   "map": {
+    "point": [
+     -88.89,
+     13.685
+    ],
+    "focus": [
+     [
+      -90.099,
+      13.159
+     ],
+     [
+      -87.713,
+      14.416
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SMR",
+   "iso2": "sm",
+   "status": "member",
+   "name": "Saint-Marin",
+   "article": "",
+   "altNames": [
+    "République de Saint-Marin"
+   ],
+   "capital": "Saint-Marin",
+   "capitalAlt": [
+    "San Marino",
+    "City of San Marino"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 34167,
+   "areaKm2": 61,
+   "tier": 3,
+   "map": {
+    "point": [
+     12.441,
+     43.934
+    ],
+    "focus": [
+     [
+      12.386,
+      43.892
+     ],
+     [
+      12.49,
+      43.967
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "SOM",
+   "iso2": "so",
+   "status": "member",
+   "name": "Somalie",
+   "article": "la",
+   "altNames": [
+    "République fédérale de Somalie"
+   ],
+   "capital": "Mogadiscio",
+   "capitalAlt": [
+    "Mogadishu"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 11031386,
+   "areaKm2": 637657,
+   "tier": 2,
+   "map": {
+    "point": [
+     45.192,
+     3.569
+    ],
+    "focus": [
+     [
+      40.965,
+      -1.696
+     ],
+     [
+      51.395,
+      11.989
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SRB",
+   "iso2": "rs",
+   "status": "member",
+   "name": "Serbie",
+   "article": "la",
+   "altNames": [
+    "République de Serbie"
+   ],
+   "capital": "Belgrade",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Balkans",
+   "flagGroup": 7,
+   "population": 6605168,
+   "areaKm2": 88361,
+   "tier": 2,
+   "map": {
+    "point": [
+     20.788,
+     44.19
+    ],
+    "focus": [
+     [
+      18.845,
+      42.235
+     ],
+     [
+      22.935,
+      46.164
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SSD",
+   "iso2": "ss",
+   "status": "member",
+   "name": "Soudan du Sud",
+   "article": "le",
+   "altNames": [
+    "République du Soudan du Sud",
+    "Sud-Soudan"
+   ],
+   "capital": "Djouba",
+   "capitalAlt": [
+    "Juba"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "population": 12575714,
+   "areaKm2": 619745,
+   "tier": 3,
+   "map": {
+    "point": [
+     30.39,
+     7.23
+    ],
+    "focus": [
+     [
+      24.131,
+      3.49
+     ],
+     [
+      35.921,
+      12.216
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "STP",
+   "iso2": "st",
+   "status": "member",
+   "name": "Sao Tomé-et-Principe",
+   "article": "",
+   "altNames": [
+    "République démocratique de São Tomé et Príncipe",
+    "Sao Tomé"
+   ],
+   "capital": "São Tomé",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "population": 204327,
+   "areaKm2": 964,
+   "tier": 4,
+   "map": {
+    "point": [
+     6.606,
+     0.23
+    ],
+    "focus": [
+     [
+      6.462,
+      0.034
+     ],
+     [
+      6.746,
+      0.407
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "SUR",
+   "iso2": "sr",
+   "status": "member",
+   "name": "Suriname",
+   "article": "le",
+   "altNames": [
+    "Surinam",
+    "République du Suriname"
+   ],
+   "capital": "Paramaribo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "population": 563402,
+   "areaKm2": 163820,
+   "tier": 4,
+   "map": {
+    "point": [
+     -55.911,
+     4.144
+    ],
+    "focus": [
+     [
+      -58.068,
+      1.834
+     ],
+     [
+      -53.986,
+      6.012
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SVK",
+   "iso2": "sk",
+   "status": "member",
+   "name": "Slovaquie",
+   "article": "la",
+   "altNames": [
+    "République slovaque"
+   ],
+   "capital": "Bratislava",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 7,
+   "population": 5409407,
+   "areaKm2": 49037,
+   "tier": 2,
+   "map": {
+    "point": [
+     19.05,
+     48.734
+    ],
+    "focus": [
+     [
+      16.845,
+      47.75
+     ],
+     [
+      22.54,
+      49.602
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SVN",
+   "iso2": "si",
+   "status": "member",
+   "name": "Slovénie",
+   "article": "la",
+   "altNames": [
+    "République de Slovénie"
+   ],
+   "capital": "Ljubljana",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe centrale",
+   "flagGroup": 7,
+   "population": 2066880,
+   "areaKm2": 20273,
+   "tier": 3,
+   "map": {
+    "point": [
+     14.915,
+     46.061
+    ],
+    "focus": [
+     [
+      13.365,
+      45.424
+     ],
+     [
+      16.515,
+      46.864
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SWE",
+   "iso2": "se",
+   "status": "member",
+   "name": "Suède",
+   "article": "la",
+   "altNames": [
+    "Royaume de Suède"
+   ],
+   "capital": "Stockholm",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Nord",
+   "flagGroup": 6,
+   "population": 10609460,
+   "areaKm2": 450295,
+   "tier": 1,
+   "map": {
+    "point": [
+     19.017,
+     65.859
+    ],
+    "focus": [
+     [
+      11.108,
+      55.346
+     ],
+     [
+      24.163,
+      69.036
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SWZ",
+   "iso2": "sz",
+   "status": "member",
+   "name": "Eswatini",
+   "article": "l'",
+   "altNames": [
+    "Royaume d'Eswatini",
+    "Swaziland"
+   ],
+   "capital": "Mbabane",
+   "capitalAlt": [
+    "Lobamba"
+   ],
+   "capitalNote": "Lobamba est la capitale royale et législative.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique australe",
+   "population": 1230506,
+   "areaKm2": 17364,
+   "tier": 4,
+   "map": {
+    "point": [
+     31.467,
+     -26.534
+    ],
+    "focus": [
+     [
+      30.786,
+      -27.316
+     ],
+     [
+      32.117,
+      -25.744
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "SYC",
+   "iso2": "sc",
+   "status": "member",
+   "name": "Seychelles",
+   "article": "les",
+   "altNames": [
+    "République des Seychelles"
+   ],
+   "capital": "Victoria",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 119773,
+   "areaKm2": 452,
+   "tier": 4,
+   "map": {
+    "point": [
+     55.48,
+     -4.677
+    ],
+    "focus": [
+     [
+      55.402,
+      -4.75
+     ],
+     [
+      55.529,
+      -4.618
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "SYR",
+   "iso2": "sy",
+   "status": "member",
+   "name": "Syrie",
+   "article": "la",
+   "altNames": [
+    "République arabe syrienne"
+   ],
+   "capital": "Damas",
+   "capitalAlt": [
+    "Damascus"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 11,
+   "population": 23865423,
+   "areaKm2": 185180,
+   "tier": 2,
+   "map": {
+    "point": [
+     38.278,
+     35.007
+    ],
+    "focus": [
+     [
+      35.758,
+      32.317
+     ],
+     [
+      42.357,
+      37.306
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TCD",
+   "iso2": "td",
+   "status": "member",
+   "name": "Tchad",
+   "article": "le",
+   "altNames": [
+    "République du Tchad"
+   ],
+   "capital": "N'Djaména",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique centrale",
+   "flagGroup": 0,
+   "population": 19319064,
+   "areaKm2": 1284000,
+   "tier": 2,
+   "map": {
+    "point": [
+     18.645,
+     15.143
+    ],
+    "focus": [
+     [
+      13.449,
+      7.458
+     ],
+     [
+      23.984,
+      23.445
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TGO",
+   "iso2": "tg",
+   "status": "member",
+   "name": "Togo",
+   "article": "le",
+   "altNames": [
+    "République togolaise"
+   ],
+   "capital": "Lomé",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Ouest",
+   "population": 7797694,
+   "areaKm2": 56785,
+   "tier": 3,
+   "map": {
+    "point": [
+     1.058,
+     8.807
+    ],
+    "focus": [
+     [
+      -0.166,
+      6.101
+     ],
+     [
+      1.782,
+      11.135
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "THA",
+   "iso2": "th",
+   "status": "member",
+   "name": "Thaïlande",
+   "article": "la",
+   "altNames": [
+    "Royaume de Thaïlande",
+    "Siam"
+   ],
+   "capital": "Bangkok",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 66188503,
+   "areaKm2": 513120,
+   "tier": 1,
+   "map": {
+    "point": [
+     101.073,
+     15.46
+    ],
+    "focus": [
+     [
+      97.438,
+      5.638
+     ],
+     [
+      105.651,
+      20.444
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TJK",
+   "iso2": "tj",
+   "status": "member",
+   "name": "Tadjikistan",
+   "article": "le",
+   "altNames": [
+    "République du Tadjikistan"
+   ],
+   "capital": "Douchanbé",
+   "capitalAlt": [
+    "Dushanbe"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie centrale",
+   "flagGroup": 17,
+   "population": 9504000,
+   "areaKm2": 143100,
+   "tier": 3,
+   "map": {
+    "point": [
+     72.587,
+     38.2
+    ],
+    "focus": [
+     [
+      67.378,
+      36.699
+     ],
+     [
+      75.164,
+      41.032
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TKM",
+   "iso2": "tm",
+   "status": "member",
+   "name": "Turkménistan",
+   "article": "le",
+   "altNames": [
+    "Turkménie"
+   ],
+   "capital": "Achgabat",
+   "capitalAlt": [
+    "Ashgabat",
+    "Achkhabad"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie centrale",
+   "flagGroup": 24,
+   "population": 6117933,
+   "areaKm2": 488100,
+   "tier": 3,
+   "map": {
+    "point": [
+     58.677,
+     39.855
+    ],
+    "focus": [
+     [
+      52.438,
+      35.148
+     ],
+     [
+      66.646,
+      42.781
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TLS",
+   "iso2": "tl",
+   "status": "member",
+   "name": "Timor oriental",
+   "article": "le",
+   "altNames": [
+    "République démocratique du Timor oriental",
+    "Timor-Leste"
+   ],
+   "capital": "Dili",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "population": 1400638,
+   "areaKm2": 14874,
+   "tier": 4,
+   "map": {
+    "point": [
+     125.855,
+     -8.804
+    ],
+    "focus": [
+     [
+      124.92,
+      -9.486
+     ],
+     [
+      127.303,
+      -8.309
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TON",
+   "iso2": "to",
+   "status": "member",
+   "name": "Tonga",
+   "article": "les",
+   "altNames": [
+    "Royaume des Tonga"
+   ],
+   "capital": "Nukuʻalofa",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Polynésie",
+   "population": 108020,
+   "areaKm2": 747,
+   "tier": 4,
+   "map": {
+    "point": [
+     -175.163,
+     -21.21
+    ],
+    "focus": [
+     [
+      -175.326,
+      -21.268
+     ],
+     [
+      -175.065,
+      -21.111
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "TTO",
+   "iso2": "tt",
+   "status": "member",
+   "name": "Trinité-et-Tobago",
+   "article": "",
+   "altNames": [
+    "République de Trinité-et-Tobago",
+    "Trinidad-et-Tobago",
+    "Trinidad"
+   ],
+   "capital": "Port-d'Espagne",
+   "capitalAlt": [
+    "Port of Spain"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 1369125,
+   "areaKm2": 5130,
+   "tier": 3,
+   "map": {
+    "point": [
+     -61.278,
+     10.426
+    ],
+    "focus": [
+     [
+      -61.712,
+      10.058
+     ],
+     [
+      -60.949,
+      10.845
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "TUN",
+   "iso2": "tn",
+   "status": "member",
+   "name": "Tunisie",
+   "article": "la",
+   "altNames": [
+    "République tunisienne"
+   ],
+   "capital": "Tunis",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique du Nord",
+   "flagGroup": 19,
+   "population": 11565204,
+   "areaKm2": 163610,
+   "tier": 1,
+   "map": {
+    "point": [
+     9.008,
+     33.687
+    ],
+    "focus": [
+     [
+      7.48,
+      30.229
+     ],
+     [
+      11.564,
+      37.335
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TUR",
+   "iso2": "tr",
+   "status": "member",
+   "name": "Turquie",
+   "article": "la",
+   "altNames": [
+    "République de Turquie",
+    "Türkiye"
+   ],
+   "capital": "Ankara",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 19,
+   "population": 85372377,
+   "areaKm2": 783562,
+   "tier": 1,
+   "map": {
+    "point": [
+     34.508,
+     39.345
+    ],
+    "focus": [
+     [
+      25.759,
+      35.82
+     ],
+     [
+      44.807,
+      42.099
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "TUV",
+   "iso2": "tv",
+   "status": "member",
+   "name": "Tuvalu",
+   "article": "",
+   "altNames": [],
+   "capital": "Funafuti",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Polynésie",
+   "flagGroup": 4,
+   "population": 10643,
+   "areaKm2": 26,
+   "tier": 4,
+   "map": {
+    "point": [
+     179.204,
+     -8.527
+    ],
+    "focus": [
+     [
+      179.191,
+      -8.542
+     ],
+     [
+      179.218,
+      -8.519
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "TZA",
+   "iso2": "tz",
+   "status": "member",
+   "name": "Tanzanie",
+   "article": "la",
+   "altNames": [
+    "République unie de Tanzanie"
+   ],
+   "capital": "Dodoma",
+   "capitalAlt": [],
+   "capitalNote": "Dar es Salaam reste la capitale économique.",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "flagGroup": 23,
+   "population": 57310019,
+   "areaKm2": 945087,
+   "tier": 2,
+   "map": {
+    "point": [
+     34.959,
+     -6.052
+    ],
+    "focus": [
+     [
+      29.321,
+      -11.731
+     ],
+     [
+      40.449,
+      -0.986
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "UGA",
+   "iso2": "ug",
+   "status": "member",
+   "name": "Ouganda",
+   "article": "l'",
+   "altNames": [
+    "République de l'Ouganda"
+   ],
+   "capital": "Kampala",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 47123531,
+   "areaKm2": 241550,
+   "tier": 2,
+   "map": {
+    "point": [
+     32.949,
+     1.973
+    ],
+    "focus": [
+     [
+      29.556,
+      -1.47
+     ],
+     [
+      34.979,
+      4.22
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "UKR",
+   "iso2": "ua",
+   "status": "member",
+   "name": "Ukraine",
+   "article": "l'",
+   "altNames": [],
+   "capital": "Kiev",
+   "capitalAlt": [
+    "Kyiv"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe de l'Est",
+   "population": 41167335,
+   "areaKm2": 603500,
+   "tier": 1,
+   "map": {
+    "point": [
+     32.141,
+     49.725
+    ],
+    "focus": [
+     [
+      22.133,
+      44.383
+     ],
+     [
+      40.16,
+      52.369
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "URY",
+   "iso2": "uy",
+   "status": "member",
+   "name": "Uruguay",
+   "article": "l'",
+   "altNames": [
+    "République orientale de l'Uruguay"
+   ],
+   "capital": "Montevideo",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 22,
+   "population": 3444263,
+   "areaKm2": 181034,
+   "tier": 3,
+   "map": {
+    "point": [
+     -55.967,
+     -32.961
+    ],
+    "focus": [
+     [
+      -58.435,
+      -34.97
+     ],
+     [
+      -53.127,
+      -30.102
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "USA",
+   "iso2": "us",
+   "status": "member",
+   "name": "États-Unis",
+   "article": "les",
+   "altNames": [
+    "Les états-unis d'Amérique",
+    "USA",
+    "Amérique",
+    "États-Unis d'Amérique"
+   ],
+   "capital": "Washington",
+   "capitalAlt": [
+    "Washington, D.C."
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Amérique du Nord",
+   "flagGroup": 15,
+   "population": 340110988,
+   "areaKm2": 9372610,
+   "tier": 1,
+   "map": {
+    "point": [
+     -97.483,
+     39.538
+    ],
+    "focus": [
+     [
+      -147.886,
+      25.121
+     ],
+     [
+      -66.977,
+      60.484
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "UZB",
+   "iso2": "uz",
+   "status": "member",
+   "name": "Ouzbékistan",
+   "article": "l'",
+   "altNames": [
+    "République d'Ouzbékistan"
+   ],
+   "capital": "Tachkent",
+   "capitalAlt": [
+    "Tashkent"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie centrale",
+   "flagGroup": 24,
+   "population": 34915100,
+   "areaKm2": 447400,
+   "tier": 2,
+   "map": {
+    "point": [
+     64.005,
+     41.694
+    ],
+    "focus": [
+     [
+      55.976,
+      37.189
+     ],
+     [
+      73.118,
+      45.559
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "VAT",
+   "iso2": "va",
+   "status": "observer",
+   "name": "Vatican",
+   "article": "le",
+   "altNames": [
+    "État de la Cité du Vatican",
+    "Cité du Vatican",
+    "Saint-Siège"
+   ],
+   "capital": "Vatican",
+   "capitalAlt": [
+    "Cité du Vatican",
+    "Vatican City"
+   ],
+   "reverseCapital": true,
+   "continents": [
+    "europe"
+   ],
+   "subregion": "Europe du Sud",
+   "population": 882,
+   "areaKm2": 0,
+   "tier": 3,
+   "map": {
+    "point": [
+     12.453,
+     41.903
+    ],
+    "focus": [
+     [
+      12.453,
+      41.903
+     ],
+     [
+      12.454,
+      41.904
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "VCT",
+   "iso2": "vc",
+   "status": "member",
+   "name": "Saint-Vincent-et-les-Grenadines",
+   "article": "",
+   "altNames": [],
+   "capital": "Kingstown",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "north-america"
+   ],
+   "subregion": "Caraïbes",
+   "population": 109897,
+   "areaKm2": 389,
+   "tier": 4,
+   "map": {
+    "point": [
+     -61.195,
+     13.252
+    ],
+    "focus": [
+     [
+      -61.271,
+      13.146
+     ],
+     [
+      -61.124,
+      13.369
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "VEN",
+   "iso2": "ve",
+   "status": "member",
+   "name": "Venezuela",
+   "article": "le",
+   "altNames": [
+    "République bolivarienne du Venezuela"
+   ],
+   "capital": "Caracas",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "south-america"
+   ],
+   "subregion": "Amérique du Sud",
+   "flagGroup": 8,
+   "population": 31250306,
+   "areaKm2": 916445,
+   "tier": 2,
+   "map": {
+    "point": [
+     -64.599,
+     7.182
+    ],
+    "focus": [
+     [
+      -73.378,
+      0.656
+     ],
+     [
+      -59.816,
+      12.199
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "VNM",
+   "iso2": "vn",
+   "status": "member",
+   "name": "Vietnam",
+   "article": "le",
+   "altNames": [
+    "République socialiste du Viêt Nam"
+   ],
+   "capital": "Hanoï",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Asie du Sud-Est",
+   "flagGroup": 25,
+   "population": 96208984,
+   "areaKm2": 331212,
+   "tier": 1,
+   "map": {
+    "point": [
+     105.387,
+     21.715
+    ],
+    "focus": [
+     [
+      102.119,
+      8.566
+     ],
+     [
+      109.465,
+      23.318
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "VUT",
+   "iso2": "vu",
+   "status": "member",
+   "name": "Vanuatu",
+   "article": "le",
+   "altNames": [
+    "République de Vanuatu"
+   ],
+   "capital": "Port-Vila",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Mélanésie",
+   "population": 300019,
+   "areaKm2": 12189,
+   "tier": 4,
+   "map": {
+    "point": [
+     166.909,
+     -15.372
+    ],
+    "focus": [
+     [
+      166.523,
+      -19.657
+     ],
+     [
+      169.496,
+      -14.635
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "WSM",
+   "iso2": "ws",
+   "status": "member",
+   "name": "Samoa",
+   "article": "les",
+   "altNames": [],
+   "capital": "Apia",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "oceania"
+   ],
+   "subregion": "Polynésie",
+   "population": 200010,
+   "areaKm2": 2842,
+   "tier": 4,
+   "map": {
+    "point": [
+     -172.438,
+     -13.639
+    ],
+    "focus": [
+     [
+      -172.75,
+      -14.053
+     ],
+     [
+      -171.466,
+      -13.463
+     ]
+    ],
+    "small": true
+   }
+  },
+  {
+   "id": "YEM",
+   "iso2": "ye",
+   "status": "member",
+   "name": "Yémen",
+   "article": "le",
+   "altNames": [
+    "République du Yémen"
+   ],
+   "capital": "Sanaa",
+   "capitalAlt": [
+    "Aden"
+   ],
+   "capitalNote": "Aden sert de capitale provisoire au gouvernement reconnu.",
+   "reverseCapital": true,
+   "continents": [
+    "asia"
+   ],
+   "subregion": "Moyen-Orient",
+   "flagGroup": 11,
+   "population": 28250420,
+   "areaKm2": 527968,
+   "tier": 2,
+   "map": {
+    "point": [
+     45.874,
+     15.328
+    ],
+    "focus": [
+     [
+      42.699,
+      12.305
+     ],
+     [
+      54.471,
+      18.996
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ZAF",
+   "iso2": "za",
+   "status": "member",
+   "name": "Afrique du Sud",
+   "article": "l'",
+   "altNames": [
+    "République d'Afrique du Sud"
+   ],
+   "capital": "Pretoria",
+   "capitalAlt": [
+    "Le Cap",
+    "Cape Town",
+    "Bloemfontein"
+   ],
+   "capitalNote": "Le pays a trois capitales : Pretoria (exécutif), Le Cap (parlement) et Bloemfontein (justice).",
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique australe",
+   "population": 62027503,
+   "areaKm2": 1221037,
+   "tier": 1,
+   "map": {
+    "point": [
+     23.666,
+     -29.709
+    ],
+    "focus": [
+     [
+      16.487,
+      -34.809
+     ],
+     [
+      32.893,
+      -22.126
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ZMB",
+   "iso2": "zm",
+   "status": "member",
+   "name": "Zambie",
+   "article": "la",
+   "altNames": [
+    "République de Zambie"
+   ],
+   "capital": "Lusaka",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 19610769,
+   "areaKm2": 752612,
+   "tier": 2,
+   "map": {
+    "point": [
+     26.395,
+     -14.661
+    ],
+    "focus": [
+     [
+      21.98,
+      -18.066
+     ],
+     [
+      33.674,
+      -8.194
+     ]
+    ],
+    "small": false
+   }
+  },
+  {
+   "id": "ZWE",
+   "iso2": "zw",
+   "status": "member",
+   "name": "Zimbabwe",
+   "article": "le",
+   "altNames": [
+    "République du Zimbabwe"
+   ],
+   "capital": "Harare",
+   "capitalAlt": [],
+   "reverseCapital": true,
+   "continents": [
+    "africa"
+   ],
+   "subregion": "Afrique de l'Est",
+   "population": 15178979,
+   "areaKm2": 390757,
+   "tier": 2,
+   "map": {
+    "point": [
+     29.925,
+     -18.912
+    ],
+    "focus": [
+     [
+      25.226,
+      -22.397
+     ],
+     [
+      33.035,
+      -15.615
+     ]
+    ],
+    "small": false
+   }
+  }
+ ]
+}

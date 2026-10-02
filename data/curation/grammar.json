@@ -1,0 +1,7 @@
+{
+  "_doc": "Article utilisé dans les questions. Règle par défaut : « l' » devant une voyelle, « la » si le nom finit par -e, sinon « le ». Ce fichier liste les exceptions. '' = pas d'article (Cuba, Malte, Israël…).",
+  "none": ["CUB", "MLT", "CYP", "MDG", "SGP", "MCO", "ISR", "BHR", "OMN", "HTI", "MUS", "LCA", "SMR", "KNA", "VCT", "STP", "TTO", "ATG", "DJI", "NRU", "TUV", "KIR"],
+  "les": ["NLD", "USA", "ARE", "PHL", "MDV", "SYC", "COM", "BHS", "FJI", "WSM", "TON", "PLW", "MHL", "SLB"],
+  "le": ["MEX", "KHM", "MOZ", "ZWE", "BLZ", "SUR", "BRN"],
+  "la": ["COD", "COG", "GNB", "MKD", "KOR", "PRK", "MMR"]
+}

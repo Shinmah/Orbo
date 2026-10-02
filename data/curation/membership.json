@@ -1,0 +1,6 @@
+{
+  "_doc": "Les sources ne sont pas parfaitement d'accord : mledoze marque le Vatican comme membre de l'ONU (faux, il est observateur) et Wikidata n'a pas d'appartenance active pour le Danemark (membre fondateur). La liste finale = union des deux sources, corrigée ici.",
+  "forceMember": ["DNK"],
+  "forceNotMember": ["VAT"],
+  "observers": ["VAT", "PSE"]
+}

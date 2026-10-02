@@ -1,0 +1,32 @@
+{
+  "_doc": "Drapeaux faciles à confondre. Aux niveaux difficiles, les QCM piochent d'abord leurs mauvaises réponses dans le même groupe.",
+  "groups": [
+    ["TCD", "ROU", "AND", "MDA"],
+    ["IDN", "MCO", "POL", "SGP"],
+    ["IRL", "CIV", "ITA", "MEX"],
+    ["NLD", "LUX", "PRY", "HRV", "FRA"],
+    ["AUS", "NZL", "TUV", "FJI"],
+    ["SEN", "MLI", "GIN", "CMR"],
+    ["NOR", "ISL", "DNK", "SWE", "FIN"],
+    ["SVK", "SVN", "RUS", "SRB"],
+    ["COL", "ECU", "VEN"],
+    ["HND", "NIC", "SLV", "GTM", "ARG"],
+    ["JOR", "PSE", "SDN", "ARE", "KWT"],
+    ["EGY", "IRQ", "SYR", "YEM"],
+    ["GHA", "BOL", "LTU", "ETH"],
+    ["BEL", "DEU"],
+    ["AUT", "LVA", "LBN"],
+    ["MYS", "USA", "LBR"],
+    ["QAT", "BHR"],
+    ["HUN", "BGR", "TJK"],
+    ["CZE", "PHL"],
+    ["TUR", "TUN"],
+    ["JPN", "BGD", "PLW"],
+    ["NGA", "NER", "IND"],
+    ["CUB", "GRC", "URY"],
+    ["COG", "COD", "TZA"],
+    ["AZE", "UZB", "TKM"],
+    ["MAR", "VNM", "CHN"],
+    ["GAB", "RWA", "SLE"]
+  ]
+}
