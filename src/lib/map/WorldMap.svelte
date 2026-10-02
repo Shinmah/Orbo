@@ -24,7 +24,7 @@
     /** Zone à cadrer : un pays, une liste de pays, ou rien (monde entier). */
     frame?: { ids: string[]; padding?: number; maxZoom?: number } | null;
     label?: string;
-    /** Pays dont on affiche le marqueur (petits pays). Par défaut : tous les pays jouables. */
+    /** Pays pouvant recevoir un marqueur. Par défaut : les micro-États et petites îles. */
     markerIds?: string[];
   }
   let { interactive = false, onpick, marks = {}, fills = {}, frame = null, label = 'Carte du monde', markerIds }: Props = $props();
@@ -37,7 +37,9 @@
   const s = $derived(Math.max(clientWidth, 1) / WIDTH);
 
   const MAX_ZOOM = 60;
-  const markerCountries = $derived((markerIds ? markerIds.map((id) => BY_ID.get(id)!) : COUNTRIES).filter(Boolean));
+  const markerCountries = $derived(
+    markerIds ? markerIds.map((id) => BY_ID.get(id)!).filter(Boolean) : COUNTRIES.filter((c) => c.map.small),
+  );
   const sizes = new Map(COUNTRIES.map((c) => [c.id, countrySize(c)]));
 
   /** Marqueurs visibles : pays trop petits pour être vus/cliqués au zoom actuel. */

@@ -5,10 +5,23 @@
   import Button from '../lib/ui/Button.svelte';
   import { settings, type Motion, type Theme } from '../lib/settings.svelte';
   import { router } from '../lib/router.svelte';
+  import { progress } from '../lib/progress.svelte';
 
   let theme = $state<Theme>(settings.value.theme);
   let motion = $state<Motion>(settings.value.motion);
   let goal = $state(settings.value.dailyGoal);
+  let confirmReset = $state(false);
+  let resetDone = $state(false);
+
+  function reset() {
+    if (!confirmReset) {
+      confirmReset = true;
+      return;
+    }
+    progress.reset();
+    confirmReset = false;
+    resetDone = true;
+  }
 </script>
 
 <TopBar title="Réglages" />
@@ -64,6 +77,21 @@
   </section>
 
   <section>
+    <h2>Progression</h2>
+    <Card>
+      <p class="muted help">
+        Ta progression est enregistrée uniquement sur cet appareil ({progress.data.totals.answered.toLocaleString('fr-FR')}
+        réponses).
+      </p>
+      <div class="reset">
+        <Button variant="danger" onclick={reset}>{confirmReset ? 'Confirmer la remise à zéro' : 'Remettre à zéro'}</Button>
+        {#if confirmReset}<Button variant="ghost" onclick={() => (confirmReset = false)}>Annuler</Button>{/if}
+        {#if resetDone}<span class="muted small" role="status">Progression effacée.</span>{/if}
+      </div>
+    </Card>
+  </section>
+
+  <section>
     <h2>À propos</h2>
     <Card>
       <p class="about">
@@ -102,6 +130,15 @@
   }
   .help {
     margin-bottom: 0.8rem;
+    font-size: var(--fs-sm);
+  }
+  .reset {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .small {
     font-size: var(--fs-sm);
   }
   .about {

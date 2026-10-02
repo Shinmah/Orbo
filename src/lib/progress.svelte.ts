@@ -123,13 +123,13 @@ class ProgressStore {
     return countries.filter((c) => this.masteryOf(c.id, skill) >= 2).length;
   }
 
-  /** Cartes à réviser maintenant (déjà vues, ratées ou échues). */
+  /** Nombre de pays à réviser maintenant (cartes déjà vues, ratées ou échues). */
   dueCount(skills: Skill[] = ['capital', 'flag', 'map'], now = Date.now()): number {
     const modes = new Set(MODE_LIST.filter((m) => skills.includes(m.skill)).map((m) => m.id));
     const countries = new Set<string>();
     for (const [key, c] of Object.entries(this.data.cards)) {
       const [mode, id] = key.split(':');
-      if (modes.has(mode as never) && c.seen > 0 && (c.box === 0 || c.due <= now)) countries.add(`${mode}:${id}`);
+      if (modes.has(mode as never) && c.seen > 0 && (c.box === 0 || c.due <= now)) countries.add(id);
     }
     return countries.size;
   }

@@ -57,7 +57,9 @@ export function planSession(
   const plan = (mode: GameMode, country: Country): PlannedQuestion => {
     const card = cards[cardKey(mode.id, country.id)];
     const format = formatFor(config, mode, card);
-    return { mode, country, format, hard: format === 'input' || (card?.box ?? 0) >= 2 || config.maxTier >= 3 };
+    // QCM plus piégeux pour les pays déjà connus, ou en partie libre de niveau Difficile/Expert.
+    const freePlayHard = config.maxTier >= 3 && !config.review && !config.only;
+    return { mode, country, format, hard: format === 'input' || (card?.box ?? 0) >= 2 || freePlayHard };
   };
 
   if (config.review) {

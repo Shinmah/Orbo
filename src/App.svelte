@@ -8,12 +8,14 @@
   import DesignSystem from './screens/DesignSystem.svelte';
   import Setup from './screens/Setup.svelte';
   import Play from './screens/Play.svelte';
+  import Review from './screens/Review.svelte';
+  import Stats from './screens/Stats.svelte';
   import { skillFromSlug } from './lib/game/skills';
 
   const route = $derived(router.current);
   const duration = $derived(settings.reducedMotion ? 0 : 260);
   const setupSkill = $derived(route.name === 'setup' ? skillFromSlug(route.params.skill) : undefined);
-  const wide = $derived(route.name === 'play' || route.name === 'review' || route.name === 'stats');
+  const wide = $derived(route.name === 'play' || route.name === 'stats');
 </script>
 
 <div class="stage">
@@ -23,6 +25,10 @@
         <Setup skill={setupSkill} />
       {:else if route.name === 'play'}
         <Play />
+      {:else if route.name === 'review'}
+        <Review />
+      {:else if route.name === 'stats'}
+        <Stats />
       {:else if route.name === 'settings'}
         <Settings />
       {:else if route.name === 'design'}
